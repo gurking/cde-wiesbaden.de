@@ -1,58 +1,60 @@
 <script setup lang="ts">
-const links = [
+const { t } = useI18n()
+
+const links = computed(() => [
   {
-    label: 'Mitglied werden',
+    label: t('home.links.membership'),
     to: '#mitgliedschaft',
     size: 'xl' as const
   },
   {
-    label: 'Teams entdecken',
+    label: t('home.links.teams'),
     to: '#teams',
     size: 'xl' as const,
     color: 'neutral' as const,
     variant: 'subtle' as const
   }
-]
+])
 
-const sections = [
+const sections = computed(() => [
   {
     icon: 'i-lucide-shield',
-    title: '1981 Heritage',
-    description: 'Ein Auftritt, der die Vereinsgeschichte spuerbar macht und trotzdem modern wirkt.'
+    title: t('home.guidelines.items.heritage.title'),
+    description: t('home.guidelines.items.heritage.description')
   },
   {
     icon: 'i-lucide-palette',
-    title: 'Coral als Akzent',
-    description: 'Primaere Aktionen, Badges und Call-to-Actions folgen konsequent dem Heritage-Coral-Ton.'
+    title: t('home.guidelines.items.coral.title'),
+    description: t('home.guidelines.items.coral.description')
   },
   {
     icon: 'i-lucide-columns-3',
-    title: 'Los-Cortinas-Streifen',
-    description: 'Die vertikale Streifenidee lebt subtil in Hintergruenden und Abschnittstrennern weiter.'
+    title: t('home.guidelines.items.stripes.title'),
+    description: t('home.guidelines.items.stripes.description')
   }
-]
+])
 
-const teamCards = [
+const teamCards = computed(() => [
   {
-    title: '1. Mannschaft',
-    description: 'Klar priorisierte Spieltagskommunikation mit markanten CTA-Flaechen und sachlicher Informationshierarchie.'
+    title: t('home.cards.firstTeam.title'),
+    description: t('home.cards.firstTeam.description')
   },
   {
-    title: 'Jugend',
-    description: 'Freundliche Kartenoptik mit weichen Border-Treatments und guter Lesbarkeit auf Mobilgeraeten.'
+    title: t('home.cards.youth.title'),
+    description: t('home.cards.youth.description')
   },
   {
-    title: 'Verein',
-    description: 'Ruhige neutrale Textflaechen, damit Geschichte, Mitgliedschaft und Organisation vertrauenswuerdig wirken.'
+    title: t('home.cards.club.title'),
+    description: t('home.cards.club.description')
   }
-]
+])
 </script>
 
 <template>
   <div class="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-8 sm:px-6 lg:px-8">
     <UPageHero
-      title="Tradition mit modernem Nuxt-UI-Fundament"
-      description="Das Theme orientiert sich an den Vorgaben aus styling.md: Heritage Blue, Coral-Akzente, klare Sans-Serif-Typografie und subtile Los-Cortinas-Streifen."
+      :title="t('home.hero.title')"
+      :description="t('home.hero.description')"
       :links="links"
       :ui="{
         root: 'overflow-hidden rounded-[2rem] border border-slate-200/80 bg-white/85 px-6 py-10 shadow-sm sm:px-10 lg:px-12',
@@ -65,7 +67,7 @@ const teamCards = [
       <template #top>
         <div class="mb-6 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.28em] text-[var(--cde-coral)]">
           <span class="h-px w-12 bg-[var(--cde-coral)]" />
-          Modern Alchemist
+          {{ t('home.eyebrow') }}
         </div>
       </template>
 
@@ -74,17 +76,17 @@ const teamCards = [
           <div class="absolute inset-0 bg-[repeating-linear-gradient(90deg,transparent_0,transparent_40px,rgba(255,255,255,0.08)_40px,rgba(255,255,255,0.08)_56px)]" />
           <div class="relative flex h-full flex-col justify-between">
             <UBadge
-              label="Heritage Theme"
+              :label="t('home.hero.badge')"
               color="primary"
               variant="solid"
               class="w-fit rounded-sm"
             />
             <div class="space-y-4">
               <p class="cde-heading text-3xl text-white">
-                Los Cortinas
+                {{ t('home.hero.panelTitle') }}
               </p>
               <p class="max-w-sm text-sm leading-6 text-slate-200">
-                Ein visuelles System fuer Header, Buttons, Cards und Footer, das die Vereinsidentitaet nicht wie ein generisches SaaS-Template aussehen laesst.
+                {{ t('home.hero.panelDescription') }}
               </p>
             </div>
           </div>
@@ -94,8 +96,8 @@ const teamCards = [
 
     <UPageSection
       id="leitlinien"
-      title="Theme-Leitlinien"
-      description="Die Nuxt-UI-Basis wurde auf die in styling.md beschriebenen Markenmerkmale umgestellt."
+      :title="t('home.guidelines.title')"
+      :description="t('home.guidelines.description')"
       :features="sections"
       class="cde-section pl-6"
       :ui="{
@@ -136,7 +138,7 @@ const teamCards = [
         </p>
 
         <UButton
-          label="Mehr erfahren"
+          :label="t('home.links.learnMore')"
           color="primary"
           variant="soft"
           trailing-icon="i-lucide-arrow-right"
@@ -147,11 +149,11 @@ const teamCards = [
 
     <UPageCTA
       id="mitgliedschaft"
-      title="Nuxt UI folgt jetzt der CDE-Identitaet"
-      description="Primaerfarben, Schriftbild, Oberflaechen und dekorative Muster sind zentral hinterlegt und koennen fuer weitere Seiten direkt wiederverwendet werden."
+      :title="t('home.cta.title')"
+      :description="t('home.cta.description')"
       variant="subtle"
       :links="[{
-        label: 'Mitgliedschaft planen',
+        label: t('home.links.membershipPlan'),
         to: '#',
         color: 'primary'
       }]"

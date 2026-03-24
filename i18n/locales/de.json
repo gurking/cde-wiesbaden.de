@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "CD Espanol Wiesbaden",
+    "description": "Traditionsorientierte Vereinswebsite fuer CD Espanol Wiesbaden mit moderner Nuxt-UI-Basis."
+  },
+  "header": {
+    "clubNickname": "Los Cortinas",
+    "clubName": "CD Espanol Wiesbaden",
+    "shop": "Flyeralarm Shop"
+  },
+  "footer": {
+    "copyright": "CD Espanol Wiesbaden",
+    "themeNote": "Heritage Blue x Coral Theme mit Nuxt UI"
+  },
+  "home": {
+    "eyebrow": "Modern Alchemist",
+    "hero": {
+      "title": "Tradition mit modernem Nuxt-UI-Fundament",
+      "description": "Das Theme orientiert sich an den Vorgaben aus styling.md: Heritage Blue, Coral-Akzente, klare Sans-Serif-Typografie und subtile Los-Cortinas-Streifen.",
+      "badge": "Heritage Theme",
+      "panelTitle": "Los Cortinas",
+      "panelDescription": "Ein visuelles System fuer Header, Buttons, Cards und Footer, das die Vereinsidentitaet nicht wie ein generisches SaaS-Template aussehen laesst."
+    },
+    "links": {
+      "membership": "Mitglied werden",
+      "teams": "Teams entdecken",
+      "learnMore": "Mehr erfahren",
+      "membershipPlan": "Mitgliedschaft planen"
+    },
+    "guidelines": {
+      "title": "Theme-Leitlinien",
+      "description": "Die Nuxt-UI-Basis wurde auf die in styling.md beschriebenen Markenmerkmale umgestellt.",
+      "items": {
+        "heritage": {
+          "title": "1981 Heritage",
+          "description": "Ein Auftritt, der die Vereinsgeschichte spuerbar macht und trotzdem modern wirkt."
+        },
+        "coral": {
+          "title": "Coral als Akzent",
+          "description": "Primaere Aktionen, Badges und Call-to-Actions folgen konsequent dem Heritage-Coral-Ton."
+        },
+        "stripes": {
+          "title": "Los-Cortinas-Streifen",
+          "description": "Die vertikale Streifenidee lebt subtil in Hintergruenden und Abschnittstrennern weiter."
+        }
+      }
+    },
+    "cards": {
+      "firstTeam": {
+        "title": "1. Mannschaft",
+        "description": "Klar priorisierte Spieltagskommunikation mit markanten CTA-Flaechen und sachlicher Informationshierarchie."
+      },
+      "youth": {
+        "title": "Jugend",
+        "description": "Freundliche Kartenoptik mit weichen Border-Treatments und guter Lesbarkeit auf Mobilgeraeten."
+      },
+      "club": {
+        "title": "Verein",
+        "description": "Ruhige neutrale Textflaechen, damit Geschichte, Mitgliedschaft und Organisation vertrauenswuerdig wirken."
+      }
+    },
+    "cta": {
+      "title": "Nuxt UI folgt jetzt der CDE-Identitaet",
+      "description": "Primaerfarben, Schriftbild, Oberflaechen und dekorative Muster sind zentral hinterlegt und koennen fuer weitere Seiten direkt wiederverwendet werden."
+    }
+  }
+}

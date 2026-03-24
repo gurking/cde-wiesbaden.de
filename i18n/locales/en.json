@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "CD Espanol Wiesbaden",
+    "description": "Heritage-led club website for CD Espanol Wiesbaden built on a modern Nuxt UI foundation."
+  },
+  "header": {
+    "clubNickname": "Los Cortinas",
+    "clubName": "CD Espanol Wiesbaden",
+    "shop": "Flyeralarm Shop"
+  },
+  "footer": {
+    "copyright": "CD Espanol Wiesbaden",
+    "themeNote": "Heritage Blue x Coral theme with Nuxt UI"
+  },
+  "home": {
+    "eyebrow": "Modern Alchemist",
+    "hero": {
+      "title": "Tradition on a modern Nuxt UI foundation",
+      "description": "The theme follows the styling.md guidelines: Heritage Blue, coral accents, clear sans-serif typography and subtle Los Cortinas stripes.",
+      "badge": "Heritage Theme",
+      "panelTitle": "Los Cortinas",
+      "panelDescription": "A visual system for header, buttons, cards and footer that keeps the club identity from feeling like a generic SaaS template."
+    },
+    "links": {
+      "membership": "Become a member",
+      "teams": "Explore teams",
+      "learnMore": "Learn more",
+      "membershipPlan": "Plan membership"
+    },
+    "guidelines": {
+      "title": "Theme guidelines",
+      "description": "The Nuxt UI base has been aligned with the brand characteristics described in styling.md.",
+      "items": {
+        "heritage": {
+          "title": "1981 heritage",
+          "description": "A presence that makes the club history tangible while still feeling contemporary."
+        },
+        "coral": {
+          "title": "Coral as accent",
+          "description": "Primary actions, badges and call-to-actions consistently use the heritage coral tone."
+        },
+        "stripes": {
+          "title": "Los Cortinas stripes",
+          "description": "The vertical stripe idea continues subtly in backgrounds and section dividers."
+        }
+      }
+    },
+    "cards": {
+      "firstTeam": {
+        "title": "First team",
+        "description": "Matchday communication is clearly prioritised with strong call-to-action areas and a calm information hierarchy."
+      },
+      "youth": {
+        "title": "Youth",
+        "description": "A welcoming card style with soft border treatments and strong readability on mobile devices."
+      },
+      "club": {
+        "title": "Club",
+        "description": "Calm neutral text surfaces help history, membership and organisation feel trustworthy."
+      }
+    },
+    "cta": {
+      "title": "Nuxt UI now follows the CDE identity",
+      "description": "Primary colours, typography, surfaces and decorative patterns are centrally defined and ready to be reused on further pages."
+    }
+  }
+}
