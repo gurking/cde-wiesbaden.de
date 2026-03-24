@@ -4,7 +4,7 @@
     "description": "Traditionsorientierte Vereinswebsite fuer CD Espanol Wiesbaden mit moderner Nuxt-UI-Basis."
   },
   "header": {
-    "clubNickname": "Los Cortinas",
+    "clubNickname": "Las Cortinas",
     "clubName": "CD Espanol Wiesbaden",
     "shop": "Flyeralarm Shop"
   },
@@ -18,7 +18,7 @@
       "title": "Tradition mit modernem Nuxt-UI-Fundament",
       "description": "Das Theme orientiert sich an den Vorgaben aus styling.md: Heritage Blue, Coral-Akzente, klare Sans-Serif-Typografie und subtile Los-Cortinas-Streifen.",
       "badge": "Heritage Theme",
-      "panelTitle": "Los Cortinas",
+      "panelTitle": "Las Cortinas",
       "panelDescription": "Ein visuelles System fuer Header, Buttons, Cards und Footer, das die Vereinsidentitaet nicht wie ein generisches SaaS-Template aussehen laesst."
     },
     "links": {

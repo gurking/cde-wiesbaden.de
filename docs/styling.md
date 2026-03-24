@@ -1,7 +1,7 @@
 # Technical Design Specifications: CD Español Wiesbaden (CDE)
 
 ## 1. Project Overview
-A modern, heritage-focused club website for CD Español Wiesbaden (CDE), nicknamed "Los Cortinas". The design focuses on a "Modern Alchemist" aesthetic, blending 1981 heritage with modern UI patterns.
+A modern, heritage-focused club website for CD Español Wiesbaden (CDE), nicknamed "Las Cortinas". The design focuses on a "Modern Alchemist" aesthetic, blending 1981 heritage with modern UI patterns.
 
 ## 2. Visual Identity & Brand
 - **Brand Colors:**
@@ -13,7 +13,7 @@ A modern, heritage-focused club website for CD Español Wiesbaden (CDE), nicknam
     - **Font Family:** Inter (as a modern alternative to Helvetica Neue, highly compatible with NuxtUI/Tailwind).
     - **Headings:** Bold, uppercase, often italicized for dynamic "sports" feel.
     - **Body:** Clean, legible sans-serif.
-- **Core Visual Element:** "Los Cortinas" vertical stripes. Use the textile texture ({{DATA:IMAGE:IMAGE_16}}) as a subtle background overlay or section hero background.
+- **Core Visual Element:** "Las Cortinas" vertical stripes. Use the textile texture ({{DATA:IMAGE:IMAGE_16}}) as a subtle background overlay or section hero background.
 
 ## 3. Tech Stack Recommendation (Tailwind / NuxtUI)
 Since you are using Nuxt and NuxtUI, you should leverage the `app.config.ts` and `tailwind.config.js` for global styling.

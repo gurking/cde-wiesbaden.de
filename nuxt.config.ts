@@ -35,6 +35,6 @@ export default defineNuxtConfig({
       { code: 'de', iso: 'de-DE', name: 'Deutsch', file: 'de.json' },
       { code: 'en', iso: 'en-US', name: 'English', file: 'en.json' },
       { code: 'es', iso: 'es-ES', name: 'Español', file: 'es.json' }
-    ],
+    ]
   }
 })

@@ -4,7 +4,7 @@
     "description": "Heritage-led club website for CD Espanol Wiesbaden built on a modern Nuxt UI foundation."
   },
   "header": {
-    "clubNickname": "Los Cortinas",
+    "clubNickname": "Las Cortinas",
     "clubName": "CD Espanol Wiesbaden",
     "shop": "Flyeralarm Shop"
   },
@@ -16,9 +16,9 @@
     "eyebrow": "Modern Alchemist",
     "hero": {
       "title": "Tradition on a modern Nuxt UI foundation",
-      "description": "The theme follows the styling.md guidelines: Heritage Blue, coral accents, clear sans-serif typography and subtle Los Cortinas stripes.",
+      "description": "The theme follows the styling.md guidelines: Heritage Blue, coral accents, clear sans-serif typography and subtle Las Cortinas stripes.",
       "badge": "Heritage Theme",
-      "panelTitle": "Los Cortinas",
+      "panelTitle": "Las Cortinas",
       "panelDescription": "A visual system for header, buttons, cards and footer that keeps the club identity from feeling like a generic SaaS template."
     },
     "links": {
@@ -40,7 +40,7 @@
           "description": "Primary actions, badges and call-to-actions consistently use the heritage coral tone."
         },
         "stripes": {
-          "title": "Los Cortinas stripes",
+          "title": "Las Cortinas stripes",
           "description": "The vertical stripe idea continues subtly in backgrounds and section dividers."
         }
       }
