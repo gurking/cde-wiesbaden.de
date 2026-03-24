@@ -133,6 +133,24 @@
     "second": {
       "title": "Die Zweite",
       "description": "Die Zweite represents unity, development and reliability. Its presentation intentionally follows the same visual system as the first team."
+    },
+    "trainingLabel": "Training times",
+    "training": {
+      "title": "When and where we train",
+      "schedule": "Wednesday and Friday from 7:00 p.m. to 9:00 p.m.",
+      "description": "Training takes place regularly in both teams and is open to all members."
+    },
+    "organizationLabel": "Team organisation",
+    "organization": {
+      "title": "SpielerPlus",
+      "description": "We use SpielerPlus for managing our teams, coordinating training and match schedules, and communicating between coaching staff and players.",
+      "cta": "Go to SpielerPlus"
+    },
+    "locationLabel": "Training ground",
+    "location": {
+      "title": "Our pitch",
+      "address": "Kurt-Beecker-Weg, 65203 Wiesbaden-Mainz-Amöneburg",
+      "cta": "View on Google Maps"
     }
   },
   "boardPage": {

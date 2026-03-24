@@ -133,6 +133,24 @@
     "second": {
       "title": "Die Zweite",
       "description": "Die Zweite verkörpert Zusammenhalt, Entwicklung und Verlässlichkeit. Die Darstellung folgt bewusst derselben visuellen Systematik wie die Erste."
+    },
+    "trainingLabel": "Trainingszeiten",
+    "training": {
+      "title": "Wann und wo wir trainieren",
+      "schedule": "Mittwoch und Freitag von 19:00 bis 21:00 Uhr",
+      "description": "Das Training findet in beiden Teams regelmäßig statt und ist für alle Mitglieder zugänglich."
+    },
+    "organizationLabel": "Teamorganisation",
+    "organization": {
+      "title": "SpielerPlus",
+      "description": "Wir verwenden SpielerPlus für die Verwaltung unserer Teams, die Koordination von Trainings- und Spielterminen sowie die Kommunikation zwischen Trainerstab und Spielern.",
+      "cta": "Zur SpielerPlus-Seite"
+    },
+    "locationLabel": "Trainingsort",
+    "location": {
+      "title": "Unser Platz",
+      "address": "Kurt-Beecker-Weg, 65203 Wiesbaden-Mainz-Amöneburg",
+      "cta": "In Google Maps anzeigen"
     }
   },
   "boardPage": {

@@ -133,6 +133,24 @@
     "second": {
       "title": "Die Zweite",
       "description": "Die Zweite representa union, desarrollo y fiabilidad. Su presentacion sigue deliberadamente el mismo sistema visual que el primer equipo."
+    },
+    "trainingLabel": "Horarios de entrenamiento",
+    "training": {
+      "title": "Cuando y donde entrenamos",
+      "schedule": "Miercoles y Viernes de 19:00 a 21:00 horas",
+      "description": "El entrenamiento se realiza regularmente en ambos equipos y esta abierto a todos los miembros."
+    },
+    "organizationLabel": "Organizacion del equipo",
+    "organization": {
+      "title": "SpielerPlus",
+      "description": "Utilizamos SpielerPlus para la gestion de nuestros equipos, la coordinacion de entrenamientos y encuentros, y la comunicacion entre el cuerpo tecnico y los jugadores.",
+      "cta": "Ir a SpielerPlus"
+    },
+    "locationLabel": "Lugar de entrenamiento",
+    "location": {
+      "title": "Nuestro campo",
+      "address": "Kurt-Beecker-Weg, 65203 Wiesbaden-Mainz-Amöneburg",
+      "cta": "Ver en Google Maps"
     }
   },
   "boardPage": {

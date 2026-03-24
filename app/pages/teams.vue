@@ -99,7 +99,7 @@ const teams = computed(() => [
       </div>
     </template>
 
-    <section class="grid gap-6">
+    <section class="space-y-6">
       <article
         v-for="team in teams"
         :key="team.key"
@@ -163,6 +163,121 @@ const teams = computed(() => [
             </div>
           </div>
         </div>
+      </article>
+    </section>
+
+    <section class="grid gap-6 lg:grid-cols-3">
+      <article class="rounded-[2rem] border border-[var(--cde-card-border)] bg-[var(--cde-card-bg)] p-6 shadow-[0_18px_60px_rgba(2,4,8,0.08)] sm:p-8">
+        <div class="mb-6 flex items-center gap-3">
+          <span class="inline-flex h-10 w-1 rounded-full bg-coral-500" />
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--cde-muted-text)]">
+              {{ t('teamsPage.trainingLabel') }}
+            </p>
+            <h2 class="cde-heading text-3xl text-[var(--cde-shell-text)]">
+              {{ t('teamsPage.training.title') }}
+            </h2>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <div class="rounded-[1.5rem] border border-[var(--cde-card-border)] bg-[color-mix(in_srgb,var(--cde-card-bg)_92%,var(--cde-blue)_8%)] p-6">
+            <div class="flex items-start gap-4">
+              <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-coral-500/20 text-coral-500">
+                <span class="text-xl">🕖</span>
+              </div>
+              <div>
+                <p class="font-semibold text-[var(--cde-shell-text)]">
+                  {{ t('teamsPage.training.schedule') }}
+                </p>
+                <p class="mt-2 text-sm leading-6 text-[var(--cde-muted-text)]">
+                  {{ t('teamsPage.training.description') }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="rounded-[2rem] border border-[var(--cde-card-border)] bg-[var(--cde-card-bg)] p-6 shadow-[0_18px_60px_rgba(2,4,8,0.08)] sm:p-8">
+        <div class="mb-6 flex items-center gap-3">
+          <span class="inline-flex h-10 w-1 rounded-full bg-coral-500" />
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--cde-muted-text)]">
+              {{ t('teamsPage.organizationLabel') }}
+            </p>
+            <h2 class="cde-heading text-3xl text-[var(--cde-shell-text)]">
+              {{ t('teamsPage.organization.title') }}
+            </h2>
+          </div>
+        </div>
+
+        <p class="mb-6 text-sm leading-7 text-[var(--cde-muted-text)] sm:text-base">
+          {{ t('teamsPage.organization.description') }}
+        </p>
+
+        <UButton
+          to="https://www.spielerplus.de"
+          target="_blank"
+          external
+          icon="i-lucide-external-link"
+          trailing-icon="i-lucide-arrow-right"
+          color="primary"
+          class="w-full justify-between rounded-md"
+        >
+          {{ t('teamsPage.organization.cta') }}
+        </UButton>
+      </article>
+
+      <article class="rounded-[2rem] border border-[var(--cde-card-border)] bg-[var(--cde-card-bg)] p-6 shadow-[0_18px_60px_rgba(2,4,8,0.08)] sm:p-8">
+        <div class="mb-6 flex items-center gap-3">
+          <span class="inline-flex h-10 w-1 rounded-full bg-coral-500" />
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--cde-muted-text)]">
+              {{ t('teamsPage.locationLabel') }}
+            </p>
+            <h2 class="cde-heading text-3xl text-[var(--cde-shell-text)]">
+              {{ t('teamsPage.location.title') }}
+            </h2>
+          </div>
+        </div>
+
+        <div class="rounded-[1.5rem] border border-[var(--cde-card-border)] bg-[color-mix(in_srgb,var(--cde-card-bg)_92%,var(--cde-blue)_8%)] p-6 mb-6">
+          <div class="flex items-start gap-4">
+            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-coral-500/20 text-coral-500">
+              <span class="text-xl">📍</span>
+            </div>
+            <div>
+              <p class="font-semibold text-[var(--cde-shell-text)]">
+                {{ t('teamsPage.location.address') }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-6 overflow-hidden rounded-[1.5rem] border border-[var(--cde-card-border)]">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.1361549107573!2d8.2594046!3d50.0275445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd97d5323eccc1%3A0xbfc83eee5c2dc8cd!2sCD%20Espa%C3%B1ol%20Wiesbaden%201981!5e0!3m2!1sde!2sde!4v1774396510456!5m2!1sde!2sde"
+            width="100%"
+            height="300"
+            style="border: 0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          />
+        </div>
+
+        <UButton
+          to="https://maps.app.goo.gl/rEEPc4LtnF2FkmAh7"
+          target="_blank"
+          external
+          icon="i-lucide-map"
+          trailing-icon="i-lucide-arrow-right"
+          color="primary"
+          class="w-full justify-between rounded-md"
+        >
+          {{ t('teamsPage.location.cta') }}
+        </UButton>
       </article>
     </section>
   </AppSubpageView>

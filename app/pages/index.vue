@@ -207,6 +207,77 @@ const landingSections = computed(() => [
       </article>
     </section>
 
+    <section class="grid gap-6 lg:grid-cols-2">
+      <article class="rounded-[2rem] border border-[var(--cde-card-border)] bg-[var(--cde-card-bg)] p-6 shadow-[0_18px_60px_rgba(2,4,8,0.08)] sm:p-8">
+        <div class="mb-6 flex items-center gap-3">
+          <span class="inline-flex h-10 w-1 rounded-full bg-coral-500" />
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--cde-muted-text)]">
+              {{ t('teamsPage.trainingLabel') }}
+            </p>
+            <h2 class="cde-heading text-3xl text-[var(--cde-shell-text)]">
+              {{ t('teamsPage.training.title') }}
+            </h2>
+          </div>
+        </div>
+
+        <div class="rounded-[1.5rem] border border-[var(--cde-card-border)] bg-[color-mix(in_srgb,var(--cde-card-bg)_92%,var(--cde-blue)_8%)] p-6">
+          <div class="flex items-start gap-4">
+            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-coral-500/20 text-coral-500">
+              <span class="text-xl">🕖</span>
+            </div>
+            <div>
+              <p class="font-semibold text-[var(--cde-shell-text)]">
+                {{ t('teamsPage.training.schedule') }}
+              </p>
+              <p class="mt-2 text-sm leading-6 text-[var(--cde-muted-text)]">
+                {{ t('teamsPage.training.description') }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="rounded-[2rem] border border-[var(--cde-card-border)] bg-[var(--cde-card-bg)] p-6 shadow-[0_18px_60px_rgba(2,4,8,0.08)] sm:p-8">
+        <div class="mb-6 flex items-center gap-3">
+          <span class="inline-flex h-10 w-1 rounded-full bg-coral-500" />
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--cde-muted-text)]">
+              {{ t('teamsPage.locationLabel') }}
+            </p>
+            <h2 class="cde-heading text-3xl text-[var(--cde-shell-text)]">
+              {{ t('teamsPage.location.title') }}
+            </h2>
+          </div>
+        </div>
+
+        <div class="rounded-[1.5rem] border border-[var(--cde-card-border)] bg-[color-mix(in_srgb,var(--cde-card-bg)_92%,var(--cde-blue)_8%)] p-6 mb-6">
+          <div class="flex items-start gap-4">
+            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-coral-500/20 text-coral-500">
+              <span class="text-xl">📍</span>
+            </div>
+            <div>
+              <p class="font-semibold text-[var(--cde-shell-text)]">
+                {{ t('teamsPage.location.address') }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <UButton
+          to="https://maps.app.goo.gl/rEEPc4LtnF2FkmAh7"
+          target="_blank"
+          external
+          icon="i-lucide-map"
+          trailing-icon="i-lucide-arrow-right"
+          color="primary"
+          class="w-full justify-between rounded-md"
+        >
+          {{ t('teamsPage.location.cta') }}
+        </UButton>
+      </article>
+    </section>
+
     <UPageCTA
       :title="t('home.cta.title')"
       :description="t('home.cta.description')"
