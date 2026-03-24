@@ -110,5 +110,70 @@
       "title": "Die Zweite",
       "description": "Die Zweite representa union, desarrollo y fiabilidad. Su presentacion sigue deliberadamente el mismo sistema visual que el primer equipo."
     }
+  },
+  "boardPage": {
+    "hero": {
+      "eyebrow": "Organizacion del club",
+      "title": "Directiva",
+      "subtitle": "Las personas detras de la direccion, la estructura y la identidad",
+      "description": "La directiva constituye la columna organizativa del club. Aqui se unen la responsabilidad, la cultura del club y el desarrollo a largo plazo del CD Espanol Wiesbaden.",
+      "badge": "Organizacion",
+      "asideTitle": "Lo que representa la directiva",
+      "pillars": {
+        "identity": {
+          "emoji": "🛡️",
+          "title": "Proteger la identidad",
+          "description": "La directiva protege la herencia, los valores y la visibilidad del club tanto interna como externamente."
+        },
+        "community": {
+          "emoji": "🤝",
+          "title": "Organizar la comunidad",
+          "description": "Desde la competicion hasta la vida social del club, unas estructuras solidas crean el marco para la convivencia deportiva y social."
+        },
+        "continuity": {
+          "emoji": "📈",
+          "title": "Construir continuidad",
+          "description": "El desarrollo sostenible nace de la fiabilidad, la responsabilidad y una mirada que va mas alla de una sola temporada."
+        }
+      }
+    },
+    "groups": {
+      "presidium": {
+        "label": "Presidium",
+        "title": "Direccion estrategica del club",
+        "description": "Este nivel asume la responsabilidad principal sobre la direccion, la presencia publica y el desarrollo a largo plazo del CD Espanol Wiesbaden."
+      },
+      "finance": {
+        "label": "Tesoreria + Secretaria",
+        "title": "Responsabilidad central en el dia a dia",
+        "description": "Este ambito une la fiabilidad financiera, la documentacion y la organizacion formal del club."
+      },
+      "advisors": {
+        "label": "Vocales",
+        "title": "Responsabilidad compartida en el club",
+        "description": "Los vocales sostienen al club en distintas areas y refuerzan la organizacion en toda su amplitud."
+      },
+      "special": {
+        "label": "Funciones especiales",
+        "title": "Tareas y encargos especificos",
+        "description": "Esta seccion queda reservada para responsabilidades especiales que podran concretarse mas adelante."
+      }
+    },
+    "roles": {
+      "firstChair": "Primer presidente",
+      "secondChair": "Segundo presidente",
+      "treasurer": "Tesorero",
+      "secretary": "Secretario",
+      "advisor": "Vocal",
+      "sportDirector": "Director deportivo",
+      "clubRole": "Rol del club",
+      "referee": "Arbitro"
+    },
+    "notes": {
+      "martin": "Con la cualificacion de gestor de clubes DFB nivel C.",
+      "sascha": "El nombre completo solo esta disponible por ahora en forma abreviada."
+    },
+    "memberNote": "Los cargos y responsabilidades concretos pueden completarse mas adelante.",
+    "placeholderMember": "Otro miembro de la directiva"
   }
 }

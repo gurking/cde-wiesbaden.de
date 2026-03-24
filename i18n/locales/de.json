@@ -110,5 +110,70 @@
       "title": "Die Zweite",
       "description": "Die Zweite verkoerpert Zusammenhalt, Entwicklung und Verlaesslichkeit. Die Darstellung folgt bewusst derselben visuellen Systematik wie die Erste."
     }
+  },
+  "boardPage": {
+    "hero": {
+      "eyebrow": "Vereinsorganisation",
+      "title": "Vorstand",
+      "subtitle": "Menschen hinter Richtung, Struktur und Haltung",
+      "description": "Der Vorstand bildet das organisatorische Rueckgrat des Vereins. Hier laufen Verantwortung, Vereinskultur und die langfristige Entwicklung des CD Espanol Wiesbaden zusammen.",
+      "badge": "Organisation",
+      "asideTitle": "Wofuer der Vorstand steht",
+      "pillars": {
+        "identity": {
+          "emoji": "🛡️",
+          "title": "Identitaet bewahren",
+          "description": "Der Vorstand schuetzt Herkunft, Haltung und Sichtbarkeit des Vereins nach innen wie nach aussen."
+        },
+        "community": {
+          "emoji": "🤝",
+          "title": "Gemeinschaft organisieren",
+          "description": "Von Spielbetrieb bis Vereinsleben: gute Strukturen schaffen den Rahmen fuer sportliches und soziales Miteinander."
+        },
+        "continuity": {
+          "emoji": "📈",
+          "title": "Zukunft gestalten",
+          "description": "Nachhaltige Entwicklung entsteht durch Verlaesslichkeit, Verantwortung und den Blick ueber eine einzelne Saison hinaus."
+        }
+      }
+    },
+    "groups": {
+      "presidium": {
+        "label": "Praesidium",
+        "title": "Strategische Spitze des Vereins",
+        "description": "Hier liegt die oberste Verantwortung fuer Richtung, Aussenwirkung und die langfristige Entwicklung des CD Espanol Wiesbaden."
+      },
+      "finance": {
+        "label": "Kassenwart + Schriftfuehrer",
+        "title": "Zentrale Verantwortung im Tagesgeschaeft",
+        "description": "In diesem Bereich laufen finanzielle Verlaesslichkeit, Dokumentation und die formale Organisation des Vereins zusammen."
+      },
+      "advisors": {
+        "label": "Beisitzer",
+        "title": "Breite Verantwortung im Verein",
+        "description": "Die Beisitzer tragen den Verein in vielen Themenfeldern mit und stabilisieren die Organisation in der Breite."
+      },
+      "special": {
+        "label": "Besondere Rollen",
+        "title": "Spezielle Aufgaben und Funktionen",
+        "description": "Dieser Bereich ist fuer weitere klar abgegrenzte Sonderaufgaben vorgesehen, die spaeter genauer benannt werden koennen."
+      }
+    },
+    "roles": {
+      "firstChair": "1. Vorsitzender",
+      "secondChair": "2. Vorsitzender",
+      "treasurer": "Kassenwart",
+      "secretary": "Schriftfuehrer",
+      "advisor": "Beisitzer",
+      "sportDirector": "Sportdirektor",
+      "clubRole": "Vereins",
+      "referee": "Schiedsrichter"
+    },
+    "notes": {
+      "martin": "Mit der Qualifikation zum DFB-Vereinsmanager C.",
+      "sascha": "Vollstaendiger Name liegt derzeit nur abgekuerzt vor."
+    },
+    "memberNote": "Details zu konkreter Funktion und Verantwortungsbereich koennen spaeter ergaenzt werden.",
+    "placeholderMember": "Weiteres Vorstandsmitglied"
   }
 }

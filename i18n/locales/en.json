@@ -110,5 +110,70 @@
       "title": "Die Zweite",
       "description": "Die Zweite represents unity, development and reliability. Its presentation intentionally follows the same visual system as the first team."
     }
+  },
+  "boardPage": {
+    "hero": {
+      "eyebrow": "Club organisation",
+      "title": "Board",
+      "subtitle": "The people behind direction, structure and identity",
+      "description": "The board forms the organisational backbone of the club. This is where responsibility, club culture and the long-term development of CD Espanol Wiesbaden come together.",
+      "badge": "Organisation",
+      "asideTitle": "What the board stands for",
+      "pillars": {
+        "identity": {
+          "emoji": "🛡️",
+          "title": "Protecting identity",
+          "description": "The board safeguards the club's heritage, values and visibility both internally and externally."
+        },
+        "community": {
+          "emoji": "🤝",
+          "title": "Organising community",
+          "description": "From match operations to club life, strong structures create the framework for sporting and social togetherness."
+        },
+        "continuity": {
+          "emoji": "📈",
+          "title": "Building continuity",
+          "description": "Sustainable growth comes from reliability, responsibility and a view beyond a single season."
+        }
+      }
+    },
+    "groups": {
+      "presidium": {
+        "label": "Presidium",
+        "title": "Strategic leadership of the club",
+        "description": "This level carries the highest responsibility for direction, public presence and the long-term development of CD Espanol Wiesbaden."
+      },
+      "finance": {
+        "label": "Treasury + Secretary",
+        "title": "Core responsibility in day-to-day operations",
+        "description": "This area combines financial reliability, documentation and the formal organisation of the club."
+      },
+      "advisors": {
+        "label": "Advisors",
+        "title": "Shared responsibility across the club",
+        "description": "The advisors support the club across multiple areas and strengthen the organisation across the board."
+      },
+      "special": {
+        "label": "Special roles",
+        "title": "Dedicated functions and tasks",
+        "description": "This section is reserved for clearly defined special responsibilities that can be specified in more detail later."
+      }
+    },
+    "roles": {
+      "firstChair": "First chair",
+      "secondChair": "Second chair",
+      "treasurer": "Treasurer",
+      "secretary": "Secretary",
+      "advisor": "Advisor",
+      "sportDirector": "Sport director",
+      "clubRole": "Club role",
+      "referee": "Referee"
+    },
+    "notes": {
+      "martin": "Qualified as a DFB club manager C.",
+      "sascha": "The full name is currently only available in abbreviated form."
+    },
+    "memberNote": "Specific titles and responsibilities can be added later.",
+    "placeholderMember": "Additional board member"
   }
 }
