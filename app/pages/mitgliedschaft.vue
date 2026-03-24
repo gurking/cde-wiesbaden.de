@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import membershipApplicationPdf from '~/assets/files/Mitgliedsantrag_DE_ESP_ENG.pdf'
 import statutePdf from '~/assets/files/satzung_stand_2024.pdf'
 
 const { t } = useI18n()
@@ -68,6 +69,33 @@ const statuteHighlights = computed(() => [
     key: 'leaving',
     title: t('membershipPage.highlights.leaving.title'),
     description: t('membershipPage.highlights.leaving.description')
+  }
+])
+
+const applicationSteps = computed(() => [
+  {
+    key: 'deregister',
+    emoji: t('membershipPage.process.steps.deregister.emoji'),
+    title: t('membershipPage.process.steps.deregister.title'),
+    description: t('membershipPage.process.steps.deregister.description')
+  },
+  {
+    key: 'application',
+    emoji: t('membershipPage.process.steps.application.emoji'),
+    title: t('membershipPage.process.steps.application.title'),
+    description: t('membershipPage.process.steps.application.description')
+  },
+  {
+    key: 'payment',
+    emoji: t('membershipPage.process.steps.payment.emoji'),
+    title: t('membershipPage.process.steps.payment.title'),
+    description: t('membershipPage.process.steps.payment.description')
+  },
+  {
+    key: 'documents',
+    emoji: t('membershipPage.process.steps.documents.emoji'),
+    title: t('membershipPage.process.steps.documents.title'),
+    description: t('membershipPage.process.steps.documents.description')
   }
 ])
 </script>
@@ -155,28 +183,76 @@ const statuteHighlights = computed(() => [
           <span class="inline-flex h-10 w-1 rounded-full bg-coral-500" />
           <div>
             <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--cde-muted-text)]">
-              {{ t('membershipPage.sections.download.label') }}
+              {{ t('membershipPage.sections.documents.label') }}
             </p>
             <h2 class="cde-heading text-3xl text-[var(--cde-shell-text)]">
-              {{ t('membershipPage.sections.download.title') }}
+              {{ t('membershipPage.sections.documents.title') }}
             </h2>
           </div>
         </div>
 
-        <p class="mb-6 text-sm leading-7 text-[var(--cde-muted-text)] sm:text-base">
-          {{ t('membershipPage.sections.download.description') }}
+        <p class="mb-5 text-sm leading-7 text-[var(--cde-muted-text)] sm:text-base">
+          {{ t('membershipPage.sections.documents.description') }}
         </p>
 
-        <UButton
-          :to="statutePdf"
-          target="_blank"
-          icon="i-lucide-download"
-          size="lg"
-          class="rounded-sm bg-coral-500 text-white hover:bg-coral-400"
-        >
-          {{ t('membershipPage.sections.download.cta') }}
-        </UButton>
+        <div class="grid gap-3">
+          <UButton
+            :to="membershipApplicationPdf"
+            target="_blank"
+            icon="i-lucide-file-signature"
+            size="lg"
+            class="justify-between rounded-sm bg-coral-500 text-white hover:bg-coral-400"
+          >
+            {{ t('membershipPage.sections.documents.applicationCta') }}
+          </UButton>
+
+          <UButton
+            :to="statutePdf"
+            target="_blank"
+            icon="i-lucide-download"
+            size="lg"
+            color="neutral"
+            variant="outline"
+            class="justify-between rounded-sm"
+          >
+            {{ t('membershipPage.sections.documents.statuteCta') }}
+          </UButton>
+        </div>
       </article>
+    </section>
+
+    <section class="rounded-[2rem] border border-[var(--cde-card-border)] bg-[var(--cde-card-bg)] p-6 shadow-[0_18px_60px_rgba(2,4,8,0.08)] sm:p-8">
+      <div class="mb-6 flex items-center gap-3">
+        <span class="inline-flex h-10 w-1 rounded-full bg-coral-500" />
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--cde-muted-text)]">
+            {{ t('membershipPage.process.label') }}
+          </p>
+          <h2 class="cde-heading text-3xl text-[var(--cde-shell-text)]">
+            {{ t('membershipPage.process.title') }}
+          </h2>
+        </div>
+      </div>
+
+      <p class="mb-6 max-w-3xl text-sm leading-7 text-[var(--cde-muted-text)] sm:text-base">
+        {{ t('membershipPage.process.description') }}
+      </p>
+
+      <div class="grid gap-4 md:grid-cols-2">
+        <div
+          v-for="step in applicationSteps"
+          :key="step.key"
+          class="rounded-[1.5rem] border border-[var(--cde-card-border)] bg-white/60 p-5 dark:bg-white/4"
+        >
+          <p class="text-xs font-semibold uppercase tracking-[0.24em] text-coral-500">
+            {{ step.emoji }}
+            {{ step.title }}
+          </p>
+          <p class="mt-3 text-sm leading-7 text-[var(--cde-muted-text)]">
+            {{ step.description }}
+          </p>
+        </div>
+      </div>
     </section>
 
     <section class="rounded-[2rem] border border-[var(--cde-card-border)] bg-[var(--cde-card-bg)] p-6 shadow-[0_18px_60px_rgba(2,4,8,0.08)] sm:p-8">

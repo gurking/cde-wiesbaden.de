@@ -231,16 +231,44 @@
         "title": "Mitgliedsbeitraege",
         "description": "Die aktuellen Beitragssaetze orientieren sich an der Satzung und geben einen klaren Ueberblick ueber die monatlichen Mitgliedsbeitraege."
       },
-      "download": {
-        "label": "Dokument",
-        "title": "Satzung als Download",
-        "description": "Die vollstaendige Satzung in der Fassung vom 13. April 2024 steht hier als PDF zum Download bereit.",
-        "cta": "Satzung herunterladen"
+      "documents": {
+        "label": "Dokumente",
+        "title": "Mitgliedsantrag und Satzung",
+        "description": "Hier findest du sowohl den mehrsprachigen Mitgliedsantrag als auch die aktuelle Satzung des Vereins als PDF.",
+        "applicationCta": "Mitgliedsantrag herunterladen",
+        "statuteCta": "Satzung herunterladen"
       },
       "statute": {
         "label": "Wichtige Hinweise",
         "title": "Was Mitgliedschaft beim CDE bedeutet",
         "description": "Einige zentrale Regeln aus der Satzung helfen dabei, Rechte, Pflichten und den Charakter der Mitgliedschaft direkt zu verstehen."
+      }
+    },
+    "process": {
+      "label": "Ablauf",
+      "title": "So laeuft die Anmeldung ab",
+      "description": "Mit diesen Schritten laesst sich der Weg in den Verein gut vorbereiten. Je nach persoenlicher Situation koennen einzelne Punkte relevant oder optional sein.",
+      "steps": {
+        "deregister": {
+          "emoji": "📅",
+          "title": "Abmeldung alter Verein",
+          "description": "Falls noetig, den bisherigen Verein fristgerecht abmelden. Das ist optional und typischerweise bis zum 30.6. oder 31.12. eines Jahres moeglich."
+        },
+        "application": {
+          "emoji": "📝",
+          "title": "Mitgliedsantrag abgeben",
+          "description": "Den Mitgliedsantrag ausfuellen, unterschreiben und anschliessend beim Verein einreichen."
+        },
+        "payment": {
+          "emoji": "💶",
+          "title": "Beitraege und Aufnahmegebuehr",
+          "description": "Den Mitgliedsbeitrag gemaess Satzung bezahlen. Hinzu kommt eine einmalige Aufnahmegebuehr von 55 EUR, die ein T-Shirt sowie ein Sweatshirt fuer Spieltage umfasst."
+        },
+        "documents": {
+          "emoji": "🛂",
+          "title": "Unterlagen bereithalten",
+          "description": "Falls man Nicht-EU-Buerger ist, sollten Pass und/oder Meldebescheinigung fuer die Anmeldung verfuegbar sein."
+        }
       }
     },
     "highlights": {

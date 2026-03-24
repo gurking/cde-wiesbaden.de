@@ -231,16 +231,44 @@
         "title": "Membership fees",
         "description": "The current fee structure follows the statutes and gives a clear overview of the monthly membership contributions."
       },
-      "download": {
-        "label": "Document",
-        "title": "Download the statutes",
-        "description": "The full statutes in the version dated 13 April 2024 are available here as a PDF download.",
-        "cta": "Download statutes"
+      "documents": {
+        "label": "Documents",
+        "title": "Membership application and statutes",
+        "description": "Here you can find both the multilingual membership application and the current statutes of the club as PDF files.",
+        "applicationCta": "Download membership application",
+        "statuteCta": "Download statutes"
       },
       "statute": {
         "label": "Key points",
         "title": "What membership at CDE means",
         "description": "A few central rules from the statutes help members understand the rights, obligations and spirit of membership right away."
+      }
+    },
+    "process": {
+      "label": "Process",
+      "title": "How the registration works",
+      "description": "These steps help prepare the path into the club. Depending on the personal situation, some points may be relevant or optional.",
+      "steps": {
+        "deregister": {
+          "emoji": "📅",
+          "title": "Leave previous club",
+          "description": "If needed, deregister from the previous club on time. This is optional and is typically possible until 30 June or 31 December of each year."
+        },
+        "application": {
+          "emoji": "📝",
+          "title": "Submit application",
+          "description": "Complete the membership application, sign it and then submit it to the club."
+        },
+        "payment": {
+          "emoji": "💶",
+          "title": "Fees and one-time admission charge",
+          "description": "Pay the membership fee according to the statutes. In addition, there is a one-time admission fee of EUR 55, which includes a T-shirt and a sweatshirt for match days."
+        },
+        "documents": {
+          "emoji": "🛂",
+          "title": "Keep documents ready",
+          "description": "If you are not an EU citizen, your passport and/or registration certificate should be available for the registration process."
+        }
       }
     },
     "highlights": {

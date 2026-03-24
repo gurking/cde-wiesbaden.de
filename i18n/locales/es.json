@@ -231,16 +231,44 @@
         "title": "Cuotas de membresia",
         "description": "Las cuotas actuales siguen los estatutos y ofrecen una vision clara de las aportaciones mensuales de membresia."
       },
-      "download": {
-        "label": "Documento",
-        "title": "Descargar los estatutos",
-        "description": "Los estatutos completos en la version del 13 de abril de 2024 estan disponibles aqui como PDF.",
-        "cta": "Descargar estatutos"
+      "documents": {
+        "label": "Documentos",
+        "title": "Solicitud de membresia y estatutos",
+        "description": "Aqui puedes encontrar tanto la solicitud de membresia multilingue como los estatutos actuales del club en formato PDF.",
+        "applicationCta": "Descargar solicitud de membresia",
+        "statuteCta": "Descargar estatutos"
       },
       "statute": {
         "label": "Puntos importantes",
         "title": "Lo que significa ser socio del CDE",
         "description": "Algunas reglas centrales de los estatutos ayudan a comprender desde el principio los derechos, obligaciones y el caracter de la membresia."
+      }
+    },
+    "process": {
+      "label": "Proceso",
+      "title": "Asi funciona la inscripcion",
+      "description": "Estos pasos ayudan a preparar bien la entrada al club. Segun la situacion personal, algunos puntos pueden ser relevantes u opcionales.",
+      "steps": {
+        "deregister": {
+          "emoji": "📅",
+          "title": "Baja del club anterior",
+          "description": "Si es necesario, tramitar la baja del club anterior dentro del plazo. Es opcional y normalmente posible hasta el 30 de junio o el 31 de diciembre de cada ano."
+        },
+        "application": {
+          "emoji": "📝",
+          "title": "Entregar la solicitud",
+          "description": "Rellenar la solicitud de membresia, firmarla y entregarla despues al club."
+        },
+        "payment": {
+          "emoji": "💶",
+          "title": "Cuotas y tasa de alta",
+          "description": "Pagar la cuota de membresia segun los estatutos. Ademas, hay una tasa unica de alta de 55 EUR que incluye una camiseta y una sudadera para los dias de partido."
+        },
+        "documents": {
+          "emoji": "🛂",
+          "title": "Tener la documentacion lista",
+          "description": "Si no eres ciudadano de la UE, conviene tener disponible el pasaporte y/o el certificado de empadronamiento para el proceso de inscripcion."
+        }
       }
     },
     "highlights": {
