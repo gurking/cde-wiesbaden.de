@@ -21,13 +21,13 @@
     }
   },
   "home": {
-    "eyebrow": "Tienda de equipo Flyeralarm Sports",
+    "eyebrow": "Bienvenido al CD Español",
     "hero": {
-      "title": "La tienda web del CDE en Flyeralarm Sports",
-      "description": "A traves de Flyeralarm Sports, cualquiera puede pedir directamente la ropa del club por su cuenta. Asi, la ropa de aficionado, el material de entrenamiento y otros productos del CDE llegan directamente a casa sin pasos intermedios.",
-      "badge": "Tienda del equipo",
-      "panelTitle": "Pedirlo uno mismo y llevarlo ya",
-      "panelDescription": "Desde camisetas hasta prendas de entrenamiento y medias, la tienda del equipo reune imagen del club, articulos para aficionados y ropa del CDE para el dia a dia en un solo lugar."
+      "title": "CD Español Wiesbaden",
+      "description": "El CD Español Wiesbaden es mas que un club; representa tradicion, solidaridad y pasion por el futbol. Con nuestros equipos y una comunidad fuerte, traemos el futbol con espiritu español a Wiesbaden.",
+      "badge": "El Club",
+      "panelTitle": "Tradicion y Comunidad",
+      "panelDescription": "CD Español Wiesbaden reune jugadores de todas las edades y aficionados al futbol unidos por un autentico espiritu de equipo y exito compartido."
     },
     "links": {
       "membership": "Descubrir membresia",

@@ -21,13 +21,13 @@
     }
   },
   "home": {
-    "eyebrow": "Flyeralarm Sports Teamshop",
+    "eyebrow": "Willkommen bei CD Español",
     "hero": {
-      "title": "Der CDE-Webshop bei Flyeralarm Sports",
-      "description": "Ueber Flyeralarm Sports kann sich jede und jeder die Vereinskleidung direkt selbst bestellen. So kommen Fanartikel, Trainingsteile und weitere CDE-Produkte ohne Umweg direkt zu dir nach Hause.",
-      "badge": "Teamshop",
-      "panelTitle": "Selbst bestellen, direkt tragen",
-      "panelDescription": "Von Trikot ueber Trainingstop bis zu Stutzen: Der Teamshop buendelt Vereinslook, Fanartikel und alltagstaugliche CDE-Bekleidung an einem Ort."
+      "title": "CD Español Wiesbaden",
+      "description": "Der Verein CD Español Wiesbaden steht fuer Tradition, Zusammenhalt und Leidenschaft fuer Fussball. Mit unseren Teams und einer starken Vereinscommunity praesentieren wir den Fussball im Geist von Spanien hier in Wiesbaden.",
+      "badge": "Der Verein",
+      "panelTitle": "Tradition und Gemueinschaft",
+      "panelDescription": "Der CD Español Wiesbaden vereint Spielerinnen und Spieler aller Altersgruppen und Vereinsfans zu echtem Teamgeist und gemeinsamem Erfolg."
     },
     "links": {
       "membership": "Mitgliedschaft entdecken",

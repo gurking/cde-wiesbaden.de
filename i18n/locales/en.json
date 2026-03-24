@@ -21,13 +21,13 @@
     }
   },
   "home": {
-    "eyebrow": "Flyeralarm Sports team shop",
+    "eyebrow": "Welcome to CD Español",
     "hero": {
-      "title": "The CDE web shop on Flyeralarm Sports",
-      "description": "Through Flyeralarm Sports, everyone can order club apparel directly on their own. Fanwear, training gear and more CDE products can be sent straight to your home without any extra coordination.",
-      "badge": "Team shop",
-      "panelTitle": "Order directly, wear it right away",
-      "panelDescription": "From jerseys to training tops and socks, the team shop brings together club style, fanwear and everyday CDE apparel in one place."
+      "title": "CD Español Wiesbaden",
+      "description": "CD Español Wiesbaden stands for tradition, togetherness and a passion for football. With our teams and a strong club community, we bring football in the spirit of Spain to Wiesbaden.",
+      "badge": "The Club",
+      "panelTitle": "Tradition and Community",
+      "panelDescription": "CD Español Wiesbaden brings together players of all ages and football fans united by genuine team spirit and shared success."
     },
     "links": {
       "membership": "Explore membership",

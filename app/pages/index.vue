@@ -9,10 +9,8 @@ const { t } = useI18n()
 
 const heroLinks = computed(() => [
   {
-    label: t('home.links.shop'),
-    to: 'https://www.flyeralarm-sports.com/teamshops/cde',
-    external: true,
-    target: '_blank',
+    label: t('home.links.teams'),
+    to: '/teams',
     size: 'xl' as const
   },
   {
