@@ -21,55 +21,76 @@
     }
   },
   "home": {
-    "eyebrow": "Modern Alchemist",
+    "eyebrow": "Tienda de equipo Flyeralarm Sports",
     "hero": {
-      "title": "Tradicion sobre una base moderna de Nuxt UI",
-      "description": "El tema sigue las directrices de styling.md: Heritage Blue, acentos coral, tipografia sans-serif clara y las sutiles rayas de Las Cortinas.",
-      "badge": "Tema patrimonial",
-      "panelTitle": "Las Cortinas",
-      "panelDescription": "Un sistema visual para cabecera, botones, tarjetas y pie de pagina que evita que la identidad del club se vea como una plantilla SaaS generica."
+      "title": "La tienda web del CDE en Flyeralarm Sports",
+      "description": "A traves de Flyeralarm Sports, cualquiera puede pedir directamente la ropa del club por su cuenta. Asi, la ropa de aficionado, el material de entrenamiento y otros productos del CDE llegan directamente a casa sin pasos intermedios.",
+      "badge": "Tienda del equipo",
+      "panelTitle": "Pedirlo uno mismo y llevarlo ya",
+      "panelDescription": "Desde camisetas hasta prendas de entrenamiento y medias, la tienda del equipo reune imagen del club, articulos para aficionados y ropa del CDE para el dia a dia en un solo lugar."
     },
     "links": {
-      "membership": "Hazte socio",
+      "membership": "Descubrir membresia",
       "teams": "Descubrir equipos",
       "learnMore": "Mas informacion",
-      "membershipPlan": "Planificar membresia"
+      "membershipPlan": "Planificar membresia",
+      "shop": "Ir a la tienda"
     },
-    "guidelines": {
-      "title": "Lineamientos del tema",
-      "description": "La base de Nuxt UI se ha alineado con las caracteristicas de marca descritas en styling.md.",
-      "items": {
-        "heritage": {
-          "title": "Herencia de 1981",
-          "description": "Una presencia que hace tangible la historia del club y al mismo tiempo se siente actual."
+    "shop": {
+      "title": "Flyeralarm Sports para la imagen del club",
+      "description": "La tienda del equipo facilita pedir la ropa del CDE por cuenta propia. Los logotipos del club y varios productos ya estan preparados para empezar directamente.",
+      "productLabel": "Tienda web",
+      "benefits": {
+        "selfService": {
+          "title": "Pedido directo",
+          "description": "Cada pedido se tramita directamente a traves de Flyeralarm Sports. Socios, aficionados y familias pueden elegir y pedir sus productos de forma autonoma."
         },
-        "coral": {
-          "title": "Coral como acento",
-          "description": "Las acciones principales, etiquetas y llamadas a la accion utilizan de forma coherente el tono coral patrimonial."
+        "collection": {
+          "title": "Ropa de entrenamiento y aficion",
+          "description": "La tienda ya incluye una primera seleccion de prendas y articulos del club que llevan la imagen del CDE al dia de partido, al entrenamiento y al dia a dia."
         },
-        "stripes": {
-          "title": "Rayas de Las Cortinas",
-          "description": "La idea de las rayas verticales continua de forma sutil en fondos y separadores de seccion."
+        "branding": {
+          "title": "La imagen del CDE ya esta preparada",
+          "description": "El logotipo del club y la estructura de la tienda del equipo ya estan configurados para que la ropa y la identidad del club mantengan una imagen coherente."
+        }
+      },
+      "products": {
+        "fanJersey": {
+          "title": "Camiseta de aficionado",
+          "description": "La camiseta de aficionado lleva los colores del club al dia a dia y es una entrada muy clara al estilo del CDE."
+        },
+        "warmupShirt": {
+          "title": "Camiseta de calentamiento",
+          "description": "Una prenda funcional para calentar, entrenar o vestir en el tiempo libre con una clara relacion con el club."
+        },
+        "trainingTop": {
+          "title": "Parte superior de entrenamiento",
+          "description": "Ropa deportiva para las sesiones sobre el campo y para el camino hacia el dia de partido."
+        },
+        "socks": {
+          "title": "Medias",
+          "description": "Tambien los elementos pequenos forman parte de la imagen del club y completan el conjunto."
         }
       }
     },
-    "cards": {
-      "firstTeam": {
-        "title": "Primer equipo",
-        "description": "La comunicacion del dia de partido se prioriza con claridad mediante zonas de accion marcadas y una jerarquia informativa sobria."
+    "landing": {
+      "label": "Descubrir mas",
+      "teams": {
+        "emoji": "⚽",
+        "title": "Nuestros equipos",
+        "description": "Die Erste y Die Zweite representan ambicion deportiva, desarrollo y union en el CDE. En la pagina de equipos se pueden ver fotos del plantel y los cuerpos tecnicos.",
+        "cta": "Ir a equipos"
       },
-      "youth": {
-        "title": "Juvenil",
-        "description": "Un estilo de tarjeta acogedor con tratamientos de borde suaves y buena legibilidad en dispositivos moviles."
-      },
-      "club": {
-        "title": "Club",
-        "description": "Superficies de texto neutras y calmadas para que la historia, la membresia y la organizacion transmitan confianza."
+      "membership": {
+        "emoji": "🤝",
+        "title": "Hazte socio",
+        "description": "En la pagina de membresia se encuentran las cuotas, la solicitud de ingreso, puntos importantes de los estatutos y el proceso para incorporarse al club.",
+        "cta": "Ir a membresia"
       }
     },
     "cta": {
-      "title": "Nuxt UI ahora sigue la identidad de CDE",
-      "description": "Los colores principales, la tipografia, las superficies y los patrones decorativos estan definidos de forma central y listos para reutilizarse en otras paginas."
+      "title": "Entrar directamente en la tienda del equipo",
+      "description": "Quien quiera pedir ya la imagen del club puede acceder directamente a la tienda del CDE en Flyeralarm Sports."
     }
   },
   "teamsPage": {

@@ -21,55 +21,76 @@
     }
   },
   "home": {
-    "eyebrow": "Modern Alchemist",
+    "eyebrow": "Flyeralarm Sports Teamshop",
     "hero": {
-      "title": "Tradition mit modernem Nuxt-UI-Fundament",
-      "description": "Die Website verbindet Vereinsgeschichte, klare Typografie und eine ruhige, markante Gestaltung fuer CD Español Wiesbaden.",
-      "badge": "Vereinswebsite",
-      "panelTitle": "Las Cortinas",
-      "panelDescription": "Ein visuelles System fuer Header, Buttons, Cards und Footer, das die Vereinsidentitaet nicht wie ein generisches SaaS-Template aussehen laesst."
+      "title": "Der CDE-Webshop bei Flyeralarm Sports",
+      "description": "Ueber Flyeralarm Sports kann sich jede und jeder die Vereinskleidung direkt selbst bestellen. So kommen Fanartikel, Trainingsteile und weitere CDE-Produkte ohne Umweg direkt zu dir nach Hause.",
+      "badge": "Teamshop",
+      "panelTitle": "Selbst bestellen, direkt tragen",
+      "panelDescription": "Von Trikot ueber Trainingstop bis zu Stutzen: Der Teamshop buendelt Vereinslook, Fanartikel und alltagstaugliche CDE-Bekleidung an einem Ort."
     },
     "links": {
-      "membership": "Mitglied werden",
+      "membership": "Mitgliedschaft entdecken",
       "teams": "Teams entdecken",
       "learnMore": "Mehr erfahren",
-      "membershipPlan": "Mitgliedschaft planen"
+      "membershipPlan": "Mitgliedschaft planen",
+      "shop": "Zum Teamshop"
     },
-    "guidelines": {
-      "title": "Theme-Leitlinien",
-      "description": "Die Nuxt-UI-Basis wurde auf die in styling.md beschriebenen Markenmerkmale umgestellt.",
-      "items": {
-        "heritage": {
-          "title": "Seit 1981",
-          "description": "Ein Auftritt, der die Vereinsgeschichte spuerbar macht und trotzdem modern wirkt."
+    "shop": {
+      "title": "Flyeralarm Sports fuer den Vereinslook",
+      "description": "Der Teamshop macht es leicht, CDE-Bekleidung selbst zu bestellen. Logos und ausgewaehlte Produkte sind bereits hinterlegt, sodass der Einstieg in den Shop direkt funktioniert.",
+      "productLabel": "Webshop",
+      "benefits": {
+        "selfService": {
+          "title": "Selbst bestellen",
+          "description": "Jede Bestellung laeuft direkt ueber Flyeralarm Sports. Mitglieder, Fans und Familien koennen ihre Produkte eigenstaendig auswaehlen und bestellen."
         },
-        "coral": {
-          "title": "Klare Akzente",
-          "description": "Primaere Aktionen, Badges und Call-to-Actions sind klar hervorgehoben und bleiben dabei visuell konsistent."
+        "collection": {
+          "title": "Training und Fanartikel",
+          "description": "Im Shop finden sich bereits erste Kleidungsstuecke und Vereinsartikel, die den CDE-Look fuer Spieltag, Training und Alltag sichtbar machen."
         },
-        "stripes": {
-          "title": "Los-Cortinas-Streifen",
-          "description": "Die vertikale Streifenidee lebt subtil in Hintergruenden und Abschnittstrennern weiter."
+        "branding": {
+          "title": "CDE-Branding bereits angelegt",
+          "description": "Vereinslogo und Teamshop-Struktur sind vorhanden, sodass Bekleidung und Vereinsauftritt konsistent zusammenlaufen."
+        }
+      },
+      "products": {
+        "fanJersey": {
+          "title": "Fantrikot",
+          "description": "Das Fantrikot bringt die Vereinsfarben direkt in den Alltag und ist ein starker Einstieg in den CDE-Look."
+        },
+        "warmupShirt": {
+          "title": "Warmmachshirt",
+          "description": "Ein funktionales Teil fuer Aufwaermen, Training oder Freizeit mit klarem Vereinsbezug."
+        },
+        "trainingTop": {
+          "title": "Trainingstop",
+          "description": "Sportliche Oberbekleidung fuer Einheiten auf dem Platz und fuer den Weg zum Spieltag."
+        },
+        "socks": {
+          "title": "Stutzen",
+          "description": "Auch die kleineren Bestandteile gehoeren zum Vereinsbild und runden den Look sauber ab."
         }
       }
     },
-    "cards": {
-      "firstTeam": {
-        "title": "1. Mannschaft",
-        "description": "Klar priorisierte Spieltagskommunikation mit markanten CTA-Flaechen und sachlicher Informationshierarchie."
+    "landing": {
+      "label": "Mehr entdecken",
+      "teams": {
+        "emoji": "⚽",
+        "title": "Unsere Teams",
+        "description": "Die Erste und Die Zweite repraesentieren beim CDE sportlichen Anspruch, Entwicklung und Zusammenhalt. Auf der Teamseite findest du Mannschaftsbilder und Trainerteams.",
+        "cta": "Zu den Teams"
       },
-      "youth": {
-        "title": "Jugend",
-        "description": "Freundliche Kartenoptik mit weichen Border-Treatments und guter Lesbarkeit auf Mobilgeraeten."
-      },
-      "club": {
-        "title": "Verein",
-        "description": "Ruhige neutrale Textflaechen, damit Geschichte, Mitgliedschaft und Organisation vertrauenswuerdig wirken."
+      "membership": {
+        "emoji": "🤝",
+        "title": "Mitglied werden",
+        "description": "Auf der Mitgliedschaftsseite findest du Beitragssaetze, den Mitgliedsantrag, Hinweise aus der Satzung und den Ablauf fuer die Anmeldung im Verein.",
+        "cta": "Zur Mitgliedschaft"
       }
     },
     "cta": {
-      "title": "Nuxt UI folgt jetzt der CDE-Identitaet",
-      "description": "Primaerfarben, Schriftbild, Oberflaechen und dekorative Muster sind zentral hinterlegt und koennen fuer weitere Seiten direkt wiederverwendet werden."
+      "title": "Direkt in den Teamshop wechseln",
+      "description": "Wer den Vereinslook sofort bestellen moechte, kann direkt ueber Flyeralarm Sports in den CDE-Teamshop einsteigen."
     }
   },
   "teamsPage": {

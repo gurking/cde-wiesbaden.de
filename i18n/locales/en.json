@@ -21,55 +21,76 @@
     }
   },
   "home": {
-    "eyebrow": "Modern Alchemist",
+    "eyebrow": "Flyeralarm Sports team shop",
     "hero": {
-      "title": "Tradition on a modern Nuxt UI foundation",
-      "description": "The website combines club history, clear typography and a calm, distinctive visual language for CD Español Wiesbaden.",
-      "badge": "Club website",
-      "panelTitle": "Las Cortinas",
-      "panelDescription": "A visual system for header, buttons, cards and footer that keeps the club identity from feeling like a generic SaaS template."
+      "title": "The CDE web shop on Flyeralarm Sports",
+      "description": "Through Flyeralarm Sports, everyone can order club apparel directly on their own. Fanwear, training gear and more CDE products can be sent straight to your home without any extra coordination.",
+      "badge": "Team shop",
+      "panelTitle": "Order directly, wear it right away",
+      "panelDescription": "From jerseys to training tops and socks, the team shop brings together club style, fanwear and everyday CDE apparel in one place."
     },
     "links": {
-      "membership": "Become a member",
+      "membership": "Explore membership",
       "teams": "Explore teams",
       "learnMore": "Learn more",
-      "membershipPlan": "Plan membership"
+      "membershipPlan": "Plan membership",
+      "shop": "Open team shop"
     },
-    "guidelines": {
-      "title": "Theme guidelines",
-      "description": "The Nuxt UI base has been aligned with the brand characteristics described in styling.md.",
-      "items": {
-        "heritage": {
-          "title": "Since 1981",
-          "description": "A presence that makes the club history tangible while still feeling contemporary."
+    "shop": {
+      "title": "Flyeralarm Sports for the club look",
+      "description": "The team shop makes it easy to order CDE apparel yourself. Club logos and selected products are already prepared, so getting started is straightforward.",
+      "productLabel": "Web shop",
+      "benefits": {
+        "selfService": {
+          "title": "Order it yourself",
+          "description": "Every order is handled directly through Flyeralarm Sports. Members, fans and families can choose and order products independently."
         },
-        "coral": {
-          "title": "Clear accents",
-          "description": "Primary actions, badges and calls to action are clearly highlighted while staying visually consistent."
+        "collection": {
+          "title": "Training wear and fan gear",
+          "description": "The shop already includes a first selection of apparel and club items that carry the CDE look into match days, training and everyday life."
         },
-        "stripes": {
-          "title": "Las Cortinas stripes",
-          "description": "The vertical stripe idea continues subtly in backgrounds and section dividers."
+        "branding": {
+          "title": "CDE branding already prepared",
+          "description": "The club logo and team shop structure are already in place so apparel and the club identity stay visually consistent."
+        }
+      },
+      "products": {
+        "fanJersey": {
+          "title": "Fan jersey",
+          "description": "The fan jersey brings the club colours into everyday life and is a strong entry point into the CDE look."
+        },
+        "warmupShirt": {
+          "title": "Warm-up shirt",
+          "description": "A functional piece for warm-up, training or leisure with a clear club connection."
+        },
+        "trainingTop": {
+          "title": "Training top",
+          "description": "Sporty upper-body gear for sessions on the pitch and for the way to match day."
+        },
+        "socks": {
+          "title": "Socks",
+          "description": "Even the smaller pieces are part of the club image and complete the overall look."
         }
       }
     },
-    "cards": {
-      "firstTeam": {
-        "title": "First team",
-        "description": "Matchday communication is clearly prioritised with strong call-to-action areas and a calm information hierarchy."
+    "landing": {
+      "label": "Discover more",
+      "teams": {
+        "emoji": "⚽",
+        "title": "Our teams",
+        "description": "Die Erste and Die Zweite represent ambition, development and togetherness at CDE. On the teams page you can find squad photos and coaching staff.",
+        "cta": "Go to teams"
       },
-      "youth": {
-        "title": "Youth",
-        "description": "A welcoming card style with soft border treatments and strong readability on mobile devices."
-      },
-      "club": {
-        "title": "Club",
-        "description": "Calm neutral text surfaces help history, membership and organisation feel trustworthy."
+      "membership": {
+        "emoji": "🤝",
+        "title": "Become a member",
+        "description": "The membership page includes fee information, the membership application, key points from the statutes and the registration process for joining the club.",
+        "cta": "Go to membership"
       }
     },
     "cta": {
-      "title": "Nuxt UI now follows the CDE identity",
-      "description": "Primary colours, typography, surfaces and decorative patterns are centrally defined and ready to be reused on further pages."
+      "title": "Jump straight to the team shop",
+      "description": "Anyone who wants to order the club look right away can head directly to the CDE team shop on Flyeralarm Sports."
     }
   },
   "teamsPage": {
