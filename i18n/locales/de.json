@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "CD Español Wiesbaden",
-    "description": "Traditionsorientierte Vereinswebsite fuer CD Español Wiesbaden mit moderner Nuxt-UI-Basis."
+    "description": "Traditionsorientierte Vereinswebsite fuer CD Español Wiesbaden."
   },
   "header": {
     "clubNickname": "Las Cortinas",
@@ -15,14 +15,17 @@
   },
   "footer": {
     "copyright": "CD Español Wiesbaden",
-    "themeNote": "Heritage Blue x Coral Theme mit Nuxt UI"
+    "themeNote": "Offizielle Vereinswebsite von CD Español Wiesbaden.",
+    "links": {
+      "imprint": "Impressum"
+    }
   },
   "home": {
     "eyebrow": "Modern Alchemist",
     "hero": {
       "title": "Tradition mit modernem Nuxt-UI-Fundament",
-      "description": "Das Theme orientiert sich an den Vorgaben aus styling.md: Heritage Blue, Coral-Akzente, klare Sans-Serif-Typografie und subtile Los-Cortinas-Streifen.",
-      "badge": "Heritage Theme",
+      "description": "Die Website verbindet Vereinsgeschichte, klare Typografie und eine ruhige, markante Gestaltung fuer CD Español Wiesbaden.",
+      "badge": "Vereinswebsite",
       "panelTitle": "Las Cortinas",
       "panelDescription": "Ein visuelles System fuer Header, Buttons, Cards und Footer, das die Vereinsidentitaet nicht wie ein generisches SaaS-Template aussehen laesst."
     },
@@ -37,12 +40,12 @@
       "description": "Die Nuxt-UI-Basis wurde auf die in styling.md beschriebenen Markenmerkmale umgestellt.",
       "items": {
         "heritage": {
-          "title": "1981 Heritage",
+          "title": "Seit 1981",
           "description": "Ein Auftritt, der die Vereinsgeschichte spuerbar macht und trotzdem modern wirkt."
         },
         "coral": {
-          "title": "Coral als Akzent",
-          "description": "Primaere Aktionen, Badges und Call-to-Actions folgen konsequent dem Heritage-Coral-Ton."
+          "title": "Klare Akzente",
+          "description": "Primaere Aktionen, Badges und Call-to-Actions sind klar hervorgehoben und bleiben dabei visuell konsistent."
         },
         "stripes": {
           "title": "Los-Cortinas-Streifen",
@@ -175,5 +178,46 @@
     },
     "memberNote": "Details zu konkreter Funktion und Verantwortungsbereich koennen spaeter ergaenzt werden.",
     "placeholderMember": "Weiteres Vorstandsmitglied"
+  },
+  "imprintPage": {
+    "hero": {
+      "eyebrow": "Rechtliches",
+      "title": "Impressum",
+      "subtitle": "Pflichtangaben und Kontakt",
+      "description": "Hier finden sich die zentralen rechtlichen Angaben, die Kontaktinformationen des Vereins sowie die wichtigsten oeffentlichen Anlaufstellen rund um CD Espanol Wiesbaden.",
+      "badge": "Pflichtangaben",
+      "asideTitle": "Digitale Vereinsadressen"
+    },
+    "sections": {
+      "responsibility": {
+        "title": "Verantwortung",
+        "content": "Verantwortlich fuer den Inhalt ist Carsten Zillmann. Die technische Umsetzung erfolgt durch Florian Treder."
+      },
+      "address": {
+        "title": "Anschrift",
+        "line1": "Club Deportivo Espanol Wiesbaden 1981 eV",
+        "line2": "Postfach 141",
+        "line3": "65009 Wiesbaden"
+      },
+      "contact": {
+        "title": "Kontaktdaten",
+        "phone": "Telefon: 0611 / 66933",
+        "email": "E-Mail:"
+      },
+      "bank": {
+        "title": "Bankverbindung",
+        "account": "C.D. Espanol Wiesbaden 1981 e.V.",
+        "iban": "IBAN: DE40 5109 0000 0000 5681 04",
+        "bic": "BIC: WIBADE5WXXX"
+      },
+      "registry": {
+        "title": "Vereinsregister",
+        "number": "Vereinsregisternummer: DE-VR-M1906-2133"
+      },
+      "tax": {
+        "title": "Steuer",
+        "number": "Steuernummer: 4025004009"
+      }
+    }
   }
 }

@@ -15,7 +15,10 @@
   },
   "footer": {
     "copyright": "CD Español Wiesbaden",
-    "themeNote": "Tema Heritage Blue x Coral con Nuxt UI"
+    "themeNote": "Tema Heritage Blue x Coral con Nuxt UI",
+    "links": {
+      "imprint": "Aviso legal"
+    }
   },
   "home": {
     "eyebrow": "Modern Alchemist",
@@ -175,5 +178,46 @@
     },
     "memberNote": "Los cargos y responsabilidades concretos pueden completarse mas adelante.",
     "placeholderMember": "Otro miembro de la directiva"
+  },
+  "imprintPage": {
+    "hero": {
+      "eyebrow": "Legal",
+      "title": "Aviso legal",
+      "subtitle": "Informacion obligatoria y contacto",
+      "description": "Aqui se recogen los datos legales esenciales del club, la informacion de contacto y los principales puntos publicos de referencia relacionados con CD Espanol Wiesbaden.",
+      "badge": "Informacion obligatoria",
+      "asideTitle": "Direcciones digitales del club"
+    },
+    "sections": {
+      "responsibility": {
+        "title": "Responsabilidad",
+        "content": "Carsten Zillmann es responsable del contenido. La implementacion tecnica corre a cargo de Florian Treder."
+      },
+      "address": {
+        "title": "Direccion",
+        "line1": "Club Deportivo Espanol Wiesbaden 1981 eV",
+        "line2": "Postfach 141",
+        "line3": "65009 Wiesbaden"
+      },
+      "contact": {
+        "title": "Datos de contacto",
+        "phone": "Telefono: 0611 / 66933",
+        "email": "Correo electronico:"
+      },
+      "bank": {
+        "title": "Datos bancarios",
+        "account": "C.D. Espanol Wiesbaden 1981 e.V.",
+        "iban": "IBAN: DE40 5109 0000 0000 5681 04",
+        "bic": "BIC: WIBADE5WXXX"
+      },
+      "registry": {
+        "title": "Registro de asociaciones",
+        "number": "Numero de registro: DE-VR-M1906-2133"
+      },
+      "tax": {
+        "title": "Fiscal",
+        "number": "Numero fiscal: 4025004009"
+      }
+    }
   }
 }

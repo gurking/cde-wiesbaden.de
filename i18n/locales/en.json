@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "CD Español Wiesbaden",
-    "description": "Heritage-led club website for CD Español Wiesbaden built on a modern Nuxt UI foundation."
+    "description": "Club website for CD Español Wiesbaden."
   },
   "header": {
     "clubNickname": "Las Cortinas",
@@ -15,14 +15,17 @@
   },
   "footer": {
     "copyright": "CD Español Wiesbaden",
-    "themeNote": "Heritage Blue x Coral theme with Nuxt UI"
+    "themeNote": "Official club website of CD Español Wiesbaden.",
+    "links": {
+      "imprint": "Imprint"
+    }
   },
   "home": {
     "eyebrow": "Modern Alchemist",
     "hero": {
       "title": "Tradition on a modern Nuxt UI foundation",
-      "description": "The theme follows the styling.md guidelines: Heritage Blue, coral accents, clear sans-serif typography and subtle Las Cortinas stripes.",
-      "badge": "Heritage Theme",
+      "description": "The website combines club history, clear typography and a calm, distinctive visual language for CD Español Wiesbaden.",
+      "badge": "Club website",
       "panelTitle": "Las Cortinas",
       "panelDescription": "A visual system for header, buttons, cards and footer that keeps the club identity from feeling like a generic SaaS template."
     },
@@ -37,12 +40,12 @@
       "description": "The Nuxt UI base has been aligned with the brand characteristics described in styling.md.",
       "items": {
         "heritage": {
-          "title": "1981 heritage",
+          "title": "Since 1981",
           "description": "A presence that makes the club history tangible while still feeling contemporary."
         },
         "coral": {
-          "title": "Coral as accent",
-          "description": "Primary actions, badges and call-to-actions consistently use the heritage coral tone."
+          "title": "Clear accents",
+          "description": "Primary actions, badges and calls to action are clearly highlighted while staying visually consistent."
         },
         "stripes": {
           "title": "Las Cortinas stripes",
@@ -175,5 +178,46 @@
     },
     "memberNote": "Specific titles and responsibilities can be added later.",
     "placeholderMember": "Additional board member"
+  },
+  "imprintPage": {
+    "hero": {
+      "eyebrow": "Legal",
+      "title": "Imprint",
+      "subtitle": "Mandatory information and contact",
+      "description": "This page contains the club's key legal information, contact details and the most important public contact points related to CD Espanol Wiesbaden.",
+      "badge": "Mandatory information",
+      "asideTitle": "Digital club addresses"
+    },
+    "sections": {
+      "responsibility": {
+        "title": "Responsibility",
+        "content": "Carsten Zillmann is responsible for the content. The technical implementation is handled by Florian Treder."
+      },
+      "address": {
+        "title": "Address",
+        "line1": "Club Deportivo Espanol Wiesbaden 1981 eV",
+        "line2": "Postfach 141",
+        "line3": "65009 Wiesbaden"
+      },
+      "contact": {
+        "title": "Contact details",
+        "phone": "Phone: 0611 / 66933",
+        "email": "Mail:"
+      },
+      "bank": {
+        "title": "Bank details",
+        "account": "C.D. Espanol Wiesbaden 1981 e.V.",
+        "iban": "IBAN: DE40 5109 0000 0000 5681 04",
+        "bic": "BIC: WIBADE5WXXX"
+      },
+      "registry": {
+        "title": "Association register",
+        "number": "Registration number: DE-VR-M1906-2133"
+      },
+      "tax": {
+        "title": "Tax",
+        "number": "Tax number: 4025004009"
+      }
+    }
   }
 }

@@ -33,19 +33,6 @@ useSeoMeta({
     </UMain>
 
     <USeparator class="mx-auto max-w-6xl px-4 opacity-40" />
-
-    <UFooter class="border-t border-white/10 bg-[var(--cde-blue)]/80 text-white">
-      <template #left>
-        <p class="text-sm text-slate-200">
-          {{ $t('footer.copyright') }} • © {{ new Date().getFullYear() }}
-        </p>
-      </template>
-
-      <template #right>
-        <p class="text-sm text-slate-300">
-          {{ $t('footer.themeNote') }}
-        </p>
-      </template>
-    </UFooter>
+    <AppFooter />
   </UApp>
 </template>

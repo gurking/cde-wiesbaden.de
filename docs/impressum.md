@@ -1,5 +1,7 @@
 # Impressum
 
+Verantwortlich für den Inhalt ist Carsten Zillmann. Technische Umsetzung erfolgt durch Florian Treder
+
 ## Anschrift
 Club Deportivo Español Wiesbaden 1981 eV
 Postfach 141
