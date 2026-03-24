@@ -7,71 +7,79 @@ useHead({
     { rel: 'icon', href: '/favicon.ico' }
   ],
   htmlAttrs: {
-    lang: 'en'
+    lang: 'de'
   }
 })
 
-const title = 'Nuxt Starter Template'
-const description = 'A production-ready starter template powered by Nuxt UI. Build beautiful, accessible, and performant applications in minutes, not hours.'
+const title = 'CD Espanol Wiesbaden'
+const description = 'Heritage-driven club website for CD Espanol Wiesbaden with a modern Nuxt UI foundation.'
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
+  ogImage: '/favicon.ico',
+  twitterImage: '/favicon.ico',
   twitterCard: 'summary_large_image'
 })
 </script>
 
 <template>
-  <UApp>
-    <UHeader>
+  <UApp class="cde-shell">
+    <UHeader class="cde-glass border-b border-[var(--cde-header-border)]">
       <template #left>
-        <NuxtLink to="/">
-          <AppLogo class="w-auto h-6 shrink-0" />
+        <NuxtLink
+          to="/"
+          class="flex items-center gap-3"
+        >
+          <AppLogo class="h-8 w-auto shrink-0 text-[var(--cde-coral)]" />
+          <div class="hidden sm:block">
+            <p class="cde-heading text-sm text-[var(--cde-shell-text)]">
+              Los Cortinas
+            </p>
+            <p class="text-xs font-medium uppercase tracking-[0.24em] text-[var(--cde-muted-text)]">
+              CD Espanol Wiesbaden
+            </p>
+          </div>
         </NuxtLink>
-
-        <TemplateMenu />
       </template>
 
       <template #right>
-        <UColorModeButton />
-
-        <UButton
-          to="https://github.com/nuxt-ui-templates/starter"
-          target="_blank"
-          icon="i-simple-icons-github"
-          aria-label="GitHub"
+        <UColorModeButton
           color="neutral"
           variant="ghost"
+          class="rounded-md text-[var(--cde-shell-text)] hover:bg-white/10"
+        />
+
+        <UButton
+          to="https://shop.flyeralarm.com/"
+          target="_blank"
+          label="Flyeralarm Shop"
+          trailing-icon="i-lucide-arrow-up-right"
+          variant="solid"
+          class="rounded-md"
         />
       </template>
     </UHeader>
 
-    <UMain>
+    <UMain class="pb-16">
       <NuxtPage />
     </UMain>
 
-    <USeparator icon="i-simple-icons-nuxtdotjs" />
+    <USeparator class="mx-auto max-w-6xl px-4 opacity-40" />
 
-    <UFooter>
+    <UFooter class="border-t border-white/10 bg-[var(--cde-blue)]/80 text-white">
       <template #left>
-        <p class="text-sm text-muted">
-          Built with Nuxt UI • © {{ new Date().getFullYear() }}
+        <p class="text-sm text-slate-200">
+          CD Espanol Wiesbaden • © {{ new Date().getFullYear() }}
         </p>
       </template>
 
       <template #right>
-        <UButton
-          to="https://github.com/nuxt-ui-templates/starter"
-          target="_blank"
-          icon="i-simple-icons-github"
-          aria-label="GitHub"
-          color="neutral"
-          variant="ghost"
-        />
+        <p class="text-sm text-slate-300">
+          Heritage Blue x Coral Theme mit Nuxt UI
+        </p>
       </template>
     </UFooter>
   </UApp>
