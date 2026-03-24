@@ -132,17 +132,17 @@ onBeforeUnmount(() => {
           </nav>
 
           <div
-            class="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5"
-            :class="isCompact ? 'p-1' : 'p-1.5'"
+            class="flex items-center gap-0.5 rounded-xl border border-[var(--cde-card-border)] bg-white/70 shadow-sm shadow-slate-950/5 dark:border-white/10 dark:bg-white/5 dark:shadow-none"
+            :class="isCompact ? 'p-0.5' : 'p-1'"
           >
             <UButton
               v-for="entry in localeButtons"
               :key="entry.code"
-              :label="`${entry.flag} ${entry.shortLabel}`"
+              :label="entry.flag"
               :title="entry.title"
               color="neutral"
               :variant="locale === entry.code ? 'soft' : 'ghost'"
-              class="rounded-md"
+              class="min-w-9 rounded-md px-1.5"
               :size="isCompact ? 'sm' : 'md'"
               @click="switchLocale(entry.code)"
             />
@@ -156,7 +156,7 @@ onBeforeUnmount(() => {
           />
 
           <UButton
-            to="https://shop.flyeralarm.com/"
+            to="https://www.flyeralarm-sports.com/teamshops/cde"
             target="_blank"
             :label="t('header.shop')"
             trailing-icon="i-lucide-arrow-up-right"
@@ -168,7 +168,7 @@ onBeforeUnmount(() => {
         </div>
 
         <div class="flex items-center justify-end gap-1.5 sm:hidden">
-          <div class="flex items-center rounded-lg border border-white/10 bg-white/5 p-0.5">
+          <div class="flex items-center gap-0.5 rounded-lg border border-[var(--cde-card-border)] bg-white/70 p-0.5 shadow-sm shadow-slate-950/5 dark:border-white/10 dark:bg-white/5 dark:shadow-none">
             <UButton
               v-for="entry in localeButtons"
               :key="`mobile-${entry.code}`"
@@ -176,7 +176,7 @@ onBeforeUnmount(() => {
               :title="entry.title"
               color="neutral"
               :variant="locale === entry.code ? 'soft' : 'ghost'"
-              class="min-w-8 rounded-md px-1.5"
+              class="min-w-8 rounded-md px-1"
               size="xs"
               @click="switchLocale(entry.code)"
             />
@@ -229,7 +229,7 @@ onBeforeUnmount(() => {
                 </nav>
 
                 <UButton
-                  to="https://shop.flyeralarm.com/"
+                  to="https://www.flyeralarm-sports.com/teamshops/cde"
                   target="_blank"
                   :label="t('header.shop')"
                   trailing-icon="i-lucide-arrow-up-right"

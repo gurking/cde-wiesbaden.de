@@ -189,14 +189,17 @@
       "asideTitle": "Benefits of membership",
       "benefits": {
         "licensedTraining": {
+          "emoji": "🎓",
           "title": "Qualified training",
           "description": "Training sessions and support are led by qualified staff with relevant licences and experience in club football."
         },
         "health": {
+          "emoji": "💪",
           "title": "Fun and health",
           "description": "Regular activity, shared training and enjoyment of the game strengthen fitness, wellbeing and motivation."
         },
         "integration": {
+          "emoji": "🌍",
           "title": "Multilingual integration",
           "description": "The club builds community across languages and creates an open space for exchange, integration and belonging."
         }
@@ -204,16 +207,19 @@
     },
     "pricing": {
       "reduced": {
+        "emoji": "🧒",
         "title": "Reduced",
         "price": "EUR 4 / month",
         "note": "For reduced memberships in line with the currently applicable club rules."
       },
       "standard": {
+        "emoji": "⚽",
         "title": "Standard",
         "price": "EUR 8 / month",
         "note": "The regular fee for a standard club membership."
       },
       "family": {
+        "emoji": "👨‍👩‍👧‍👦",
         "title": "Family",
         "price": "EUR 12 / month",
         "note": "For families who want to support and accompany the club together."

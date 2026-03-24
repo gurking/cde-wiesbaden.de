@@ -6,18 +6,21 @@ const { t } = useI18n()
 const plans = computed(() => [
   {
     key: 'reduced',
+    emoji: t('membershipPage.pricing.reduced.emoji'),
     title: t('membershipPage.pricing.reduced.title'),
     price: t('membershipPage.pricing.reduced.price'),
     note: t('membershipPage.pricing.reduced.note')
   },
   {
     key: 'standard',
+    emoji: t('membershipPage.pricing.standard.emoji'),
     title: t('membershipPage.pricing.standard.title'),
     price: t('membershipPage.pricing.standard.price'),
     note: t('membershipPage.pricing.standard.note')
   },
   {
     key: 'family',
+    emoji: t('membershipPage.pricing.family.emoji'),
     title: t('membershipPage.pricing.family.title'),
     price: t('membershipPage.pricing.family.price'),
     note: t('membershipPage.pricing.family.note')
@@ -27,16 +30,19 @@ const plans = computed(() => [
 const benefits = computed(() => [
   {
     key: 'licensedTraining',
+    emoji: t('membershipPage.hero.benefits.licensedTraining.emoji'),
     title: t('membershipPage.hero.benefits.licensedTraining.title'),
     description: t('membershipPage.hero.benefits.licensedTraining.description')
   },
   {
     key: 'health',
+    emoji: t('membershipPage.hero.benefits.health.emoji'),
     title: t('membershipPage.hero.benefits.health.title'),
     description: t('membershipPage.hero.benefits.health.description')
   },
   {
     key: 'integration',
+    emoji: t('membershipPage.hero.benefits.integration.emoji'),
     title: t('membershipPage.hero.benefits.integration.title'),
     description: t('membershipPage.hero.benefits.integration.description')
   }
@@ -94,6 +100,7 @@ const statuteHighlights = computed(() => [
               class="rounded-[1.25rem] border border-[var(--cde-hero-panel-item-border)] bg-[var(--cde-hero-panel-item-bg)] p-4"
             >
               <p class="text-xs font-semibold uppercase tracking-[0.24em] text-coral-500">
+                {{ benefit.emoji }}
                 {{ benefit.title }}
               </p>
               <p class="mt-2 text-sm leading-6 text-[var(--cde-hero-panel-muted)]">
@@ -130,6 +137,7 @@ const statuteHighlights = computed(() => [
             class="rounded-[1.5rem] border border-[var(--cde-card-border)] bg-[color-mix(in_srgb,var(--cde-card-bg)_92%,var(--cde-blue)_8%)] p-5"
           >
             <p class="text-xs font-semibold uppercase tracking-[0.24em] text-coral-500">
+              {{ plan.emoji }}
               {{ plan.title }}
             </p>
             <p class="mt-3 cde-heading text-4xl text-[var(--cde-shell-text)]">

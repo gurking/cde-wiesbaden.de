@@ -189,14 +189,17 @@
       "asideTitle": "Vorteile einer Mitgliedschaft",
       "benefits": {
         "licensedTraining": {
+          "emoji": "🎓",
           "title": "Qualifiziertes Training",
           "description": "Training und Begleitung durch qualifiziertes Personal mit entsprechenden Lizenzen und Erfahrung im Vereinsfussball."
         },
         "health": {
+          "emoji": "💪",
           "title": "Spass und Gesundheit",
           "description": "Regelmaessige Bewegung, gemeinsames Training und Freude am Spiel staerken Fitness, Wohlbefinden und Motivation."
         },
         "integration": {
+          "emoji": "🌍",
           "title": "Mehrsprachige Integration",
           "description": "Der Verein lebt Gemeinschaft ueber Sprachen hinweg und schafft einen offenen Raum fuer Austausch, Integration und Zusammenhalt."
         }
@@ -204,16 +207,19 @@
     },
     "pricing": {
       "reduced": {
+        "emoji": "🧒",
         "title": "Ermaessigt",
         "price": "4 EUR / Monat",
         "note": "Fuer ermaessigte Mitgliedschaften gemaess den geltenden Vereinsregeln."
       },
       "standard": {
+        "emoji": "⚽",
         "title": "Normalpreis",
         "price": "8 EUR / Monat",
         "note": "Der regulaere Beitrag fuer die klassische Mitgliedschaft im Verein."
       },
       "family": {
+        "emoji": "👨‍👩‍👧‍👦",
         "title": "Familienpreis",
         "price": "12 EUR / Monat",
         "note": "Fuer Familien, die den Verein gemeinsam begleiten und unterstuetzen."

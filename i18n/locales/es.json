@@ -189,14 +189,17 @@
       "asideTitle": "Ventajas de la membresia",
       "benefits": {
         "licensedTraining": {
+          "emoji": "🎓",
           "title": "Entrenamiento cualificado",
           "description": "Los entrenamientos y el acompanamiento estan a cargo de personal cualificado con licencias relevantes y experiencia en futbol de club."
         },
         "health": {
+          "emoji": "💪",
           "title": "Diversion y salud",
           "description": "La actividad regular, el entrenamiento compartido y la alegria por el juego fortalecen la forma fisica, el bienestar y la motivacion."
         },
         "integration": {
+          "emoji": "🌍",
           "title": "Integracion multilingue",
           "description": "El club crea comunidad mas alla de los idiomas y ofrece un espacio abierto para el intercambio, la integracion y la convivencia."
         }
@@ -204,16 +207,19 @@
     },
     "pricing": {
       "reduced": {
+        "emoji": "🧒",
         "title": "Reducida",
         "price": "4 EUR / mes",
         "note": "Para membresias reducidas segun las normas vigentes del club."
       },
       "standard": {
+        "emoji": "⚽",
         "title": "Normal",
         "price": "8 EUR / mes",
         "note": "La cuota regular para la membresia clasica del club."
       },
       "family": {
+        "emoji": "👨‍👩‍👧‍👦",
         "title": "Familiar",
         "price": "12 EUR / mes",
         "note": "Para familias que quieren acompanar y apoyar al club juntas."
