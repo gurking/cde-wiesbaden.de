@@ -68,5 +68,47 @@
       "title": "Nuxt UI now follows the CDE identity",
       "description": "Primary colours, typography, surfaces and decorative patterns are centrally defined and ready to be reused on further pages."
     }
+  },
+  "teamsPage": {
+    "hero": {
+      "eyebrow": "Club structure",
+      "title": "Our Teams",
+      "subtitle": "The sporting core of CD Espanol Wiesbaden",
+      "description": "From the title-winning first team to the newly built second side, this is where the club's history, community and sporting ambition meet on the pitch.",
+      "badge": "Squads",
+      "asideTitle": "Three defining milestones",
+      "achievements": {
+        "founding": {
+          "emoji": "🇪🇸",
+          "title": "Pioneer in Hesse",
+          "description": "CDE became the first Spanish football club in an official DFB league in Hesse."
+        },
+        "promotion": {
+          "emoji": "⬆️",
+          "title": "Promotion in 2013",
+          "description": "After an intense finish to the season, the club won promotion to Kreisliga B through the playoffs."
+        },
+        "championship": {
+          "emoji": "🏆",
+          "title": "Champions in 2025",
+          "description": "In May 2025 the first team won the Kreisliga B title and earned promotion to Kreisliga A."
+        }
+      }
+    },
+    "sectionLabel": "Team profile",
+    "coachesLabel": "Coaching staff",
+    "roles": {
+      "headCoach": "Head coach",
+      "assistantCoach": "Assistant coach",
+      "goalkeeperCoach": "Goalkeeping coach"
+    },
+    "first": {
+      "title": "Die Erste",
+      "description": "Die Erste stands for ambitious senior football, precise structures and a presence that combines sporting clarity with the club identity."
+    },
+    "second": {
+      "title": "Die Zweite",
+      "description": "Die Zweite represents unity, development and reliability. Its presentation intentionally follows the same visual system as the first team."
+    }
   }
 }

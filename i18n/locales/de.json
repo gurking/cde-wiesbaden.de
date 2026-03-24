@@ -68,5 +68,47 @@
       "title": "Nuxt UI folgt jetzt der CDE-Identitaet",
       "description": "Primaerfarben, Schriftbild, Oberflaechen und dekorative Muster sind zentral hinterlegt und koennen fuer weitere Seiten direkt wiederverwendet werden."
     }
+  },
+  "teamsPage": {
+    "hero": {
+      "eyebrow": "Vereinsstruktur",
+      "title": "Unsere Teams",
+      "subtitle": "Sportlicher Kern des CD Espanol Wiesbaden",
+      "description": "Vom Meisterteam bis zur neu aufgebauten Zweiten: Hier zeigt sich, wie sich Geschichte, Gemeinschaft und sportlicher Anspruch beim CDE auf dem Platz begegnen.",
+      "badge": "Mannschaften",
+      "asideTitle": "Drei praegende Erfolge",
+      "achievements": {
+        "founding": {
+          "emoji": "🇪🇸",
+          "title": "Pionier in Hessen",
+          "description": "Der CDE war der erste spanische Fussballverein in einer offiziellen Liga des DFB in Hessen."
+        },
+        "promotion": {
+          "emoji": "⬆️",
+          "title": "Aufstieg 2013",
+          "description": "Nach einem intensiven Saisonfinale gelang ueber die Relegation der Sprung in die Kreisliga B."
+        },
+        "championship": {
+          "emoji": "🏆",
+          "title": "Meisterschaft 2025",
+          "description": "Im Mai 2025 holte die Erste den Titel in der Kreisliga B und stieg in die Kreisliga A auf."
+        }
+      }
+    },
+    "sectionLabel": "Teamprofil",
+    "coachesLabel": "Trainerteam",
+    "roles": {
+      "headCoach": "Trainer",
+      "assistantCoach": "Co-Trainer",
+      "goalkeeperCoach": "Torwart-Trainer"
+    },
+    "first": {
+      "title": "Die Erste",
+      "description": "Die Erste steht fuer ambitionierten Herrenfussball, praezise Ablaufe und einen Auftritt, der sportliche Klarheit mit der Identitaet des Vereins verbindet."
+    },
+    "second": {
+      "title": "Die Zweite",
+      "description": "Die Zweite verkoerpert Zusammenhalt, Entwicklung und Verlaesslichkeit. Die Darstellung folgt bewusst derselben visuellen Systematik wie die Erste."
+    }
   }
 }

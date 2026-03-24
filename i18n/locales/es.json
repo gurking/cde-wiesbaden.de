@@ -68,5 +68,47 @@
       "title": "Nuxt UI ahora sigue la identidad de CDE",
       "description": "Los colores principales, la tipografia, las superficies y los patrones decorativos estan definidos de forma central y listos para reutilizarse en otras paginas."
     }
+  },
+  "teamsPage": {
+    "hero": {
+      "eyebrow": "Estructura del club",
+      "title": "Nuestros equipos",
+      "subtitle": "El nucleo deportivo del CD Espanol Wiesbaden",
+      "description": "Desde el equipo campeon hasta el segundo equipo recientemente consolidado, aqui se unen la historia, la comunidad y la ambicion deportiva del club sobre el campo.",
+      "badge": "Plantillas",
+      "asideTitle": "Tres hitos del club",
+      "achievements": {
+        "founding": {
+          "emoji": "🇪🇸",
+          "title": "Pionero en Hesse",
+          "description": "El CDE fue el primer club espanol de futbol en una liga oficial de la DFB en Hesse."
+        },
+        "promotion": {
+          "emoji": "⬆️",
+          "title": "Ascenso en 2013",
+          "description": "Tras un final de temporada intenso, el club logro el ascenso a la Kreisliga B mediante la promocion."
+        },
+        "championship": {
+          "emoji": "🏆",
+          "title": "Campeones en 2025",
+          "description": "En mayo de 2025, el primer equipo gano la Kreisliga B y ascendio a la Kreisliga A."
+        }
+      }
+    },
+    "sectionLabel": "Perfil del equipo",
+    "coachesLabel": "Cuerpo tecnico",
+    "roles": {
+      "headCoach": "Entrenador",
+      "assistantCoach": "Segundo entrenador",
+      "goalkeeperCoach": "Entrenador de porteros"
+    },
+    "first": {
+      "title": "Die Erste",
+      "description": "Die Erste representa un futbol senior ambicioso, estructuras precisas y una presencia que combina claridad deportiva con la identidad del club."
+    },
+    "second": {
+      "title": "Die Zweite",
+      "description": "Die Zweite representa union, desarrollo y fiabilidad. Su presentacion sigue deliberadamente el mismo sistema visual que el primer equipo."
+    }
   }
 }

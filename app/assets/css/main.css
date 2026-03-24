@@ -59,6 +59,20 @@
   --cde-header-border: rgba(148, 163, 184, 0.22);
   --cde-card-bg: #ffffff;
   --cde-card-border: rgba(7, 24, 46, 0.1);
+  --cde-hero-surface: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  --cde-hero-stripe-a: #07182e;
+  --cde-hero-stripe-b: #061426;
+  --cde-hero-overlay: radial-gradient(circle at top right, rgba(240, 84, 79, 0.16), transparent 28%);
+  --cde-hero-text: #07182e;
+  --cde-hero-muted: #14263f;
+  --cde-hero-panel-bg: rgba(255, 255, 255, 0.84);
+  --cde-hero-panel-border: rgba(7, 24, 46, 0.14);
+  --cde-hero-copy-bg: rgba(255, 255, 255, 0.92);
+  --cde-hero-copy-border: rgba(7, 24, 46, 0.18);
+  --cde-hero-panel-text: #07182e;
+  --cde-hero-panel-muted: #1f334d;
+  --cde-hero-panel-item-bg: rgba(255, 255, 255, 0.88);
+  --cde-hero-panel-item-border: rgba(7, 24, 46, 0.1);
 }
 
 .dark {
@@ -76,6 +90,20 @@
   --cde-header-border: rgba(255, 255, 255, 0.1);
   --cde-card-bg: #03060c;
   --cde-card-border: rgba(255, 255, 255, 0.1);
+  --cde-hero-surface: linear-gradient(180deg, #07182e 0%, #040b15 100%);
+  --cde-hero-stripe-a: rgba(6, 20, 38, 0.96);
+  --cde-hero-stripe-b: rgba(4, 11, 21, 0.98);
+  --cde-hero-overlay: radial-gradient(circle at top right, rgba(240, 84, 79, 0.18), transparent 30%);
+  --cde-hero-text: #ffffff;
+  --cde-hero-muted: #cbd5e1;
+  --cde-hero-panel-bg: rgba(255, 255, 255, 0.05);
+  --cde-hero-panel-border: rgba(255, 255, 255, 0.1);
+  --cde-hero-copy-bg: rgba(3, 6, 12, 0.28);
+  --cde-hero-copy-border: rgba(255, 255, 255, 0.08);
+  --cde-hero-panel-text: #ffffff;
+  --cde-hero-panel-muted: #cbd5e1;
+  --cde-hero-panel-item-bg: rgba(255, 255, 255, 0.06);
+  --cde-hero-panel-item-border: rgba(255, 255, 255, 0.1);
 }
 
 .light {
@@ -144,6 +172,20 @@ h3,
     );
   background-blend-mode: overlay;
   opacity: 0.08;
+}
+
+.cde-subpage-hero {
+  color: var(--cde-hero-text);
+  background:
+    var(--cde-hero-overlay),
+    repeating-linear-gradient(
+      90deg,
+      var(--cde-hero-stripe-a) 0,
+      var(--cde-hero-stripe-a) 40px,
+      var(--cde-hero-stripe-b) 40px,
+      var(--cde-hero-stripe-b) 78px
+    ),
+    var(--cde-hero-surface);
 }
 
 .cde-section {
