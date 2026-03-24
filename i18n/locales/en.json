@@ -179,6 +179,83 @@
     "memberNote": "Specific titles and responsibilities can be added later.",
     "placeholderMember": "Additional board member"
   },
+  "membershipPage": {
+    "hero": {
+      "eyebrow": "Join the club",
+      "title": "Membership",
+      "subtitle": "Fees, framework and statutes at a glance",
+      "description": "Becoming a member of CD Espanol Wiesbaden means supporting not only the sporting programme, but also the club community, club life and its long-term development.",
+      "badge": "Become a member",
+      "asideTitle": "Benefits of membership",
+      "benefits": {
+        "licensedTraining": {
+          "title": "Qualified training",
+          "description": "Training sessions and support are led by qualified staff with relevant licences and experience in club football."
+        },
+        "health": {
+          "title": "Fun and health",
+          "description": "Regular activity, shared training and enjoyment of the game strengthen fitness, wellbeing and motivation."
+        },
+        "integration": {
+          "title": "Multilingual integration",
+          "description": "The club builds community across languages and creates an open space for exchange, integration and belonging."
+        }
+      }
+    },
+    "pricing": {
+      "reduced": {
+        "title": "Reduced",
+        "price": "EUR 4 / month",
+        "note": "For reduced memberships in line with the currently applicable club rules."
+      },
+      "standard": {
+        "title": "Standard",
+        "price": "EUR 8 / month",
+        "note": "The regular fee for a standard club membership."
+      },
+      "family": {
+        "title": "Family",
+        "price": "EUR 12 / month",
+        "note": "For families who want to support and accompany the club together."
+      }
+    },
+    "sections": {
+      "pricing": {
+        "label": "Fee overview",
+        "title": "Membership fees",
+        "description": "The current fee structure follows the statutes and gives a clear overview of the monthly membership contributions."
+      },
+      "download": {
+        "label": "Document",
+        "title": "Download the statutes",
+        "description": "The full statutes in the version dated 13 April 2024 are available here as a PDF download.",
+        "cta": "Download statutes"
+      },
+      "statute": {
+        "label": "Key points",
+        "title": "What membership at CDE means",
+        "description": "A few central rules from the statutes help members understand the rights, obligations and spirit of membership right away."
+      }
+    },
+    "highlights": {
+      "purpose": {
+        "title": "Non-profit purpose",
+        "description": "The club exclusively and directly pursues non-profit purposes and especially promotes football, sport, play and community club life."
+      },
+      "admission": {
+        "title": "Admission and membership types",
+        "description": "The club has regular, youth, supporting and honorary members. Admission is made in writing, and for members under 18 only with written consent from a legal guardian. The board decides on admission."
+      },
+      "participation": {
+        "title": "Participation and obligations",
+        "description": "Members are entitled to vote at assemblies. Anyone who falls behind with payments for more than six months loses the right to take part in club events and to exercise voting rights."
+      },
+      "leaving": {
+        "title": "Leaving and end of membership",
+        "description": "Resignation is possible in writing at the end of a calendar year and must be declared at least six weeks in advance. Long-term arrears can lead to removal from the register of members."
+      }
+    }
+  },
   "imprintPage": {
     "hero": {
       "eyebrow": "Legal",
@@ -202,7 +279,7 @@
       "contact": {
         "title": "Contact details",
         "phone": "Phone: 0611 / 66933",
-        "email": "Mail:"
+        "emailLabel": "Email: "
       },
       "bank": {
         "title": "Bank details",
@@ -210,9 +287,10 @@
         "iban": "IBAN: DE40 5109 0000 0000 5681 04",
         "bic": "BIC: WIBADE5WXXX"
       },
-      "registry": {
-        "title": "Association register",
-        "number": "Registration number: DE-VR-M1906-2133"
+      "association": {
+        "title": "Association",
+        "registry": "Association register at Wiesbaden local court, association no.: 2133",
+        "hfv": "Hessian Football Association, club no.: 38111"
       },
       "tax": {
         "title": "Tax",

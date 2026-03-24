@@ -16,8 +16,13 @@ C.D. Espanol Wiesbaden 1981 e.V.
 IBAN: DE40 5109 0000 0000 5681 04
 BIC: WIBADE5WXXX
 
-## Vereinsregister
-Vereinsregisternummer: DE-VR-M1906-2133
+## Verein
+Vereinsregister Amtsgericht Wiesbaden, 
+Vereins-NR.: 2133
+
+Hessischer Fussballverband, 
+Vereins-Nr.: 38111
+
 
 ## Steuer
 Steuernummer: 4025004009

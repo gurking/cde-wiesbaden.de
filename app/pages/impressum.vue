@@ -1,52 +1,64 @@
 <script setup lang="ts">
 const { t } = useI18n()
+const contactEmail = 'info@cde-wiesbaden.de'
 
 const sections = computed(() => [
   {
     key: 'responsibility',
     title: t('imprintPage.sections.responsibility.title'),
     items: [
-      t('imprintPage.sections.responsibility.content')
+      {
+        type: 'text',
+        value: t('imprintPage.sections.responsibility.content')
+      }
     ]
   },
   {
     key: 'address',
     title: t('imprintPage.sections.address.title'),
     items: [
-      t('imprintPage.sections.address.line1'),
-      t('imprintPage.sections.address.line2'),
-      t('imprintPage.sections.address.line3')
+      { type: 'text', value: t('imprintPage.sections.address.line1') },
+      { type: 'text', value: t('imprintPage.sections.address.line2') },
+      { type: 'text', value: t('imprintPage.sections.address.line3') }
     ]
   },
   {
     key: 'contact',
     title: t('imprintPage.sections.contact.title'),
     items: [
-      t('imprintPage.sections.contact.phone'),
-      t('imprintPage.sections.contact.email') + " info@cde-wiesbaden.de"
+      {
+        type: 'text',
+        value: t('imprintPage.sections.contact.phone')
+      },
+      {
+        type: 'email',
+        label: t('imprintPage.sections.contact.emailLabel'),
+        value: contactEmail
+      }
     ]
   },
   {
     key: 'bank',
     title: t('imprintPage.sections.bank.title'),
     items: [
-      t('imprintPage.sections.bank.account'),
-      t('imprintPage.sections.bank.iban'),
-      t('imprintPage.sections.bank.bic')
+      { type: 'text', value: t('imprintPage.sections.bank.account') },
+      { type: 'text', value: t('imprintPage.sections.bank.iban') },
+      { type: 'text', value: t('imprintPage.sections.bank.bic') }
     ]
   },
   {
-    key: 'registry',
-    title: t('imprintPage.sections.registry.title'),
+    key: 'association',
+    title: t('imprintPage.sections.association.title'),
     items: [
-      t('imprintPage.sections.registry.number')
+      { type: 'text', value: t('imprintPage.sections.association.registry') },
+      { type: 'text', value: t('imprintPage.sections.association.hfv') }
     ]
   },
   {
     key: 'tax',
     title: t('imprintPage.sections.tax.title'),
     items: [
-      t('imprintPage.sections.tax.number')
+      { type: 'text', value: t('imprintPage.sections.tax.number') }
     ]
   }
 ])
@@ -125,10 +137,21 @@ const socialLinks = computed(() => [
         <div class="mt-4 space-y-2">
           <p
             v-for="item in section.items"
-            :key="item"
+            :key="`${section.key}-${item.type}-${item.value}`"
             class="text-sm leading-7 text-[var(--cde-shell-text)] sm:text-base"
           >
-            {{ item }}
+            <template v-if="item.type === 'email'">
+              {{ item.label }}
+              <a
+                :href="`mailto:${item.value}`"
+                class="font-medium text-coral-500 underline decoration-coral-300 underline-offset-4 transition hover:text-coral-400"
+              >
+                {{ item.value }}
+              </a>
+            </template>
+            <template v-else>
+              {{ item.value }}
+            </template>
           </p>
         </div>
       </article>

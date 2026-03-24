@@ -179,6 +179,83 @@
     "memberNote": "Details zu konkreter Funktion und Verantwortungsbereich koennen spaeter ergaenzt werden.",
     "placeholderMember": "Weiteres Vorstandsmitglied"
   },
+  "membershipPage": {
+    "hero": {
+      "eyebrow": "Verein beitreten",
+      "title": "Mitgliedschaft",
+      "subtitle": "Beitraege, Rahmen und Satzung im Ueberblick",
+      "description": "Wer Mitglied beim CD Espanol Wiesbaden wird, unterstuetzt nicht nur den Spielbetrieb, sondern auch Gemeinschaft, Vereinsleben und die langfristige Entwicklung des Vereins.",
+      "badge": "Mitglied werden",
+      "asideTitle": "Vorteile einer Mitgliedschaft",
+      "benefits": {
+        "licensedTraining": {
+          "title": "Qualifiziertes Training",
+          "description": "Training und Begleitung durch qualifiziertes Personal mit entsprechenden Lizenzen und Erfahrung im Vereinsfussball."
+        },
+        "health": {
+          "title": "Spass und Gesundheit",
+          "description": "Regelmaessige Bewegung, gemeinsames Training und Freude am Spiel staerken Fitness, Wohlbefinden und Motivation."
+        },
+        "integration": {
+          "title": "Mehrsprachige Integration",
+          "description": "Der Verein lebt Gemeinschaft ueber Sprachen hinweg und schafft einen offenen Raum fuer Austausch, Integration und Zusammenhalt."
+        }
+      }
+    },
+    "pricing": {
+      "reduced": {
+        "title": "Ermaessigt",
+        "price": "4 EUR / Monat",
+        "note": "Fuer ermaessigte Mitgliedschaften gemaess den geltenden Vereinsregeln."
+      },
+      "standard": {
+        "title": "Normalpreis",
+        "price": "8 EUR / Monat",
+        "note": "Der regulaere Beitrag fuer die klassische Mitgliedschaft im Verein."
+      },
+      "family": {
+        "title": "Familienpreis",
+        "price": "12 EUR / Monat",
+        "note": "Fuer Familien, die den Verein gemeinsam begleiten und unterstuetzen."
+      }
+    },
+    "sections": {
+      "pricing": {
+        "label": "Beitragssaetze",
+        "title": "Mitgliedsbeitraege",
+        "description": "Die aktuellen Beitragssaetze orientieren sich an der Satzung und geben einen klaren Ueberblick ueber die monatlichen Mitgliedsbeitraege."
+      },
+      "download": {
+        "label": "Dokument",
+        "title": "Satzung als Download",
+        "description": "Die vollstaendige Satzung in der Fassung vom 13. April 2024 steht hier als PDF zum Download bereit.",
+        "cta": "Satzung herunterladen"
+      },
+      "statute": {
+        "label": "Wichtige Hinweise",
+        "title": "Was Mitgliedschaft beim CDE bedeutet",
+        "description": "Einige zentrale Regeln aus der Satzung helfen dabei, Rechte, Pflichten und den Charakter der Mitgliedschaft direkt zu verstehen."
+      }
+    },
+    "highlights": {
+      "purpose": {
+        "title": "Gemeinnuetziger Zweck",
+        "description": "Der Verein verfolgt ausschliesslich und unmittelbar gemeinnuetzige Zwecke und foerdert insbesondere Fussball, Sport, Spiel und gemeinschaftliches Vereinsleben."
+      },
+      "admission": {
+        "title": "Aufnahme und Arten der Mitgliedschaft",
+        "description": "Der Verein fuehrt ordentliche, jugendliche, foerdernde und Ehrenmitglieder. Die Aufnahme erfolgt schriftlich, bei Jugendlichen unter 18 Jahren mit Zustimmung der gesetzlichen Vertretung, ueber sie entscheidet der Vorstand."
+      },
+      "participation": {
+        "title": "Mitwirken und Pflichten",
+        "description": "Mitglieder sind in den Versammlungen stimmberechtigt. Wer laenger als sechs Monate mit Zahlungen im Rueckstand ist, verliert das Recht auf Teilnahme an Vereinsveranstaltungen und die Ausuebung des Stimmrechts."
+      },
+      "leaving": {
+        "title": "Austritt und Ende der Mitgliedschaft",
+        "description": "Ein Austritt ist schriftlich zum Ende eines Kalenderjahres moeglich und muss spaetestens sechs Wochen vorher erklaert werden. Bei langem Zahlungsrueckstand kann die Mitgliedschaft gestrichen werden."
+      }
+    }
+  },
   "imprintPage": {
     "hero": {
       "eyebrow": "Rechtliches",
@@ -202,7 +279,7 @@
       "contact": {
         "title": "Kontaktdaten",
         "phone": "Telefon: 0611 / 66933",
-        "email": "E-Mail:"
+        "emailLabel": "E-Mail: "
       },
       "bank": {
         "title": "Bankverbindung",
@@ -210,9 +287,10 @@
         "iban": "IBAN: DE40 5109 0000 0000 5681 04",
         "bic": "BIC: WIBADE5WXXX"
       },
-      "registry": {
-        "title": "Vereinsregister",
-        "number": "Vereinsregisternummer: DE-VR-M1906-2133"
+      "association": {
+        "title": "Verein",
+        "registry": "Vereinsregister Amtsgericht Wiesbaden, Vereins-Nr.: 2133",
+        "hfv": "Hessischer Fussballverband, Vereins-Nr.: 38111"
       },
       "tax": {
         "title": "Steuer",

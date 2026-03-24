@@ -179,6 +179,83 @@
     "memberNote": "Los cargos y responsabilidades concretos pueden completarse mas adelante.",
     "placeholderMember": "Otro miembro de la directiva"
   },
+  "membershipPage": {
+    "hero": {
+      "eyebrow": "Hazte socio",
+      "title": "Membresia",
+      "subtitle": "Cuotas, marco y estatutos de un vistazo",
+      "description": "Hacerse socio del CD Espanol Wiesbaden significa apoyar no solo la actividad deportiva, sino tambien la comunidad, la vida del club y su desarrollo a largo plazo.",
+      "badge": "Hazte socio",
+      "asideTitle": "Ventajas de la membresia",
+      "benefits": {
+        "licensedTraining": {
+          "title": "Entrenamiento cualificado",
+          "description": "Los entrenamientos y el acompanamiento estan a cargo de personal cualificado con licencias relevantes y experiencia en futbol de club."
+        },
+        "health": {
+          "title": "Diversion y salud",
+          "description": "La actividad regular, el entrenamiento compartido y la alegria por el juego fortalecen la forma fisica, el bienestar y la motivacion."
+        },
+        "integration": {
+          "title": "Integracion multilingue",
+          "description": "El club crea comunidad mas alla de los idiomas y ofrece un espacio abierto para el intercambio, la integracion y la convivencia."
+        }
+      }
+    },
+    "pricing": {
+      "reduced": {
+        "title": "Reducida",
+        "price": "4 EUR / mes",
+        "note": "Para membresias reducidas segun las normas vigentes del club."
+      },
+      "standard": {
+        "title": "Normal",
+        "price": "8 EUR / mes",
+        "note": "La cuota regular para la membresia clasica del club."
+      },
+      "family": {
+        "title": "Familiar",
+        "price": "12 EUR / mes",
+        "note": "Para familias que quieren acompanar y apoyar al club juntas."
+      }
+    },
+    "sections": {
+      "pricing": {
+        "label": "Cuotas",
+        "title": "Cuotas de membresia",
+        "description": "Las cuotas actuales siguen los estatutos y ofrecen una vision clara de las aportaciones mensuales de membresia."
+      },
+      "download": {
+        "label": "Documento",
+        "title": "Descargar los estatutos",
+        "description": "Los estatutos completos en la version del 13 de abril de 2024 estan disponibles aqui como PDF.",
+        "cta": "Descargar estatutos"
+      },
+      "statute": {
+        "label": "Puntos importantes",
+        "title": "Lo que significa ser socio del CDE",
+        "description": "Algunas reglas centrales de los estatutos ayudan a comprender desde el principio los derechos, obligaciones y el caracter de la membresia."
+      }
+    },
+    "highlights": {
+      "purpose": {
+        "title": "Finalidad sin animo de lucro",
+        "description": "El club persigue exclusivamente y de forma directa fines de utilidad publica y promueve especialmente el futbol, el deporte, el juego y la vida comunitaria del club."
+      },
+      "admission": {
+        "title": "Admision y tipos de membresia",
+        "description": "El club cuenta con socios ordinarios, juveniles, benefactores y honorarios. La admision debe solicitarse por escrito y, en el caso de menores de 18 anos, con consentimiento escrito de su representante legal. La junta decide sobre la admision."
+      },
+      "participation": {
+        "title": "Participacion y obligaciones",
+        "description": "Los socios tienen derecho a voto en las asambleas. Quien acumule mas de seis meses de retraso en los pagos pierde el derecho a participar en actos del club y a ejercer el voto."
+      },
+      "leaving": {
+        "title": "Baja y fin de la membresia",
+        "description": "La baja debe comunicarse por escrito para el final de un ano natural y declararse al menos con seis semanas de antelacion. Un retraso prolongado en los pagos puede llevar a la baja del registro de socios."
+      }
+    }
+  },
   "imprintPage": {
     "hero": {
       "eyebrow": "Legal",
@@ -202,7 +279,7 @@
       "contact": {
         "title": "Datos de contacto",
         "phone": "Telefono: 0611 / 66933",
-        "email": "Correo electronico:"
+        "emailLabel": "Correo electronico: "
       },
       "bank": {
         "title": "Datos bancarios",
@@ -210,9 +287,10 @@
         "iban": "IBAN: DE40 5109 0000 0000 5681 04",
         "bic": "BIC: WIBADE5WXXX"
       },
-      "registry": {
-        "title": "Registro de asociaciones",
-        "number": "Numero de registro: DE-VR-M1906-2133"
+      "association": {
+        "title": "Asociacion",
+        "registry": "Registro de asociaciones en el juzgado de Wiesbaden, n.° de asociacion: 2133",
+        "hfv": "Federacion de Futbol de Hesse, n.° de club: 38111"
       },
       "tax": {
         "title": "Fiscal",
