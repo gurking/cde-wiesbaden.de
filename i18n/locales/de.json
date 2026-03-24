@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "CD Español Wiesbaden",
-    "description": "Traditionsorientierte Vereinswebsite fuer CD Español Wiesbaden."
+    "description": "Vereinswebsite für CD Español Wiesbaden."
   },
   "header": {
     "clubNickname": "Las Cortinas",
-    "clubName": "CD Español Wiesbaden",
+    "clubName": "CDE Wiesbaden",
     "shop": "Flyeralarm Shop",
     "navigation": {
       "teams": "Teams",
@@ -15,7 +15,7 @@
   },
   "footer": {
     "copyright": "CD Español Wiesbaden",
-    "themeNote": "Offizielle Vereinswebsite von CD Español Wiesbaden.",
+    "themeNote": "Offizielle Vereinswebsite",
     "links": {
       "imprint": "Impressum"
     }
@@ -23,11 +23,11 @@
   "home": {
     "eyebrow": "Willkommen bei CD Español",
     "hero": {
-      "title": "CD Español Wiesbaden",
-      "description": "Der Verein CD Español Wiesbaden steht fuer Tradition, Zusammenhalt und Leidenschaft fuer Fussball. Mit unseren Teams und einer starken Vereinscommunity praesentieren wir den Fussball im Geist von Spanien hier in Wiesbaden.",
+      "title": "Club Derportivo Español Wiesbaden",
+      "description": "Der Verein CD Español Wiesbaden steht für Tradition, Zusammenhalt und Leidenschaft für Fußball. Mit unseren Teams und einer starken Vereinscommunity präsentieren wir den Fußball im Geist von Spanien hier in Wiesbaden.",
       "badge": "Der Verein",
-      "panelTitle": "Tradition und Gemueinschaft",
-      "panelDescription": "Der CD Español Wiesbaden vereint Spielerinnen und Spieler aller Altersgruppen und Vereinsfans zu echtem Teamgeist und gemeinsamem Erfolg."
+      "panelTitle": "Tradition und Gemeinschaft",
+      "panelDescription": "Der CD Español Wiesbaden vereint Spieler aller Altersgruppen und Vereinsfans zu echtem Teamgeist und gemeinsamem Erfolg."
     },
     "links": {
       "membership": "Mitgliedschaft entdecken",
@@ -37,17 +37,17 @@
       "shop": "Zum Teamshop"
     },
     "shop": {
-      "title": "Flyeralarm Sports fuer den Vereinslook",
-      "description": "Der Teamshop macht es leicht, CDE-Bekleidung selbst zu bestellen. Logos und ausgewaehlte Produkte sind bereits hinterlegt, sodass der Einstieg in den Shop direkt funktioniert.",
+      "title": "Flyeralarm Sports für den Vereinslook",
+      "description": "Der Teamshop macht es leicht, CDE-Bekleidung selbst zu bestellen. Logos und ausgewählte Produkte sind bereits hinterlegt, sodass der Einstieg in den Shop direkt funktioniert.",
       "productLabel": "Webshop",
       "benefits": {
         "selfService": {
           "title": "Selbst bestellen",
-          "description": "Jede Bestellung laeuft direkt ueber Flyeralarm Sports. Mitglieder, Fans und Familien koennen ihre Produkte eigenstaendig auswaehlen und bestellen."
+          "description": "Jede Bestellung läuft direkt über Flyeralarm Sports. Mitglieder, Fans und Familien können ihre Produkte eigenständig auswählen und bestellen."
         },
         "collection": {
           "title": "Training und Fanartikel",
-          "description": "Im Shop finden sich bereits erste Kleidungsstuecke und Vereinsartikel, die den CDE-Look fuer Spieltag, Training und Alltag sichtbar machen."
+          "description": "Im Shop finden sich bereits erste Kleidungsstücke und Vereinsartikel, die den CDE-Look für Spieltag, Training und Alltag sichtbar machen."
         },
         "branding": {
           "title": "CDE-Branding bereits angelegt",
@@ -61,15 +61,15 @@
         },
         "warmupShirt": {
           "title": "Warmmachshirt",
-          "description": "Ein funktionales Teil fuer Aufwaermen, Training oder Freizeit mit klarem Vereinsbezug."
+          "description": "Ein funktionales Teil für Aufwärmen, Training oder Freizeit mit klarem Vereinsbezug."
         },
         "trainingTop": {
           "title": "Trainingstop",
-          "description": "Sportliche Oberbekleidung fuer Einheiten auf dem Platz und fuer den Weg zum Spieltag."
+          "description": "Sportliche Oberbekleidung für Einheiten auf dem Platz und für den Weg zum Spieltag."
         },
         "socks": {
           "title": "Stutzen",
-          "description": "Auch die kleineren Bestandteile gehoeren zum Vereinsbild und runden den Look sauber ab."
+          "description": "Auch die kleineren Bestandteile gehören zum Vereinsbild und runden den Look sauber ab."
         }
       }
     },
@@ -78,19 +78,19 @@
       "teams": {
         "emoji": "⚽",
         "title": "Unsere Teams",
-        "description": "Die Erste und Die Zweite repraesentieren beim CDE sportlichen Anspruch, Entwicklung und Zusammenhalt. Auf der Teamseite findest du Mannschaftsbilder und Trainerteams.",
+        "description": "Die Erste und Die Zweite repräsentieren beim CDE sportlichen Anspruch, Entwicklung und Zusammenhalt. Auf der Teamseite findest du Mannschaftsbilder und Trainerteams.",
         "cta": "Zu den Teams"
       },
       "membership": {
         "emoji": "🤝",
         "title": "Mitglied werden",
-        "description": "Auf der Mitgliedschaftsseite findest du Beitragssaetze, den Mitgliedsantrag, Hinweise aus der Satzung und den Ablauf fuer die Anmeldung im Verein.",
+        "description": "Auf der Mitgliedschaftsseite findest du Beitragssätze, den Mitgliedsantrag, Hinweise aus der Satzung und den Ablauf für die Anmeldung im Verein.",
         "cta": "Zur Mitgliedschaft"
       }
     },
     "cta": {
       "title": "Direkt in den Teamshop wechseln",
-      "description": "Wer den Vereinslook sofort bestellen moechte, kann direkt ueber Flyeralarm Sports in den CDE-Teamshop einsteigen."
+      "description": "Wer den Vereinslook sofort bestellen möchte, kann direkt über Flyeralarm Sports in den CDE-Teamshop einsteigen."
     }
   },
   "teamsPage": {
@@ -100,17 +100,17 @@
       "subtitle": "Sportlicher Kern des CD Espanol Wiesbaden",
       "description": "Vom Meisterteam bis zur neu aufgebauten Zweiten: Hier zeigt sich, wie sich Geschichte, Gemeinschaft und sportlicher Anspruch beim CDE auf dem Platz begegnen.",
       "badge": "Mannschaften",
-      "asideTitle": "Drei praegende Erfolge",
+      "asideTitle": "Drei prägende Erfolge",
       "achievements": {
         "founding": {
           "emoji": "🇪🇸",
           "title": "Pionier in Hessen",
-          "description": "Der CDE war der erste spanische Fussballverein in einer offiziellen Liga des DFB in Hessen."
+          "description": "Der CDE war der erste spanische Fußballverein in einer offiziellen Liga des DFB in Hessen."
         },
         "promotion": {
           "emoji": "⬆️",
           "title": "Aufstieg 2013",
-          "description": "Nach einem intensiven Saisonfinale gelang ueber die Relegation der Sprung in die Kreisliga B."
+          "description": "Nach einem intensiven Saisonfinale gelang über die Relegation der Sprung in die Kreisliga B."
         },
         "championship": {
           "emoji": "🏆",
@@ -128,11 +128,11 @@
     },
     "first": {
       "title": "Die Erste",
-      "description": "Die Erste steht fuer ambitionierten Herrenfussball, praezise Ablaufe und einen Auftritt, der sportliche Klarheit mit der Identitaet des Vereins verbindet."
+      "description": "Die Erste steht für ambitionierten Herrenfußball, präzise Abläufe und einen Auftritt, der sportliche Klarheit mit der Identität des Vereins verbindet."
     },
     "second": {
       "title": "Die Zweite",
-      "description": "Die Zweite verkoerpert Zusammenhalt, Entwicklung und Verlaesslichkeit. Die Darstellung folgt bewusst derselben visuellen Systematik wie die Erste."
+      "description": "Die Zweite verkörpert Zusammenhalt, Entwicklung und Verlässlichkeit. Die Darstellung folgt bewusst derselben visuellen Systematik wie die Erste."
     }
   },
   "boardPage": {
@@ -140,37 +140,37 @@
       "eyebrow": "Vereinsorganisation",
       "title": "Vorstand",
       "subtitle": "Menschen hinter Richtung, Struktur und Haltung",
-      "description": "Der Vorstand bildet das organisatorische Rueckgrat des Vereins. Hier laufen Verantwortung, Vereinskultur und die langfristige Entwicklung des CD Espanol Wiesbaden zusammen.",
+      "description": "Der Vorstand bildet das organisatorische Rückgrat des Vereins. Hier laufen Verantwortung, Vereinskultur und die langfristige Entwicklung des CD Espanol Wiesbaden zusammen.",
       "badge": "Organisation",
-      "asideTitle": "Wofuer der Vorstand steht",
+      "asideTitle": "Wofür der Vorstand steht",
       "pillars": {
         "identity": {
           "emoji": "🛡️",
-          "title": "Identitaet bewahren",
-          "description": "Der Vorstand schuetzt Herkunft, Haltung und Sichtbarkeit des Vereins nach innen wie nach aussen."
+          "title": "Identität bewahren",
+          "description": "Der Vorstand schützt Herkunft, Haltung und Sichtbarkeit des Vereins nach innen wie nach außen."
         },
         "community": {
           "emoji": "🤝",
           "title": "Gemeinschaft organisieren",
-          "description": "Von Spielbetrieb bis Vereinsleben: gute Strukturen schaffen den Rahmen fuer sportliches und soziales Miteinander."
+          "description": "Von Spielbetrieb bis Vereinsleben: gute Strukturen schaffen den Rahmen für sportliches und soziales Miteinander."
         },
         "continuity": {
           "emoji": "📈",
           "title": "Zukunft gestalten",
-          "description": "Nachhaltige Entwicklung entsteht durch Verlaesslichkeit, Verantwortung und den Blick ueber eine einzelne Saison hinaus."
+          "description": "Nachhaltige Entwicklung entsteht durch Verlässlichkeit, Verantwortung und den Blick über eine einzelne Saison hinaus."
         }
       }
     },
     "groups": {
       "presidium": {
-        "label": "Praesidium",
+        "label": "Präsidium",
         "title": "Strategische Spitze des Vereins",
-        "description": "Hier liegt die oberste Verantwortung fuer Richtung, Aussenwirkung und die langfristige Entwicklung des CD Espanol Wiesbaden."
+        "description": "Hier liegt die oberste Verantwortung für Richtung, Außenwirkung und die langfristige Entwicklung des CD Espanol Wiesbaden."
       },
       "finance": {
-        "label": "Kassenwart + Schriftfuehrer",
-        "title": "Zentrale Verantwortung im Tagesgeschaeft",
-        "description": "In diesem Bereich laufen finanzielle Verlaesslichkeit, Dokumentation und die formale Organisation des Vereins zusammen."
+        "label": "Kassenwart + Schriftführer",
+        "title": "Zentrale Verantwortung im Tagesgeschäft",
+        "description": "In diesem Bereich laufen finanzielle Verlässlichkeit, Dokumentation und die formale Organisation des Vereins zusammen."
       },
       "advisors": {
         "label": "Beisitzer",
@@ -180,14 +180,14 @@
       "special": {
         "label": "Besondere Rollen",
         "title": "Spezielle Aufgaben und Funktionen",
-        "description": "Dieser Bereich ist fuer weitere klar abgegrenzte Sonderaufgaben vorgesehen, die spaeter genauer benannt werden koennen."
+        "description": "Dieser Bereich ist für weitere klar abgegrenzte Sonderaufgaben vorgesehen, die später genauer benannt werden können."
       }
     },
     "roles": {
       "firstChair": "1. Vorsitzender",
       "secondChair": "2. Vorsitzender",
       "treasurer": "Kassenwart",
-      "secretary": "Schriftfuehrer",
+      "secretary": "Schriftführer",
       "advisor": "Beisitzer",
       "sportDirector": "Sportdirektor",
       "clubRole": "Vereins",
@@ -195,62 +195,62 @@
     },
     "notes": {
       "martin": "Mit der Qualifikation zum DFB-Vereinsmanager C.",
-      "sascha": "Vollstaendiger Name liegt derzeit nur abgekuerzt vor."
+      "sascha": "Vollständiger Name liegt derzeit nur abgekürzt vor."
     },
-    "memberNote": "Details zu konkreter Funktion und Verantwortungsbereich koennen spaeter ergaenzt werden.",
+    "memberNote": "Details zu konkreter Funktion und Verantwortungsbereich können später ergänzt werden.",
     "placeholderMember": "Weiteres Vorstandsmitglied"
   },
   "membershipPage": {
     "hero": {
       "eyebrow": "Verein beitreten",
       "title": "Mitgliedschaft",
-      "subtitle": "Beitraege, Rahmen und Satzung im Ueberblick",
-      "description": "Wer Mitglied beim CD Espanol Wiesbaden wird, unterstuetzt nicht nur den Spielbetrieb, sondern auch Gemeinschaft, Vereinsleben und die langfristige Entwicklung des Vereins.",
+      "subtitle": "Beiträge, Rahmen und Satzung im Überblick",
+      "description": "Wer Mitglied beim CD Espanol Wiesbaden wird, unterstützt nicht nur den Spielbetrieb, sondern auch Gemeinschaft, Vereinsleben und die langfristige Entwicklung des Vereins.",
       "badge": "Mitglied werden",
       "asideTitle": "Vorteile einer Mitgliedschaft",
       "benefits": {
         "licensedTraining": {
           "emoji": "🎓",
           "title": "Qualifiziertes Training",
-          "description": "Training und Begleitung durch qualifiziertes Personal mit entsprechenden Lizenzen und Erfahrung im Vereinsfussball."
+          "description": "Training und Begleitung durch qualifiziertes Personal mit entsprechenden Lizenzen und Erfahrung im Vereinsfußball."
         },
         "health": {
           "emoji": "💪",
           "title": "Spass und Gesundheit",
-          "description": "Regelmaessige Bewegung, gemeinsames Training und Freude am Spiel staerken Fitness, Wohlbefinden und Motivation."
+          "description": "Regelmäßige Bewegung, gemeinsames Training und Freude am Spiel stärken Fitness, Wohlbefinden und Motivation."
         },
         "integration": {
           "emoji": "🌍",
           "title": "Mehrsprachige Integration",
-          "description": "Der Verein lebt Gemeinschaft ueber Sprachen hinweg und schafft einen offenen Raum fuer Austausch, Integration und Zusammenhalt."
+          "description": "Der Verein lebt Gemeinschaft über Sprachen hinweg und schafft einen offenen Raum für Austausch, Integration und Zusammenhalt."
         }
       }
     },
     "pricing": {
       "reduced": {
         "emoji": "🧒",
-        "title": "Ermaessigt",
+        "title": "Ermäßigt",
         "price": "4 EUR / Monat",
-        "note": "Fuer ermaessigte Mitgliedschaften gemaess den geltenden Vereinsregeln."
+        "note": "Für ermäßigte Mitgliedschaften gemäß den geltenden Vereinsregeln."
       },
       "standard": {
         "emoji": "⚽",
         "title": "Normalpreis",
         "price": "8 EUR / Monat",
-        "note": "Der regulaere Beitrag fuer die klassische Mitgliedschaft im Verein."
+        "note": "Der reguläre Beitrag für die klassische Mitgliedschaft im Verein."
       },
       "family": {
         "emoji": "👨‍👩‍👧‍👦",
         "title": "Familienpreis",
         "price": "12 EUR / Monat",
-        "note": "Fuer Familien, die den Verein gemeinsam begleiten und unterstuetzen."
+        "note": "Für Familien, die den Verein gemeinsam begleiten und unterstützen."
       }
     },
     "sections": {
       "pricing": {
-        "label": "Beitragssaetze",
-        "title": "Mitgliedsbeitraege",
-        "description": "Die aktuellen Beitragssaetze orientieren sich an der Satzung und geben einen klaren Ueberblick ueber die monatlichen Mitgliedsbeitraege."
+        "label": "Beitragssätze",
+        "title": "Mitgliedsbeiträge",
+        "description": "Die aktuellen Beitragssätze orientieren sich an der Satzung und geben einen klaren Überblick über die monatlichen Mitgliedsbeiträge."
       },
       "documents": {
         "label": "Dokumente",
@@ -267,47 +267,47 @@
     },
     "process": {
       "label": "Ablauf",
-      "title": "So laeuft die Anmeldung ab",
-      "description": "Mit diesen Schritten laesst sich der Weg in den Verein gut vorbereiten. Je nach persoenlicher Situation koennen einzelne Punkte relevant oder optional sein.",
+      "title": "So läuft die Anmeldung ab",
+      "description": "Mit diesen Schritten lässt sich der Weg in den Verein gut vorbereiten. Je nach persönlicher Situation können einzelne Punkte relevant oder optional sein.",
       "steps": {
         "deregister": {
           "emoji": "📅",
           "title": "Abmeldung alter Verein",
-          "description": "Falls noetig, den bisherigen Verein fristgerecht abmelden. Das ist optional und typischerweise bis zum 30.6. oder 31.12. eines Jahres moeglich."
+          "description": "Falls nötig, den bisherigen Verein fristgerecht abmelden. Das ist optional und typischerweise bis zum 30.6. oder 31.12. eines Jahres möglich."
         },
         "application": {
           "emoji": "📝",
           "title": "Mitgliedsantrag abgeben",
-          "description": "Den Mitgliedsantrag ausfuellen, unterschreiben und anschliessend beim Verein einreichen."
+          "description": "Den Mitgliedsantrag ausfüllen, unterschreiben und anschließend beim Verein einreichen."
         },
         "payment": {
           "emoji": "💶",
-          "title": "Beitraege und Aufnahmegebuehr",
-          "description": "Den Mitgliedsbeitrag gemaess Satzung bezahlen. Hinzu kommt eine einmalige Aufnahmegebuehr von 55 EUR, die ein T-Shirt sowie ein Sweatshirt fuer Spieltage umfasst."
+          "title": "Beiträge und Aufnahmegebühr",
+          "description": "Den Mitgliedsbeitrag gemäß Satzung bezahlen. Hinzu kommt eine einmalige Aufnahmegebühr von 55 EUR, die ein T-Shirt sowie ein Sweatshirt für Spieltage umfasst."
         },
         "documents": {
           "emoji": "🛂",
           "title": "Unterlagen bereithalten",
-          "description": "Falls man Nicht-EU-Buerger ist, sollten Pass und/oder Meldebescheinigung fuer die Anmeldung verfuegbar sein."
+          "description": "Falls man Nicht-EU-Bürger ist, sollten Pass und/oder Meldebescheinigung für die Anmeldung verfügbar sein."
         }
       }
     },
     "highlights": {
       "purpose": {
-        "title": "Gemeinnuetziger Zweck",
-        "description": "Der Verein verfolgt ausschliesslich und unmittelbar gemeinnuetzige Zwecke und foerdert insbesondere Fussball, Sport, Spiel und gemeinschaftliches Vereinsleben."
+        "title": "Gemeinnütziger Zweck",
+        "description": "Der Verein verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke und fördert insbesondere Fußball, Sport, Spiel und gemeinschaftliches Vereinsleben."
       },
       "admission": {
         "title": "Aufnahme und Arten der Mitgliedschaft",
-        "description": "Der Verein fuehrt ordentliche, jugendliche, foerdernde und Ehrenmitglieder. Die Aufnahme erfolgt schriftlich, bei Jugendlichen unter 18 Jahren mit Zustimmung der gesetzlichen Vertretung, ueber sie entscheidet der Vorstand."
+        "description": "Der Verein führt ordentliche, jugendliche, fördernde und Ehrenmitglieder. Die Aufnahme erfolgt schriftlich, bei Jugendlichen unter 18 Jahren mit Zustimmung der gesetzlichen Vertretung, über sie entscheidet der Vorstand."
       },
       "participation": {
         "title": "Mitwirken und Pflichten",
-        "description": "Mitglieder sind in den Versammlungen stimmberechtigt. Wer laenger als sechs Monate mit Zahlungen im Rueckstand ist, verliert das Recht auf Teilnahme an Vereinsveranstaltungen und die Ausuebung des Stimmrechts."
+        "description": "Mitglieder sind in den Versammlungen stimmberechtigt. Wer länger als sechs Monate mit Zahlungen im Rückstand ist, verliert das Recht auf Teilnahme an Vereinsveranstaltungen und die Ausübung des Stimmrechts."
       },
       "leaving": {
         "title": "Austritt und Ende der Mitgliedschaft",
-        "description": "Ein Austritt ist schriftlich zum Ende eines Kalenderjahres moeglich und muss spaetestens sechs Wochen vorher erklaert werden. Bei langem Zahlungsrueckstand kann die Mitgliedschaft gestrichen werden."
+        "description": "Ein Austritt ist schriftlich zum Ende eines Kalenderjahres möglich und muss spätestens sechs Wochen vorher erklärt werden. Bei langem Zahlungsrückstand kann die Mitgliedschaft gestrichen werden."
       }
     }
   },
@@ -323,7 +323,7 @@
     "sections": {
       "responsibility": {
         "title": "Verantwortung",
-        "content": "Verantwortlich fuer den Inhalt ist Carsten Zillmann. Die technische Umsetzung erfolgt durch Florian Treder."
+        "content": "Verantwortlich für den Inhalt ist Carsten Zillmann. Die technische Umsetzung erfolgt durch Florian Treder."
       },
       "address": {
         "title": "Anschrift",
@@ -345,7 +345,7 @@
       "association": {
         "title": "Verein",
         "registry": "Vereinsregister Amtsgericht Wiesbaden, Vereins-Nr.: 2133",
-        "hfv": "Hessischer Fussballverband, Vereins-Nr.: 38111"
+        "hfv": "Hessischer Fußballverband, Vereins-Nr.: 38111"
       },
       "tax": {
         "title": "Steuer",
