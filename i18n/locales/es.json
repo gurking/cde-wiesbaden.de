@@ -1,15 +1,20 @@
 {
   "meta": {
-    "title": "CD Espanol Wiesbaden",
-    "description": "Sitio web del club CD Espanol Wiesbaden con enfoque en la herencia y una base moderna en Nuxt UI."
+    "title": "CD Español Wiesbaden",
+    "description": "Sitio web del club CD Español Wiesbaden con enfoque en la herencia y una base moderna en Nuxt UI."
   },
   "header": {
     "clubNickname": "Las Cortinas",
-    "clubName": "CD Espanol Wiesbaden",
-    "shop": "Tienda Flyeralarm"
+    "clubName": "CD Español Wiesbaden",
+    "shop": "Tienda Flyeralarm",
+    "navigation": {
+      "teams": "Equipos",
+      "board": "Directiva",
+      "membership": "Membresia"
+    }
   },
   "footer": {
-    "copyright": "CD Espanol Wiesbaden",
+    "copyright": "CD Español Wiesbaden",
     "themeNote": "Tema Heritage Blue x Coral con Nuxt UI"
   },
   "home": {

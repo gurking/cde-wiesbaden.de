@@ -1,15 +1,20 @@
 {
   "meta": {
-    "title": "CD Espanol Wiesbaden",
-    "description": "Traditionsorientierte Vereinswebsite fuer CD Espanol Wiesbaden mit moderner Nuxt-UI-Basis."
+    "title": "CD Español Wiesbaden",
+    "description": "Traditionsorientierte Vereinswebsite fuer CD Español Wiesbaden mit moderner Nuxt-UI-Basis."
   },
   "header": {
     "clubNickname": "Las Cortinas",
-    "clubName": "CD Espanol Wiesbaden",
-    "shop": "Flyeralarm Shop"
+    "clubName": "CD Español Wiesbaden",
+    "shop": "Flyeralarm Shop",
+    "navigation": {
+      "teams": "Teams",
+      "board": "Vorstand",
+      "membership": "Mitgliedschaft"
+    }
   },
   "footer": {
-    "copyright": "CD Espanol Wiesbaden",
+    "copyright": "CD Español Wiesbaden",
     "themeNote": "Heritage Blue x Coral Theme mit Nuxt UI"
   },
   "home": {

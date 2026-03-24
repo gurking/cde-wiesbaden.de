@@ -1,52 +1,98 @@
-# Technical Design Specifications: CD Español Wiesbaden (CDE)
+# Nuxt UI & Tailwind Theme Specification: CD Español Wiesbaden
 
-## 1. Project Overview
-A modern, heritage-focused club website for CD Español Wiesbaden (CDE), nicknamed "Las Cortinas". The design focuses on a "Modern Alchemist" aesthetic, blending 1981 heritage with modern UI patterns.
+Diese Spezifikation dient als Grundlage für die technische Umsetzung mit Nuxt 3 und Nuxt UI. Sie deckt sowohl den Light Mode als auch den Dark Mode ab.
 
-## 2. Visual Identity & Brand
-- **Brand Colors:**
-    - **Primary (Heritage Blue):** `#1D2D44` (Deep, professional navy)
-    - **Accent (Heritage Coral):** `#F0544F` (Vibrant coral/red from the "HERENCIA" style)
-    - **Base:** `#FFFFFF` (White)
-    - **Neutral:** Slate/Gray tones for secondary text and borders.
-- **Typography:**
-    - **Font Family:** Inter (as a modern alternative to Helvetica Neue, highly compatible with NuxtUI/Tailwind).
-    - **Headings:** Bold, uppercase, often italicized for dynamic "sports" feel.
-    - **Body:** Clean, legible sans-serif.
-- **Core Visual Element:** "Las Cortinas" vertical stripes. Use the textile texture ({{DATA:IMAGE:IMAGE_16}}) as a subtle background overlay or section hero background.
+## 1. Farbpalette (Tailwind Configuration)
 
-## 3. Tech Stack Recommendation (Tailwind / NuxtUI)
-Since you are using Nuxt and NuxtUI, you should leverage the `app.config.ts` and `tailwind.config.js` for global styling.
+Die Farben basieren auf dem Vereinslogo und der "Heritage"-Identität.
 
-### Tailwind Configuration (Example)
 ```javascript
-module.exports = {
+// tailwind.config.ts
+export default {
   theme: {
     extend: {
       colors: {
-        heritage: {
-          blue: '#1D2D44',
-          coral: '#F0544F',
-          white: '#FFFFFF'
-        }
-      },
-      fontFamily: {
-        sans: ['Inter', 'Helvetica Neue', 'sans-serif'],
+        'cde-navy': {
+          DEFAULT: '#07182E',
+          '50': '#E6E8EA',
+          '100': '#CDD1D6',
+          '200': '#9BA3AD',
+          '300': '#697585',
+          '400': '#37475C',
+          '500': '#07182E', // Primary
+          '600': '#061426',
+          '700': '#050F1D',
+          '800': '#040B15',
+          '900': '#03060C',
+        },
+        'cde-coral': {
+          DEFAULT: '#F0544F', // CTA Accent
+          light: '#F47672',
+          dark: '#D94C47',
+        },
+        'cde-red': '#B72023', // Logo Red
+        'cde-yellow': '#EFB810', // Logo Yellow
       }
     }
   }
 }
 ```
 
-## 4. Component Guidelines
-- **Header:** Sticky, glassmorphism effect (backdrop-blur), containing the official Logo ({{DATA:IMAGE:IMAGE_6}}), Language Switcher (DE/ES/EN), and external link to Flyeralarm Shop.
-- **Buttons:**
-    - **Primary:** Heritage Coral background, white text, rounded-sm to rounded-md.
-    - **Secondary:** Outline style or Heritage Blue.
-- **Cards:** Clean white backgrounds with subtle borders or very soft shadows. Use the coral accent for small tags (e.g., "1. Mannschaft").
-- **Footer:** Deep Heritage Blue background, white/slate text, organized in columns (Links, Legal, Membership).
+## 2. Nuxt UI Configuration (app.config.ts)
 
-## 5. Implementation Notes
-- **Stripes Pattern:** Implement as a CSS repeating linear gradient or use the provided image as a background-cover with low opacity.
-- **Heritage Hero:** Use the fabric texture as a background for high-impact sections to reinforce the "Cortinas" identity.
-- **NuxtUI Components:** Use `<UButton>`, `<UNavbar>`, and `<UCard>` but override their default primary color with the Heritage Coral in your `app.config.ts`.
+Konfiguration der Standard-Komponenten für ein konsistentes Look-and-Feel.
+
+```typescript
+// app.config.ts
+export default defineAppConfig({
+  ui: {
+    primary: 'cde-navy',
+    gray: 'slate',
+    button: {
+      default: {
+        color: 'primary',
+        variant: 'solid'
+      },
+      rounded: 'rounded-sm', // Klassischer, sportlicher Look
+    },
+    card: {
+      rounded: 'rounded-none', // Kantiger Heritage-Look
+      background: 'bg-white dark:bg-cde-navy-900',
+    },
+    input: {
+      rounded: 'rounded-none',
+    }
+  }
+})
+```
+
+## 3. Theme-Logik (Light vs. Dark)
+
+| Element | Light Mode | Dark Mode |
+| :--- | :--- | :--- |
+| **Background** | `#FFFFFF` | `#07182E` (cde-navy) |
+| **Primary Text** | `#07182E` | `#FFFFFF` |
+| **Secondary Text** | `#475569` (slate-600) | `#94A3B8` (slate-400) |
+| **Navigation** | Glassmorphism (White/80) | Glassmorphism (Navy/80) |
+| **CTA Button** | Coral Background | Coral Background |
+| **Cards** | Border: Navy 10% | Border: White 10% |
+
+## 4. Typografie
+
+- **Font Family:** Inter (oder Helvetica Neue falls lokal verfügbar)
+- **Headings:** Bold, Uppercase, Italic für dynamische Sektionen.
+- **Body:** Regular für maximale Lesbarkeit.
+
+## 5. Spezielle Assets
+
+- **Logo:** `{{DATA:IMAGE:IMAGE_11}}`
+- **Pattern:** Die textile Streifen-Struktur (`{{DATA:IMAGE:IMAGE_22}}`) sollte als subtiler Overlay (Opacity 5-10%) in Hero-Sektionen oder als Hintergrund für News-Karten verwendet werden.
+
+```css
+/* Beispiel für das Heritage-Pattern */
+.heritage-pattern {
+  background-image: url('/path-to-stripes.jpg');
+  background-blend-mode: overlay;
+  opacity: 0.05;
+}
+```

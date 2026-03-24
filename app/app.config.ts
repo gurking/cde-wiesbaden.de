@@ -1,17 +1,26 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      primary: 'coral',
+      primary: 'navy',
       neutral: 'slate'
     },
     button: {
       defaultVariants: {
-        color: 'primary'
+        color: 'primary',
+        variant: 'solid'
+      },
+      slots: {
+        base: 'rounded-sm'
       }
     },
     card: {
       slots: {
-        root: 'rounded-2xl border border-slate-200/80 bg-white/95 shadow-sm ring-0'
+        root: 'rounded-none border border-[color:var(--cde-card-border)] bg-[color:var(--cde-card-bg)] shadow-none ring-0'
+      }
+    },
+    input: {
+      slots: {
+        base: 'rounded-none'
       }
     }
   }
