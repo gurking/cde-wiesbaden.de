@@ -94,7 +94,7 @@ const landingSections = computed(() => [
       <img
         :src="heroBackgroundPhoto"
         alt=""
-        class="absolute inset-0 h-full w-full object-cover"
+        class="cde-hero-background-wave absolute inset-0 h-full w-full object-cover"
         aria-hidden="true"
       >
       <div class="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.72),rgba(255,255,255,0.84))] dark:bg-[linear-gradient(180deg,rgba(7,24,46,0.74),rgba(7,24,46,0.86))]" />
@@ -309,3 +309,39 @@ const landingSections = computed(() => [
     />
   </div>
 </template>
+
+<style scoped>
+.cde-hero-background-wave {
+  transform-origin: center center;
+  animation: cde-hero-background-wave 14s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes cde-hero-background-wave {
+  0% {
+    transform: scale(1.05) translate3d(0, 0, 0) rotate(0deg);
+  }
+
+  25% {
+    transform: scale(1.075) translate3d(-0.6%, 0.5%, 0) rotate(-0.45deg);
+  }
+
+  50% {
+    transform: scale(1.065) translate3d(0.7%, -0.35%, 0) rotate(0.3deg);
+  }
+
+  75% {
+    transform: scale(1.08) translate3d(-0.45%, 0.4%, 0) rotate(-0.25deg);
+  }
+
+  100% {
+    transform: scale(1.05) translate3d(0, 0, 0) rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cde-hero-background-wave {
+    animation: none;
+  }
+}
+</style>
