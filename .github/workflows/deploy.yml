@@ -39,10 +39,12 @@ jobs:
 
           RELEASE_ROOT="/var/www/releases"
           SITE_LINK="/var/www/cde-wiesbaden.de"
-          RELEASE_NAME="$(date +'%Y%m%d%H%M%S')-${GITHUB_SHA::7}"
+          LATEST_LINK="${RELEASE_ROOT}/latest"
+          RELEASE_NAME="cde-$(date +'%Y%m%d%H%M%S')"
           RELEASE_PATH="${RELEASE_ROOT}/${RELEASE_NAME}"
 
           mkdir -p "${RELEASE_PATH}"
           cp -a .output/public/. "${RELEASE_PATH}/"
 
+          ln -sfn "${RELEASE_PATH}" "${LATEST_LINK}"
           ln -sfn "${RELEASE_PATH}" "${SITE_LINK}"
