@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import heroBackgroundPhoto from '~/assets/img/duschvorhang_bg_fern.jpg'
 import fanJerseyPhoto from '~/assets/img/kleidung/fantrikot.png'
 import flyeralarmLogo from '~/assets/img/kleidung/flyeralarm-sports_logo.png'
 import socksPhoto from '~/assets/img/kleidung/stutzen.png'
@@ -89,54 +90,65 @@ const landingSections = computed(() => [
 
 <template>
   <div class="mx-auto flex max-w-7xl flex-col gap-8 px-4 py-8 sm:px-6 lg:px-8">
-    <UPageHero
-      :title="t('home.hero.title')"
-      :description="t('home.hero.description')"
-      :links="heroLinks"
-      :ui="{
-        root: 'overflow-hidden rounded-[2rem] border border-[var(--cde-card-border)] bg-[var(--cde-card-bg)] px-6 py-10 shadow-[0_24px_80px_rgba(2,4,8,0.12)] sm:px-10 lg:px-12',
-        container: 'relative',
-        title: 'cde-heading max-w-4xl text-4xl text-[var(--cde-shell-text)] sm:text-5xl lg:text-6xl',
-        description: 'mt-6 max-w-3xl text-base leading-7 text-[var(--cde-muted-text)] sm:text-lg',
-        links: 'mt-8 flex flex-wrap gap-3'
-      }"
-    >
-      <template #top>
-        <div class="mb-6 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.28em] text-coral-500">
-          <span class="h-px w-12 bg-coral-500" />
-          {{ t('home.eyebrow') }}
-        </div>
-      </template>
+    <div class="relative overflow-hidden rounded-[2rem] border border-[var(--cde-card-border)] bg-[var(--cde-card-bg)] shadow-[0_24px_80px_rgba(2,4,8,0.12)]">
+      <img
+        :src="heroBackgroundPhoto"
+        alt=""
+        class="absolute inset-0 h-full w-full object-cover"
+        aria-hidden="true"
+      >
+      <div class="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.72),rgba(255,255,255,0.84))] dark:bg-[linear-gradient(180deg,rgba(7,24,46,0.74),rgba(7,24,46,0.86))]" />
 
-      <template #right>
-        <div class="relative hidden min-h-80 overflow-hidden rounded-[1.75rem] border border-[var(--cde-card-border)] bg-[var(--cde-blue)] p-8 text-white lg:block">
-          <div class="heritage-pattern absolute inset-0 opacity-90" />
-          <div class="absolute inset-0 bg-[linear-gradient(160deg,rgba(7,24,46,0.28),rgba(7,24,46,0.88))]" />
-          <div class="relative flex h-full flex-col justify-between">
-            <img
-              :src="flyeralarmLogo"
-              :alt="t('home.hero.badge')"
-              class="h-12 w-auto object-contain"
-            >
+      <UPageHero
+        :title="t('home.hero.title')"
+        :description="t('home.hero.description')"
+        :links="heroLinks"
+        class="relative"
+        :ui="{
+          root: 'bg-transparent px-6 py-10 sm:px-10 lg:px-12',
+          container: 'relative',
+          title: 'cde-heading max-w-4xl text-4xl text-[var(--cde-shell-text)] sm:text-5xl lg:text-6xl',
+          description: 'mt-6 max-w-3xl text-base leading-7 text-[var(--cde-muted-text)] sm:text-lg',
+          links: 'mt-8 flex flex-wrap gap-3'
+        }"
+      >
+        <template #top>
+          <div class="mb-6 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.28em] text-coral-500">
+            <span class="h-px w-12 bg-coral-500" />
+            {{ t('home.eyebrow') }}
+          </div>
+        </template>
 
-            <div class="space-y-4">
-              <UBadge
-                :label="t('home.hero.badge')"
-                color="primary"
-                variant="solid"
-                class="w-fit rounded-sm bg-coral-500 text-white"
-              />
-              <p class="cde-heading text-3xl text-white">
-                {{ t('home.hero.panelTitle') }}
-              </p>
-              <p class="max-w-sm text-sm leading-6 text-slate-200">
-                {{ t('home.hero.panelDescription') }}
-              </p>
+        <template #right>
+          <div class="relative hidden min-h-80 overflow-hidden rounded-[1.75rem] border border-[var(--cde-card-border)] bg-[var(--cde-blue)] p-8 text-white lg:block">
+            <div class="heritage-pattern absolute inset-0 opacity-90" />
+            <div class="absolute inset-0 bg-[linear-gradient(160deg,rgba(7,24,46,0.28),rgba(7,24,46,0.88))]" />
+            <div class="relative flex h-full flex-col justify-between">
+              <img
+                :src="flyeralarmLogo"
+                :alt="t('home.hero.badge')"
+                class="h-12 w-auto object-contain"
+              >
+
+              <div class="space-y-4">
+                <UBadge
+                  :label="t('home.hero.badge')"
+                  color="primary"
+                  variant="solid"
+                  class="w-fit rounded-sm bg-coral-500 text-white"
+                />
+                <p class="cde-heading text-3xl text-white">
+                  {{ t('home.hero.panelTitle') }}
+                </p>
+                <p class="max-w-sm text-sm leading-6 text-slate-200">
+                  {{ t('home.hero.panelDescription') }}
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </template>
-    </UPageHero>
+        </template>
+      </UPageHero>
+    </div>
 
     <UPageSection
       id="shop-info"
