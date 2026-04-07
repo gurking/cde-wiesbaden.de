@@ -43,6 +43,6 @@ jobs:
           RELEASE_PATH="${RELEASE_ROOT}/${RELEASE_NAME}"
 
           mkdir -p "${RELEASE_PATH}"
-          rsync -av --delete .output/public/ "${RELEASE_PATH}/"
+          cp -a .output/public/. "${RELEASE_PATH}/"
 
           ln -sfn "${RELEASE_PATH}" "${SITE_LINK}"
