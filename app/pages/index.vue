@@ -12,14 +12,16 @@ const heroLinks = computed(() => [
   {
     label: t('home.links.teams'),
     to: '/teams',
-    size: 'xl' as const
+    size: 'xl' as const,
+    class: 'bg-coral-500 text-white hover:bg-coral-600 focus-visible:outline-coral-500 dark:bg-coral-500 dark:text-white dark:hover:bg-coral-600'
   },
   {
     label: t('home.links.membership'),
     to: '/mitgliedschaft',
     size: 'xl' as const,
-    color: 'neutral' as const,
-    variant: 'subtle' as const
+    color: 'primary' as const,
+    variant: 'solid' as const,
+    class: 'shadow-sm dark:bg-white/10 dark:text-white dark:ring-1 dark:ring-white/15 dark:hover:bg-white/16'
   }
 ])
 
