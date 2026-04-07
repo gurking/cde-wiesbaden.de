@@ -1,0 +1,48 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate static site
+        run: pnpm exec nuxt generate
+
+      - name: Deploy release
+        run: |
+          set -euo pipefail
+
+          RELEASE_ROOT="/var/www/releases"
+          SITE_LINK="/var/www/cde-wiesbaden.de"
+          RELEASE_NAME="$(date +'%Y%m%d%H%M%S')-${GITHUB_SHA::7}"
+          RELEASE_PATH="${RELEASE_ROOT}/${RELEASE_NAME}"
+
+          mkdir -p "${RELEASE_PATH}"
+          rsync -av --delete .output/public/ "${RELEASE_PATH}/"
+
+          ln -sfn "${RELEASE_PATH}" "${SITE_LINK}"
