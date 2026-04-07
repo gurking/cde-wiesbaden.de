@@ -138,14 +138,15 @@ onBeforeUnmount(() => {
             <UButton
               v-for="entry in localeButtons"
               :key="entry.code"
-              :label="entry.flag"
               :title="entry.title"
               color="neutral"
               :variant="locale === entry.code ? 'soft' : 'ghost'"
-              class="min-w-9 rounded-md px-1.5"
+              class="min-w-0 rounded-md px-2"
               :size="isCompact ? 'sm' : 'md'"
               @click="switchLocale(entry.code)"
-            />
+            >
+              <span class="text-lg leading-none sm:text-xl">{{ entry.flag }}</span>
+            </UButton>
           </div>
 
           <UColorModeButton
@@ -172,14 +173,15 @@ onBeforeUnmount(() => {
             <UButton
               v-for="entry in localeButtons"
               :key="`mobile-${entry.code}`"
-              :label="entry.flag"
               :title="entry.title"
               color="neutral"
               :variant="locale === entry.code ? 'soft' : 'ghost'"
-              class="min-w-8 rounded-md px-1"
+              class="min-w-0 rounded-md px-1.5"
               size="xs"
               @click="switchLocale(entry.code)"
-            />
+            >
+              <span class="text-lg leading-none">{{ entry.flag }}</span>
+            </UButton>
           </div>
 
           <UColorModeButton
