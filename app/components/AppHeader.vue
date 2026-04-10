@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import logoUrl from '~/assets/img/logo.svg'
 
-const { locale, locales, setLocale, t } = useI18n()
+const { locales, t } = useI18n()
+const { locale, localePath, setAppLocale, syncStoredLocale } = useAppLocale()
 type LocaleCode = typeof locale.value
 const isCompact = ref(false)
 const isMobileMenuOpen = ref(false)
@@ -32,20 +33,20 @@ const localeButtons = computed(() =>
 const navLinks = computed(() => [
   {
     label: t('header.navigation.teams'),
-    to: '/teams'
+    to: localePath('/teams')
   },
   {
     label: t('header.navigation.board'),
-    to: '/vorstand'
+    to: localePath('/vorstand')
   },
   {
     label: t('header.navigation.membership'),
-    to: '/mitgliedschaft'
+    to: localePath('/mitgliedschaft')
   }
 ])
 
 const switchLocale = async (code: LocaleCode) => {
-  await setLocale(code)
+  await setAppLocale(code)
   isMobileMenuOpen.value = false
 }
 
@@ -70,6 +71,7 @@ const onScroll = () => {
 }
 
 onMounted(() => {
+  void syncStoredLocale()
   updateHeaderState()
   window.addEventListener('scroll', onScroll, { passive: true })
 })
@@ -95,7 +97,7 @@ onBeforeUnmount(() => {
       >
         <div class="min-w-0">
           <NuxtLink
-            to="/"
+            :to="localePath('/')"
             class="inline-flex max-w-full items-center gap-3 sm:gap-4"
           >
             <img

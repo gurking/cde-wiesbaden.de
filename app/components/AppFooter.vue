@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const { localePath } = useAppLocale()
+</script>
+
 <template>
   <footer class="border-t border-white/10 bg-[var(--cde-blue)]/85 text-white">
     <div class="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
@@ -13,7 +17,7 @@
 
         <nav class="flex flex-wrap items-center gap-3 text-sm">
           <NuxtLink
-            to="/impressum"
+            :to="localePath('/impressum')"
             class="rounded-md px-2 py-1 text-slate-200 transition hover:bg-white/10 hover:text-white"
           >
             {{ $t('footer.links.imprint') }}

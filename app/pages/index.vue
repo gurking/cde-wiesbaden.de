@@ -7,17 +7,18 @@ import trainingTopPhoto from '~/assets/img/kleidung/trainingstop.png'
 import warmupShirtPhoto from '~/assets/img/kleidung/warmmachshirt.png'
 
 const { t } = useI18n()
+const { localePath } = useAppLocale()
 
 const heroLinks = computed(() => [
   {
     label: t('home.links.teams'),
-    to: '/teams',
+    to: localePath('/teams'),
     size: 'xl' as const,
     class: 'bg-coral-500 text-white hover:bg-coral-600 focus-visible:outline-coral-500 dark:bg-coral-500 dark:text-white dark:hover:bg-coral-600'
   },
   {
     label: t('home.links.membership'),
-    to: '/mitgliedschaft',
+    to: localePath('/mitgliedschaft'),
     size: 'xl' as const,
     color: 'primary' as const,
     variant: 'solid' as const,
@@ -77,7 +78,7 @@ const landingSections = computed(() => [
     title: t('home.landing.teams.title'),
     description: t('home.landing.teams.description'),
     cta: t('home.landing.teams.cta'),
-    to: '/teams'
+    to: localePath('/teams')
   },
   {
     key: 'membership',
@@ -85,7 +86,7 @@ const landingSections = computed(() => [
     title: t('home.landing.membership.title'),
     description: t('home.landing.membership.description'),
     cta: t('home.landing.membership.cta'),
-    to: '/mitgliedschaft'
+    to: localePath('/mitgliedschaft')
   }
 ])
 </script>
