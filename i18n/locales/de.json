@@ -140,6 +140,28 @@
       "schedule": "Mittwoch und Freitag von 19:00 bis 21:00 Uhr",
       "description": "Das Training findet in beiden Teams regelmäßig statt und ist für alle Mitglieder zugänglich."
     },
+    "trainingForm": {
+      "label": "Probetraining",
+      "title": "Direkt anmelden",
+      "description": "Mit ein paar Angaben kannst du direkt eine Mail für dein Probetraining vorbereiten.",
+      "fields": {
+        "name": "Name",
+        "previousClub": "Bisheriger Verein",
+        "phone": "Telefonnummer"
+      },
+      "placeholders": {
+        "name": "Vor- und Nachname",
+        "previousClub": "Optional",
+        "phone": "Zum Beispiel 0176 12345678"
+      },
+      "cta": "Senden",
+      "helper": "Beim Klick auf Senden öffnet sich dein Mailprogramm mit einer vorbereiteten Nachricht.",
+      "mail": {
+        "subject": "Anmeldung Probetraining",
+        "intro": "Hallo, ich moechte mich fuer ein Probetraining anmelden.",
+        "notProvided": "Nicht angegeben"
+      }
+    },
     "organizationLabel": "Teamorganisation",
     "organization": {
       "title": "SpielerPlus",
@@ -212,8 +234,13 @@
       "referee": "Schiedsrichter"
     },
     "notes": {
+      "andreas": "Unterstützt den sportlichen Bereich 24/7 mit Expertise und Herzblut",
+      "carsten": "Koordination und Verantwortung für alle Vereinsbelange",
+      "manolo": "Verantwortlich für Buchhaltung und finanzielle Themen",
       "martin": "Mit der Qualifikation zum DFB-Vereinsmanager C.",
-      "sascha": "Vollständiger Name liegt derzeit nur abgekürzt vor."
+      "sebastianGeiss": "Koordinator und Experte für Verbandsarbeit, Fördermittel und infrastrukturelle Entwicklung",
+      "sebastianLachenit": "Ansprechpartner für das Schiedsrichterwesen und unsere Versicherung gegen Punktabzüge",
+      "sascha": "Hält die Ergebnisse von Sitzungen in Protokollen fest"
     },
     "memberNote": "Details zu konkreter Funktion und Verantwortungsbereich können später ergänzt werden.",
     "placeholderMember": "Weiteres Vorstandsmitglied"

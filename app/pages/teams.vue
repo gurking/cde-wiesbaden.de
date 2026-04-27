@@ -9,6 +9,39 @@ import secondTeamPhoto from '~/assets/img/zweite.webp'
 
 const { t } = useI18n()
 
+const trialForm = reactive({
+  name: '',
+  previousClub: '',
+  phone: ''
+})
+
+const isTrialFormValid = computed(() =>
+  trialForm.name.trim().length > 0 && trialForm.phone.trim().length > 0
+)
+
+const trialRequestMailto = computed(() => {
+  if (!isTrialFormValid.value) {
+    return ''
+  }
+
+  const subject = t('teamsPage.trainingForm.mail.subject')
+  const body = [
+    t('teamsPage.trainingForm.mail.intro'),
+    '',
+    `${t('teamsPage.trainingForm.fields.name')}: ${trialForm.name.trim()}`,
+    `${t('teamsPage.trainingForm.fields.previousClub')}: ${trialForm.previousClub.trim() || t('teamsPage.trainingForm.mail.notProvided')}`,
+    `${t('teamsPage.trainingForm.fields.phone')}: ${trialForm.phone.trim()}`
+  ].join('\n')
+
+  return `mailto:flotreder@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+})
+
+const handleTrialRequestClick = (event: MouseEvent) => {
+  if (!isTrialFormValid.value) {
+    event.preventDefault()
+  }
+}
+
 const teams = computed(() => [
   {
     key: 'first',
@@ -196,6 +229,76 @@ const teams = computed(() => [
               </div>
             </div>
           </div>
+
+          <div class="rounded-[1.5rem] border border-[var(--cde-card-border)] bg-[var(--cde-card-bg)] p-6">
+            <div class="mb-5">
+              <p class="text-xs font-semibold uppercase tracking-[0.28em] text-coral-500">
+                {{ t('teamsPage.trainingForm.label') }}
+              </p>
+              <h3 class="mt-2 text-xl font-semibold text-[var(--cde-shell-text)]">
+                {{ t('teamsPage.trainingForm.title') }}
+              </h3>
+              <p class="mt-2 text-sm leading-6 text-[var(--cde-muted-text)]">
+                {{ t('teamsPage.trainingForm.description') }}
+              </p>
+            </div>
+
+            <div class="space-y-4">
+              <label class="block">
+                <span class="mb-2 block text-sm font-medium text-[var(--cde-shell-text)]">
+                  {{ t('teamsPage.trainingForm.fields.name') }}
+                </span>
+                <input
+                  v-model="trialForm.name"
+                  type="text"
+                  :placeholder="t('teamsPage.trainingForm.placeholders.name')"
+                  class="w-full rounded-md border border-[var(--cde-card-border)] bg-[color-mix(in_srgb,var(--cde-card-bg)_94%,white_6%)] px-4 py-3 text-sm text-[var(--cde-shell-text)] outline-none transition focus:border-coral-500 focus:ring-2 focus:ring-coral-500/20"
+                >
+              </label>
+
+              <label class="block">
+                <span class="mb-2 block text-sm font-medium text-[var(--cde-shell-text)]">
+                  {{ t('teamsPage.trainingForm.fields.previousClub') }}
+                </span>
+                <input
+                  v-model="trialForm.previousClub"
+                  type="text"
+                  :placeholder="t('teamsPage.trainingForm.placeholders.previousClub')"
+                  class="w-full rounded-md border border-[var(--cde-card-border)] bg-[color-mix(in_srgb,var(--cde-card-bg)_94%,white_6%)] px-4 py-3 text-sm text-[var(--cde-shell-text)] outline-none transition focus:border-coral-500 focus:ring-2 focus:ring-coral-500/20"
+                >
+              </label>
+
+              <label class="block">
+                <span class="mb-2 block text-sm font-medium text-[var(--cde-shell-text)]">
+                  {{ t('teamsPage.trainingForm.fields.phone') }}
+                </span>
+                <input
+                  v-model="trialForm.phone"
+                  type="tel"
+                  :placeholder="t('teamsPage.trainingForm.placeholders.phone')"
+                  class="w-full rounded-md border border-[var(--cde-card-border)] bg-[color-mix(in_srgb,var(--cde-card-bg)_94%,white_6%)] px-4 py-3 text-sm text-[var(--cde-shell-text)] outline-none transition focus:border-coral-500 focus:ring-2 focus:ring-coral-500/20"
+                >
+              </label>
+
+              <a
+                :href="trialRequestMailto || undefined"
+                :aria-disabled="!isTrialFormValid"
+                class="inline-flex w-full items-center justify-between rounded-md px-4 py-3 text-sm font-semibold text-white transition"
+                :class="isTrialFormValid ? 'bg-coral-500 hover:bg-coral-600' : 'cursor-not-allowed bg-slate-300'"
+                @click="handleTrialRequestClick"
+              >
+                <span>{{ t('teamsPage.trainingForm.cta') }}</span>
+                <UIcon
+                  name="i-lucide-send"
+                  class="h-4 w-4"
+                />
+              </a>
+
+              <p class="text-xs leading-5 text-[var(--cde-muted-text)]">
+                {{ t('teamsPage.trainingForm.helper') }}
+              </p>
+            </div>
+          </div>
         </div>
       </article>
 
@@ -261,7 +364,7 @@ const teams = computed(() => [
             width="100%"
             height="300"
             style="border: 0;"
-            allowfullscreen=""
+            allowfullscreen
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           />

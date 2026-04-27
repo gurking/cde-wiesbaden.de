@@ -15,7 +15,7 @@
   },
   "footer": {
     "copyright": "CD Español Wiesbaden",
-    "themeNote": "Tema Heritage Blue x Coral con Nuxt UI",
+    "themeNote": "Sitio web oficial del CD Espanol Wiesbaden",
     "links": {
       "imprint": "Aviso legal"
     }
@@ -140,6 +140,28 @@
       "schedule": "Miercoles y Viernes de 19:00 a 21:00 horas",
       "description": "El entrenamiento se realiza regularmente en ambos equipos y esta abierto a todos los miembros."
     },
+    "trainingForm": {
+      "label": "Entrenamiento de prueba",
+      "title": "Inscripcion rapida",
+      "description": "Con unos pocos datos puedes preparar enseguida un correo para solicitar tu entrenamiento de prueba.",
+      "fields": {
+        "name": "Nombre",
+        "previousClub": "Club anterior",
+        "phone": "Telefono"
+      },
+      "placeholders": {
+        "name": "Nombre y apellidos",
+        "previousClub": "Opcional",
+        "phone": "Por ejemplo +49 176 12345678"
+      },
+      "cta": "Enviar",
+      "helper": "Al hacer clic en Enviar se abre tu programa de correo con un mensaje preparado.",
+      "mail": {
+        "subject": "Solicitud de entrenamiento de prueba",
+        "intro": "Hola, me gustaria apuntarme a un entrenamiento de prueba.",
+        "notProvided": "No indicado"
+      }
+    },
     "organizationLabel": "Organizacion del equipo",
     "organization": {
       "title": "SpielerPlus",
@@ -212,8 +234,13 @@
       "referee": "Arbitro"
     },
     "notes": {
+      "andreas": "Apoya el area deportiva 24/7 con experiencia y pasion",
+      "carsten": "Coordinacion y responsabilidad de todos los asuntos del club",
+      "manolo": "Responsable de la contabilidad y de los asuntos financieros",
       "martin": "Con la cualificacion de gestor de clubes DFB nivel C.",
-      "sascha": "El nombre completo solo esta disponible por ahora en forma abreviada."
+      "sebastianGeiss": "Coordinador y experto en trabajo con la federacion, subvenciones y desarrollo de infraestructuras",
+      "sebastianLachenit": "Persona de contacto para el arbitraje y nuestro seguro contra la perdida de puntos",
+      "sascha": "Recoge los resultados de las reuniones en actas"
     },
     "memberNote": "Los cargos y responsabilidades concretos pueden completarse mas adelante.",
     "placeholderMember": "Otro miembro de la directiva"

@@ -22,6 +22,7 @@ const boardGroups = computed(() => [
       {
         name: 'Carsten Zillmann',
         role: t('boardPage.roles.firstChair'),
+        note: t('boardPage.notes.carsten'),
         photo: carstenPhoto
       },
       {
@@ -41,6 +42,7 @@ const boardGroups = computed(() => [
       {
         name: 'Manuel Romero',
         role: t('boardPage.roles.treasurer'),
+        note: t('boardPage.notes.manolo'),
         photo: manoloPhoto
       },
       {
@@ -60,26 +62,31 @@ const boardGroups = computed(() => [
       {
         name: 'Angel Reina Pastor',
         role: t('boardPage.roles.advisor'),
+        note: null,
         photo: angelPhoto
       },
       {
         name: 'Florian Treder',
         role: t('boardPage.roles.advisor'),
+        note: null,
         photo: florianPhoto
       },
       {
         name: 'Pedro Riveiro',
         role: t('boardPage.roles.advisor'),
+        note: null,
         photo: placeholderPhoto
       },
       {
         name: 'Sebastian Heimburger',
         role: t('boardPage.roles.advisor'),
+        note: null,
         photo: sebastianHeimburgerPhoto
       },
       {
         name: 'Simon Rommelspacher',
         role: t('boardPage.roles.advisor'),
+        note: null,
         photo: simonPhoto
       }
     ]
@@ -93,16 +100,19 @@ const boardGroups = computed(() => [
       {
         name: 'Andreas Henrici',
         role: t('boardPage.roles.sportDirector'),
+        note: t('boardPage.notes.andreas'),
         photo: andreasPhoto
       },
       {
         name: 'Sebastian Geiss',
         role: t('boardPage.roles.clubRole'),
+        note: t('boardPage.notes.sebastianGeiss'),
         photo: placeholderPhoto
       },
       {
         name: 'Sebastian Lachenit',
         role: t('boardPage.roles.referee'),
+        note: t('boardPage.notes.sebastianLachenit'),
         photo: sebastianLachenitPhoto
       }
     ]
@@ -189,7 +199,10 @@ const boardGroups = computed(() => [
                   <h3 class="text-xl font-semibold text-[var(--cde-shell-text)]">
                     {{ member.name }}
                   </h3>
-                  <p class="text-sm leading-6 text-[var(--cde-muted-text)]">
+                  <p
+                    v-if="member.note !== null"
+                    class="text-sm leading-6 text-[var(--cde-muted-text)]"
+                  >
                     {{ member.note || t('boardPage.memberNote') }}
                   </p>
                 </div>

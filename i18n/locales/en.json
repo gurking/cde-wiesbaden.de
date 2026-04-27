@@ -140,6 +140,28 @@
       "schedule": "Wednesday and Friday from 7:00 p.m. to 9:00 p.m.",
       "description": "Training takes place regularly in both teams and is open to all members."
     },
+    "trainingForm": {
+      "label": "Trial session",
+      "title": "Quick sign-up",
+      "description": "With just a few details, you can prepare an email for your trial training session right away.",
+      "fields": {
+        "name": "Name",
+        "previousClub": "Previous club",
+        "phone": "Phone number"
+      },
+      "placeholders": {
+        "name": "First and last name",
+        "previousClub": "Optional",
+        "phone": "For example +49 176 12345678"
+      },
+      "cta": "Send",
+      "helper": "Clicking Send opens your mail app with a prepared message.",
+      "mail": {
+        "subject": "Trial training request",
+        "intro": "Hello, I would like to sign up for a trial training session.",
+        "notProvided": "Not provided"
+      }
+    },
     "organizationLabel": "Team organisation",
     "organization": {
       "title": "SpielerPlus",
@@ -212,8 +234,13 @@
       "referee": "Referee"
     },
     "notes": {
+      "andreas": "Supports the sporting side 24/7 with expertise and wholehearted commitment",
+      "carsten": "Coordination and responsibility for all club matters",
+      "manolo": "Responsible for bookkeeping and financial matters",
       "martin": "Qualified as a DFB club manager C.",
-      "sascha": "The full name is currently only available in abbreviated form."
+      "sebastianGeiss": "Coordinator and expert for association affairs, funding and infrastructure development",
+      "sebastianLachenit": "Contact person for refereeing and our insurance against points deductions",
+      "sascha": "Records the results of meetings in written minutes"
     },
     "memberNote": "Specific titles and responsibilities can be added later.",
     "placeholderMember": "Additional board member"

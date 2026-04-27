@@ -1,3 +1,7 @@
+const supportedLocales = ['de', 'en', 'es'] as const
+
+type AppLocale = (typeof supportedLocales)[number]
+
 export const useAppLocale = () => {
   const { locale, locales, setLocale } = useI18n()
   const localePath = useLocalePath()
@@ -8,11 +12,13 @@ export const useAppLocale = () => {
   })
 
   const localeCodes = computed(() =>
-    locales.value.map((entry) => ('code' in entry ? entry.code : String(entry)))
+    locales.value
+      .map(entry => ('code' in entry ? entry.code : String(entry)))
+      .filter((code): code is AppLocale => supportedLocales.includes(code as AppLocale))
   )
 
-  const isSupportedLocale = (code: string) => {
-    return localeCodes.value.includes(code)
+  const isSupportedLocale = (code: string): code is AppLocale => {
+    return supportedLocales.includes(code as AppLocale) && localeCodes.value.includes(code as AppLocale)
   }
 
   const setAppLocale = async (code: string) => {
