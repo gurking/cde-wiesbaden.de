@@ -1,5 +1,9 @@
 export default defineAppConfig({
   ui: {
+    icons: {
+      light: 'i-lucide-moon',
+      dark: 'i-lucide-sun'
+    },
     colors: {
       primary: 'navy',
       neutral: 'slate'
