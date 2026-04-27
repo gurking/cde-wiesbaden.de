@@ -230,6 +230,7 @@
       "secretary": "Secretario",
       "advisor": "Vocal",
       "sportDirector": "Director deportivo",
+      "clubManager": "Gerente del club",
       "clubRole": "Rol del club",
       "referee": "Arbitro"
     },

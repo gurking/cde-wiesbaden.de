@@ -230,6 +230,7 @@
       "secretary": "Secretary",
       "advisor": "Advisor",
       "sportDirector": "Sport director",
+      "clubManager": "Club manager",
       "clubRole": "Club role",
       "referee": "Referee"
     },

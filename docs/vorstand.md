@@ -19,5 +19,5 @@ Simon Rommelspacher
 ## Besondere Rollen (unterstützende Ämter)
 
 Andreas Henrici (Sportdirektor)
-Sebastian Geiß (Vereins)
+Sebastian Geiß (Vereinsmanager und Verbandsarbeit)
 Sebastian Lachenit (Schiedsrichter)

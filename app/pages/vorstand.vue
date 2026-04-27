@@ -105,7 +105,7 @@ const boardGroups = computed(() => [
       },
       {
         name: 'Sebastian Geiss',
-        role: t('boardPage.roles.clubRole'),
+        role: t('boardPage.roles.clubManager'),
         note: t('boardPage.notes.sebastianGeiss'),
         photo: placeholderPhoto
       },
