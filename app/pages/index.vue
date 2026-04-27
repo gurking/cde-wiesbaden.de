@@ -351,7 +351,6 @@ const landingSections = computed(() => [
               <p class="mt-3 text-sm leading-7 text-[var(--cde-muted-text)] sm:text-base">
                 {{ t('home.shop.description') }}
               </p>
-
             </div>
           </div>
 
