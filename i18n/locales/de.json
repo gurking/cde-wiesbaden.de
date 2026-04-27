@@ -36,9 +36,48 @@
       "membershipPlan": "Mitgliedschaft planen",
       "shop": "Zum Teamshop"
     },
+    "events": {
+      "label": "Termine",
+      "title": "Wichtige Daten rund um den Verein",
+      "description": "Die nächsten Monate bringen einige fixe und voraussichtliche Termine für Mannschaft, Verein und Saisonplanung.",
+      "items": {
+        "seasonClosing": {
+          "date": "25. Mai 2026",
+          "title": "Saisonabschlussgrillen",
+          "note": "Gemeinsamer Abschluss der Saison im Vereinskreis."
+        },
+        "alicanteTrip": {
+          "date": "4. bis 7. Juni 2026",
+          "title": "Abschlussfahrt Alicante",
+          "note": "Gemeinsame Fahrt zum Saisonabschluss."
+        },
+        "transferDeadline": {
+          "date": "30. Juni 2026",
+          "title": "Fristende Abmeldung für Vereinswechsel",
+          "note": "Wichtiger Stichtag für Spieler, die einen Wechsel planen."
+        },
+        "trainingStart": {
+          "date": "Voraussichtlich 8. Juli 2026",
+          "title": "Trainingsauftakt Saison 26/27",
+          "note": "Geplanter Start in die Vorbereitung der neuen Saison."
+        },
+        "christmasParty": {
+          "date": "Voraussichtlich 12. Dezember 2026",
+          "title": "Weihnachtsfeier 2026",
+          "note": "Jahresausklang mit Mannschaft und Vereinsumfeld."
+        },
+        "generalAssembly": {
+          "date": "1. Quartal 2027",
+          "title": "Mitgliederversammlung",
+          "note": "Termin noch offen."
+        }
+      }
+    },
     "shop": {
+      "label": "Teamshop",
       "title": "Flyeralarm Sports für den Vereinslook",
-      "description": "Der Teamshop macht es leicht, CDE-Bekleidung selbst zu bestellen. Logos und ausgewählte Produkte sind bereits hinterlegt, sodass der Einstieg in den Shop direkt funktioniert.",
+      "description": "Bekleidung und Fanshop sind im Teamshop gebündelt: Vereinslogo, erste Kollektion und Bestellweg sind bereits vorbereitet.",
+      "cta": "Hier zum Shop",
       "productLabel": "Webshop",
       "benefits": {
         "selfService": {
@@ -46,8 +85,8 @@
           "description": "Jede Bestellung läuft direkt über Flyeralarm Sports. Mitglieder, Fans und Familien können ihre Produkte eigenständig auswählen und bestellen."
         },
         "collection": {
-          "title": "Training und Fanartikel",
-          "description": "Im Shop finden sich bereits erste Kleidungsstücke und Vereinsartikel, die den CDE-Look für Spieltag, Training und Alltag sichtbar machen."
+          "title": "Bekleidung und Fanartikel",
+          "description": "Vom Fantrikot bis zum Trainingstop sind die wichtigsten Teile für Spieltag, Training und Alltag bereits sichtbar gebündelt."
         },
         "branding": {
           "title": "CDE-Branding bereits angelegt",
@@ -91,6 +130,78 @@
     "cta": {
       "title": "Direkt in den Teamshop wechseln",
       "description": "Wer den Vereinslook sofort bestellen möchte, kann direkt über Flyeralarm Sports in den CDE-Teamshop einsteigen."
+    },
+    "referee": {
+      "label": "Schiedsrichter",
+      "title": "Werde Schiri beim CDE",
+      "description": "Wenn du Verantwortung auf dem Platz übernehmen, das Spiel aus einer neuen Perspektive erleben und dich persönlich weiterentwickeln willst, begleiten wir dich auf dem Weg ins Schiedsrichterwesen.",
+      "fairplay": {
+        "title": "Fairplay gehört bei uns dazu",
+        "description": "Wir sind ein sehr fairer Verein und legen großen Wert auf Respekt, klare Kommunikation und einen sauberen Umgang auf und neben dem Platz."
+      },
+      "coordinator": {
+        "title": "Schiedsrichter-Beauftragter im Verein",
+        "description": "Unser Schiedsrichter-Beauftragter begleitet dich beim Einstieg, hilft bei organisatorischen Fragen und ist eine direkte Anlaufstelle im Verein."
+      },
+      "benefits": {
+        "admission": {
+          "title": "Freier Eintritt",
+          "description": "Mit dem Schiri-Ausweis bekommst du freien Eintritt zu allen Spielen des DFB, inklusive Bundesliga und 2. Bundesliga."
+        },
+        "health": {
+          "title": "Sport und Gesundheit",
+          "description": "Du bist sportlich aktiv, bleibst in Bewegung und tust gleichzeitig etwas für deine Gesundheit."
+        },
+        "community": {
+          "title": "Teil einer Fußballgemeinschaft",
+          "description": "Du erlebst Geselligkeit, gehörst zu einer sportlichen Gemeinschaft und übernimmst eine wichtige Rolle im Fußball."
+        },
+        "development": {
+          "title": "Persönlich wachsen",
+          "description": "Stressresistenz, Entscheidungskompetenz und Selbstbewusstsein aus dem Schiri-Alltag helfen dir auch im Beruf weiter."
+        }
+      },
+      "support": {
+        "education": {
+          "title": "Ausbildung erstattet",
+          "description": "Der Verein übernimmt für dich die Kosten der Schiedsrichter-Ausbildung."
+        },
+        "equipment": {
+          "title": "Ausrüstung organisieren",
+          "description": "Wir unterstützen dich bei Kleidung, Pfeifen, Karten und der ersten Grundausstattung."
+        },
+        "support": {
+          "title": "Nicht alleine unterwegs",
+          "description": "Wenn Fragen oder Probleme auftauchen, bekommst du Rückhalt und Ansprechpartner im Verein."
+        }
+      },
+      "form": {
+        "label": "Direkter Kontakt",
+        "title": "Frage uns direkt an",
+        "description": "Mit ein paar Angaben kannst du uns sofort eine Anfrage zum Schiedsrichterwesen schicken.",
+        "fields": {
+          "name": "Name",
+          "phone": "Telefonnummer",
+          "question": "Optionale Frage"
+        },
+        "placeholders": {
+          "name": "Vor- und Nachname",
+          "phone": "Zum Beispiel 0176 12345678",
+          "question": "Worum geht es?"
+        },
+        "cta": "Anfrage senden",
+        "helper": "Beim Klick öffnet sich dein Mailprogramm mit einer vorbereiteten Nachricht.",
+        "mail": {
+          "subject": "Anfrage Schiedsrichter beim CDE",
+          "intro": "Hallo, ich interessiere mich fuer das Schiedsrichterwesen beim CDE.",
+          "notProvided": "Nicht angegeben"
+        }
+      },
+      "cta": "Infos zur Schiri-Ausbildung",
+      "panelLabel": "Deine Vorteile",
+      "panelTitle": "Mehr als nur ein Einsatz am Wochenende",
+      "panelDescription": "Der Schiri-Weg bringt dir nicht nur Verantwortung auf dem Platz, sondern auch echte Vorteile im Alltag, im Stadion und in deiner persönlichen Entwicklung.",
+      "panelFootnote": "Wenn du Lust auf Fußball mit Verantwortung hast, helfen wir dir beim Start und begleiten dich auch danach weiter."
     }
   },
   "teamsPage": {
@@ -136,9 +247,9 @@
     },
     "trainingLabel": "Trainingszeiten",
     "training": {
-      "title": "Wann und wo wir trainieren",
+      "title": "Wann wir trainieren",
       "schedule": "Mittwoch und Freitag von 19:00 bis 21:00 Uhr",
-      "description": "Das Training findet in beiden Teams regelmäßig statt und ist für alle Mitglieder zugänglich."
+      "description": "Wir trainieren jede Woche. Falls du Interesse hast, schreib uns gerne!"
     },
     "trainingForm": {
       "label": "Probetraining",

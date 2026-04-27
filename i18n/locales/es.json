@@ -36,9 +36,48 @@
       "membershipPlan": "Planificar membresia",
       "shop": "Ir a la tienda"
     },
+    "events": {
+      "label": "Fechas",
+      "title": "Fechas importantes del club",
+      "description": "Los proximos meses traen varias fechas fijas y provisionales para los equipos, el club y la planificacion de la temporada.",
+      "items": {
+        "seasonClosing": {
+          "date": "25 de mayo de 2026",
+          "title": "Barbacoa de cierre de temporada",
+          "note": "Cierre conjunto de la temporada dentro del club."
+        },
+        "alicanteTrip": {
+          "date": "Del 4 al 7 de junio de 2026",
+          "title": "Viaje de cierre a Alicante",
+          "note": "Viaje en grupo para cerrar la temporada juntos."
+        },
+        "transferDeadline": {
+          "date": "30 de junio de 2026",
+          "title": "Fin del plazo de baja para cambio de club",
+          "note": "Fecha clave para jugadores que planean un cambio de club."
+        },
+        "trainingStart": {
+          "date": "Previsto para el 8 de julio de 2026",
+          "title": "Inicio de entrenamientos temporada 26/27",
+          "note": "Inicio previsto de la preparacion para la nueva temporada."
+        },
+        "christmasParty": {
+          "date": "Prevista para el 12 de diciembre de 2026",
+          "title": "Fiesta de Navidad 2026",
+          "note": "Cierre del ano con el equipo y el entorno del club."
+        },
+        "generalAssembly": {
+          "date": "Primer trimestre de 2027",
+          "title": "Asamblea general",
+          "note": "Fecha todavia por confirmar."
+        }
+      }
+    },
     "shop": {
+      "label": "Tienda del equipo",
       "title": "Flyeralarm Sports para la imagen del club",
-      "description": "La tienda del equipo facilita pedir la ropa del CDE por cuenta propia. Los logotipos del club y varios productos ya estan preparados para empezar directamente.",
+      "description": "La ropa y la tienda de aficionados estan reunidas en un solo lugar: la identidad del club, los primeros productos y el pedido ya estan preparados.",
+      "cta": "Ir a la tienda",
       "productLabel": "Tienda web",
       "benefits": {
         "selfService": {
@@ -46,8 +85,8 @@
           "description": "Cada pedido se tramita directamente a traves de Flyeralarm Sports. Socios, aficionados y familias pueden elegir y pedir sus productos de forma autonoma."
         },
         "collection": {
-          "title": "Ropa de entrenamiento y aficion",
-          "description": "La tienda ya incluye una primera seleccion de prendas y articulos del club que llevan la imagen del CDE al dia de partido, al entrenamiento y al dia a dia."
+          "title": "Ropa y articulos de aficion",
+          "description": "Desde la camiseta de aficionado hasta la parte superior de entrenamiento, los articulos principales para partido, entrenamiento y dia a dia ya estan agrupados."
         },
         "branding": {
           "title": "La imagen del CDE ya esta preparada",
@@ -91,6 +130,78 @@
     "cta": {
       "title": "Entrar directamente en la tienda del equipo",
       "description": "Quien quiera pedir ya la imagen del club puede acceder directamente a la tienda del CDE en Flyeralarm Sports."
+    },
+    "referee": {
+      "label": "Arbitraje",
+      "title": "Hazte arbitro con el CDE",
+      "description": "Si quieres asumir responsabilidad sobre el campo, vivir el futbol desde otra perspectiva y seguir creciendo a nivel personal, te acompanamos en el camino hacia el arbitraje.",
+      "fairplay": {
+        "title": "El fair play es importante para nosotros",
+        "description": "Somos un club muy fair play y damos mucha importancia al respeto, a la comunicacion clara y a una convivencia limpia dentro y fuera del campo."
+      },
+      "coordinator": {
+        "title": "Responsable arbitral del club",
+        "description": "Nuestro responsable arbitral te acompana al empezar, te ayuda con las cuestiones organizativas y es tu contacto directo dentro del club."
+      },
+      "benefits": {
+        "admission": {
+          "title": "Entrada gratuita",
+          "description": "Con el carnet arbitral tienes entrada gratuita a todos los partidos de la DFB, incluida la Bundesliga y la 2. Bundesliga."
+        },
+        "health": {
+          "title": "Deporte y salud",
+          "description": "Te mantienes activo, haces deporte y al mismo tiempo haces algo positivo por tu salud."
+        },
+        "community": {
+          "title": "Parte de una comunidad futbolistica",
+          "description": "Vives el lado social, formas parte de una comunidad deportiva y asumes un papel importante dentro del futbol."
+        },
+        "development": {
+          "title": "Desarrollo personal",
+          "description": "La resistencia al estres, la capacidad de decision y la confianza que desarrollas en el campo tambien te ayudan en el trabajo."
+        }
+      },
+      "support": {
+        "education": {
+          "title": "Formacion reembolsada",
+          "description": "El club te reembolsa los costes de la formacion arbitral."
+        },
+        "equipment": {
+          "title": "Ayuda con el material",
+          "description": "Te apoyamos con ropa, silbatos, tarjetas y el equipamiento inicial."
+        },
+        "support": {
+          "title": "No vas solo",
+          "description": "Si surgen dudas o problemas, cuentas con apoyo y personas de referencia dentro del club."
+        }
+      },
+      "form": {
+        "label": "Contacto directo",
+        "title": "Envianos tu consulta",
+        "description": "Con unos pocos datos puedes enviarnos directamente una consulta sobre el arbitraje en el club.",
+        "fields": {
+          "name": "Nombre",
+          "phone": "Telefono",
+          "question": "Pregunta opcional"
+        },
+        "placeholders": {
+          "name": "Nombre y apellidos",
+          "phone": "Por ejemplo +49 176 12345678",
+          "question": "Que te gustaria saber?"
+        },
+        "cta": "Enviar consulta",
+        "helper": "Al hacer clic se abre tu programa de correo con un mensaje preparado.",
+        "mail": {
+          "subject": "Anfrage Schiedsrichter beim CDE",
+          "intro": "Hola, me interesa el arbitraje en el CDE.",
+          "notProvided": "No indicado"
+        }
+      },
+      "cta": "Informacion sobre la formacion arbitral",
+      "panelLabel": "Tus ventajas",
+      "panelTitle": "Mucho mas que un papel para el fin de semana",
+      "panelDescription": "Ser arbitro no solo significa asumir responsabilidad en el campo. Tambien aporta ventajas reales para tu dia a dia, el acceso a los estadios y tu desarrollo personal.",
+      "panelFootnote": "Si te atrae el futbol con responsabilidad, te ayudamos a empezar y seguimos a tu lado tambien despues."
     }
   },
   "teamsPage": {
@@ -136,9 +247,9 @@
     },
     "trainingLabel": "Horarios de entrenamiento",
     "training": {
-      "title": "Cuando y donde entrenamos",
+      "title": "Cuando entrenamos",
       "schedule": "Miercoles y Viernes de 19:00 a 21:00 horas",
-      "description": "El entrenamiento se realiza regularmente en ambos equipos y esta abierto a todos los miembros."
+      "description": "Entrenamos cada semana. Si te interesa, escribenos sin problema."
     },
     "trainingForm": {
       "label": "Entrenamiento de prueba",

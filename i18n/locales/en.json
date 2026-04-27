@@ -36,9 +36,48 @@
       "membershipPlan": "Plan membership",
       "shop": "Open team shop"
     },
+    "events": {
+      "label": "Key dates",
+      "title": "Important club dates ahead",
+      "description": "The coming months include a mix of fixed and provisional dates for the squads, the club and season planning.",
+      "items": {
+        "seasonClosing": {
+          "date": "May 25, 2026",
+          "title": "Season closing barbecue",
+          "note": "A shared end-of-season gathering for the club."
+        },
+        "alicanteTrip": {
+          "date": "June 4 to 7, 2026",
+          "title": "Alicante closing trip",
+          "note": "Group trip to round off the season together."
+        },
+        "transferDeadline": {
+          "date": "June 30, 2026",
+          "title": "Transfer deregistration deadline",
+          "note": "Important cutoff date for players planning a club change."
+        },
+        "trainingStart": {
+          "date": "Expected on July 8, 2026",
+          "title": "Start of training for season 26/27",
+          "note": "Planned return to training for the new campaign."
+        },
+        "christmasParty": {
+          "date": "Expected on December 12, 2026",
+          "title": "Christmas party 2026",
+          "note": "Year-end club gathering with team and community."
+        },
+        "generalAssembly": {
+          "date": "Q1 2027",
+          "title": "General assembly",
+          "note": "Date still to be confirmed."
+        }
+      }
+    },
     "shop": {
+      "label": "Team shop",
       "title": "Flyeralarm Sports for the club look",
-      "description": "The team shop makes it easy to order CDE apparel yourself. Club logos and selected products are already prepared, so getting started is straightforward.",
+      "description": "Apparel and fan shop are bundled in one place: club branding, first products and the ordering flow are already set up.",
+      "cta": "Go to the shop",
       "productLabel": "Web shop",
       "benefits": {
         "selfService": {
@@ -46,8 +85,8 @@
           "description": "Every order is handled directly through Flyeralarm Sports. Members, fans and families can choose and order products independently."
         },
         "collection": {
-          "title": "Training wear and fan gear",
-          "description": "The shop already includes a first selection of apparel and club items that carry the CDE look into match days, training and everyday life."
+          "title": "Apparel and fan gear",
+          "description": "From the fan jersey to the training top, the key items for match days, training and everyday wear are already bundled there."
         },
         "branding": {
           "title": "CDE branding already prepared",
@@ -91,6 +130,78 @@
     "cta": {
       "title": "Jump straight to the team shop",
       "description": "Anyone who wants to order the club look right away can head directly to the CDE team shop on Flyeralarm Sports."
+    },
+    "referee": {
+      "label": "Referees",
+      "title": "Become a referee with CDE",
+      "description": "If you want to take responsibility on the pitch, experience the game from a new angle and grow personally, we will support you on your way into refereeing.",
+      "fairplay": {
+        "title": "Fair play matters to us",
+        "description": "We are a very fair club and place strong value on respect, clear communication and a good atmosphere on and off the pitch."
+      },
+      "coordinator": {
+        "title": "Referee coordinator at the club",
+        "description": "Our referee coordinator helps you get started, supports you with organisational questions and is your direct contact inside the club."
+      },
+      "benefits": {
+        "admission": {
+          "title": "Free admission",
+          "description": "Your referee ID gives you free entry to all DFB matches, including the Bundesliga and Bundesliga 2."
+        },
+        "health": {
+          "title": "Sport and wellbeing",
+          "description": "You stay active, keep moving and do something positive for your health at the same time."
+        },
+        "community": {
+          "title": "Part of a football community",
+          "description": "You become part of a sporting community, enjoy the social side and take on an important role in football."
+        },
+        "development": {
+          "title": "Personal development",
+          "description": "Resilience, decision-making and self-confidence built on the pitch can also help you in your professional life."
+        }
+      },
+      "support": {
+        "education": {
+          "title": "Training costs covered",
+          "description": "The club reimburses the costs of your referee training course."
+        },
+        "equipment": {
+          "title": "Equipment support",
+          "description": "We help you get clothing, whistles, cards and the key pieces of your starter kit."
+        },
+        "support": {
+          "title": "You will have backup",
+          "description": "If questions or problems come up, you will have support and clear contacts inside the club."
+        }
+      },
+      "form": {
+        "label": "Direct contact",
+        "title": "Send us your question",
+        "description": "With just a few details you can send us a direct enquiry about refereeing at the club.",
+        "fields": {
+          "name": "Name",
+          "phone": "Phone number",
+          "question": "Optional question"
+        },
+        "placeholders": {
+          "name": "First and last name",
+          "phone": "For example +49 176 12345678",
+          "question": "What would you like to know?"
+        },
+        "cta": "Send enquiry",
+        "helper": "Clicking the button opens your mail app with a prepared message.",
+        "mail": {
+          "subject": "Anfrage Schiedsrichter beim CDE",
+          "intro": "Hello, I am interested in refereeing at CDE.",
+          "notProvided": "Not provided"
+        }
+      },
+      "cta": "Learn how to become a referee",
+      "panelLabel": "Your benefits",
+      "panelTitle": "More than just a weekend role",
+      "panelDescription": "Refereeing does not only mean responsibility on the pitch. It also brings real benefits for everyday life, stadium access and personal growth.",
+      "panelFootnote": "If football with responsibility sounds like your thing, we will help you get started and keep supporting you afterwards."
     }
   },
   "teamsPage": {
@@ -136,9 +247,9 @@
     },
     "trainingLabel": "Training times",
     "training": {
-      "title": "When and where we train",
+      "title": "When we train",
       "schedule": "Wednesday and Friday from 7:00 p.m. to 9:00 p.m.",
-      "description": "Training takes place regularly in both teams and is open to all members."
+      "description": "We train every week. If you are interested, feel free to contact us!"
     },
     "trainingForm": {
       "label": "Trial session",
