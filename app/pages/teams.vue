@@ -33,7 +33,7 @@ const trialRequestMailto = computed(() => {
     `${t('teamsPage.trainingForm.fields.phone')}: ${trialForm.phone.trim()}`
   ].join('\n')
 
-  return `mailto:flotreder@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+  return `mailto:info@cde-wiesbaden.de?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 })
 
 const handleTrialRequestClick = (event: MouseEvent) => {
