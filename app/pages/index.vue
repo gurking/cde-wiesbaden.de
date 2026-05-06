@@ -34,7 +34,7 @@ const refereeRequestMailto = computed(() => {
     `${t('home.referee.form.fields.question')}: ${refereeForm.question.trim() || t('home.referee.form.mail.notProvided')}`
   ].join('\n')
 
-  return `mailto:flotreder@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+  return `mailto:info@cde-wiesbaden.de?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 })
 
 const handleRefereeRequestClick = (event: MouseEvent) => {
